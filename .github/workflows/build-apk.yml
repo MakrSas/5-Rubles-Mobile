@@ -33,20 +33,22 @@ jobs:
           haxelib install hxcpp --skip-dependencies > /dev/null 2>&1 || true
           haxelib install extension-android --skip-dependencies > /dev/null 2>&1 || true
 
-          # Install standard libraries
+          # Install core dependencies via git
+          haxelib git lime https://github.com/openfl/lime --skip-dependencies > /dev/null 2>&1 || haxelib install lime > /dev/null 2>&1 || true
+          haxelib git openfl https://github.com/openfl/openfl --skip-dependencies > /dev/null 2>&1 || haxelib install openfl > /dev/null 2>&1 || true
+          haxelib git flixel https://github.com/HaxeFlixel/flixel --skip-dependencies > /dev/null 2>&1 || haxelib install flixel > /dev/null 2>&1 || true
+
+          # Install additional libraries
           haxelib install format --skip-dependencies > /dev/null 2>&1 || true
           haxelib install thx.semver --skip-dependencies > /dev/null 2>&1 || true
-          haxelib install hxvlc --skip-dependencies > /dev/null 2>&1 || true
-          haxelib install haxeui-openfl --skip-dependencies > /dev/null 2>&1 || true
-          haxelib install hxdiscord_rpc --skip-dependencies > /dev/null 2>&1 || true
+          haxelib install flixel-addons --skip-dependencies > /dev/null 2>&1 || true
           haxelib install flixel-ui --skip-dependencies > /dev/null 2>&1 || true
-
-          # Install core dependencies from local copies if available
-          [ -d "rewritedLibs/openfl" ] && haxelib dev openfl rewritedLibs/openfl
-          [ -d "rewritedLibs/lime" ] && haxelib dev lime rewritedLibs/lime
-          [ -d "rewritedLibs/flixel" ] && haxelib dev flixel rewritedLibs/flixel
-          [ -d "rewritedLibs/flxanimate" ] && haxelib dev flxanimate rewritedLibs/flxanimate
-          [ -d "rewritedLibs/haxe" ] && haxelib dev haxe rewritedLibs/haxe
+          haxelib install haxeui-openfl --skip-dependencies > /dev/null 2>&1 || true
+          haxelib git flxanimate https://github.com/Redar13/flxanimate dev --skip-dependencies > /dev/null 2>&1 || true
+          haxelib git linc_luajit https://github.com/superpowers04/linc_luajit --skip-dependencies > /dev/null 2>&1 || true
+          haxelib git hscript-improved https://github.com/Redar13/hscript-improved polymod-scripted-classes --skip-dependencies > /dev/null 2>&1 || true
+          haxelib install hxvlc --skip-dependencies > /dev/null 2>&1 || true
+          haxelib install hxdiscord_rpc --skip-dependencies > /dev/null 2>&1 || true
 
           echo "Haxelib installation completed"
 
