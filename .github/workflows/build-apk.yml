@@ -69,10 +69,19 @@ jobs:
 
       - name: Setup Lime for Android
         run: |
-          haxelib run lime config ANDROID_SDK $ANDROID_SDK_ROOT
-          haxelib run lime config ANDROID_NDK_ROOT $ANDROID_NDK_ROOT
-          haxelib run lime config JAVA_HOME $JAVA_HOME
-          haxelib run lime setup android -y || true
+          mkdir -p ~/.lime
+          cat > ~/.lime/config.xml << EOF
+          <?xml version="1.0" encoding="utf-8"?>
+          <config>
+            <section id="env">
+              <set name="ANDROID_SDK" value="$ANDROID_SDK_ROOT" />
+              <set name="ANDROID_NDK_ROOT" value="$ANDROID_NDK_ROOT" />
+              <set name="JAVA_HOME" value="$JAVA_HOME" />
+            </section>
+          </config>
+          EOF
+          echo "Lime config written:"
+          cat ~/.lime/config.xml
 
       - name: Create Version Tag
         run: echo "${{github.run_id}}" > VERSION
