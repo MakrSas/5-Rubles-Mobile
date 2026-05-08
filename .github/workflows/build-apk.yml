@@ -27,6 +27,11 @@ jobs:
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
 
+      - name: Install Android NDK
+        run: |
+          echo "y" | sdkmanager "ndk;21.4.7075529" --sdk_root=$ANDROID_SDK_ROOT
+          echo "ANDROID_NDK_ROOT=$ANDROID_SDK_ROOT/ndk/21.4.7075529" >> $GITHUB_ENV
+
       - name: Install Haxelib
         run: |
           haxelib setup ~/haxelib
@@ -63,7 +68,11 @@ jobs:
           echo "Haxelib installation completed"
 
       - name: Setup Lime for Android
-        run: haxelib run lime setup android -y 2>&1 || true
+        run: |
+          haxelib run lime config ANDROID_SDK $ANDROID_SDK_ROOT
+          haxelib run lime config ANDROID_NDK_ROOT $ANDROID_NDK_ROOT
+          haxelib run lime config JAVA_HOME $JAVA_HOME
+          haxelib run lime setup android -y || true
 
       - name: Create Version Tag
         run: echo "${{github.run_id}}" > VERSION
