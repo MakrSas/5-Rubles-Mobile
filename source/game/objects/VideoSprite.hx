@@ -1,6 +1,6 @@
 package game.objects;
 
-#if VIDEOS_ALLOWED
+#if (VIDEOS_ALLOWED && hxvlc)
 import flixel.graphics.FlxGraphic;
 import flixel.math.FlxMath;
 import flixel.util.FlxColor;
