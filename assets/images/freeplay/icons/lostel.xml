@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="lostel.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="lostel0000" x="0" y="0" width="141" height="84" frameX="-6" frameY="-3" frameWidth="155" frameHeight="93"/>
+	<SubTexture name="lostel0001" x="143" y="0" width="148" height="85" frameX="-7" frameY="-2" frameWidth="155" frameHeight="93"/>
+	<SubTexture name="lostel0002" x="143" y="0" width="148" height="85" frameX="-7" frameY="-2" frameWidth="155" frameHeight="93"/>
+	<SubTexture name="lostel0003" x="0" y="87" width="131" height="89" frameX="0" frameY="0" frameWidth="155" frameHeight="93"/>
+	<SubTexture name="lostel0004" x="0" y="87" width="131" height="89" frameX="0" frameY="0" frameWidth="155" frameHeight="93"/>
+	<SubTexture name="lostel0005" x="133" y="87" width="137" height="89" frameX="-1" frameY="-4" frameWidth="155" frameHeight="93"/>
+</TextureAtlas>

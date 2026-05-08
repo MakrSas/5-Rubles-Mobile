@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="nailyric.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="нснг анимки0000" x="0" y="0" width="928" height="759" frameX="-14" frameY="-68" frameWidth="1051" frameHeight="833"/>
+	<SubTexture name="нснг анимки0001" x="930" y="0" width="964" height="741" frameX="0" frameY="-87" frameWidth="1051" frameHeight="833"/>
+	<SubTexture name="нснг анимки0002" x="0" y="761" width="879" height="765" frameX="-170" frameY="-60" frameWidth="1051" frameHeight="833"/>
+	<SubTexture name="нснг анимки0003" x="881" y="761" width="879" height="763" frameX="-172" frameY="-64" frameWidth="1051" frameHeight="833"/>
+	<SubTexture name="нснг анимки0004" x="0" y="1528" width="869" height="829" frameX="-90" frameY="0" frameWidth="1051" frameHeight="833"/>
+	<SubTexture name="нснг анимки0005" x="871" y="1528" width="896" height="831" frameX="-77" frameY="-2" frameWidth="1051" frameHeight="833"/>
+	<SubTexture name="нснг анимки0006" x="0" y="2361" width="953" height="701" frameX="-67" frameY="-128" frameWidth="1051" frameHeight="833"/>
+	<SubTexture name="нснг анимки0007" x="955" y="2361" width="941" height="714" frameX="-78" frameY="-110" frameWidth="1051" frameHeight="833"/>
+</TextureAtlas>

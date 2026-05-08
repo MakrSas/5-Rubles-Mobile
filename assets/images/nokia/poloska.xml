@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="полоска.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="палкааа instance 10000" x="92" y="0" width="89" height="999" frameX="-3" frameY="0" frameWidth="93" frameHeight="999"/>
+	<SubTexture name="палкааа instance 10001" x="92" y="0" width="89" height="999" frameX="-3" frameY="0" frameWidth="93" frameHeight="999"/>
+	<SubTexture name="палкааа instance 10002" x="92" y="0" width="89" height="999" frameX="-3" frameY="0" frameWidth="93" frameHeight="999"/>
+	<SubTexture name="палкааа instance 10003" x="92" y="0" width="89" height="999" frameX="-3" frameY="0" frameWidth="93" frameHeight="999"/>
+	<SubTexture name="палкааа instance 10004" x="92" y="0" width="89" height="999" frameX="-3" frameY="0" frameWidth="93" frameHeight="999"/>
+	<SubTexture name="палкааа instance 10005" x="92" y="0" width="89" height="999" frameX="-3" frameY="0" frameWidth="93" frameHeight="999"/>
+	<SubTexture name="палкааа instance 10006" x="92" y="0" width="89" height="999" frameX="-3" frameY="0" frameWidth="93" frameHeight="999"/>
+	<SubTexture name="палкааа instance 10007" x="0" y="0" width="90" height="999" frameX="-3" frameY="0" frameWidth="93" frameHeight="999"/>
+	<SubTexture name="палкааа instance 10008" x="0" y="0" width="90" height="999" frameX="-3" frameY="0" frameWidth="93" frameHeight="999"/>
+	<SubTexture name="палкааа instance 10009" x="0" y="0" width="90" height="999" frameX="-3" frameY="0" frameWidth="93" frameHeight="999"/>
+	<SubTexture name="палкааа instance 10010" x="0" y="0" width="90" height="999" frameX="-3" frameY="0" frameWidth="93" frameHeight="999"/>
+	<SubTexture name="палкааа instance 10011" x="0" y="0" width="90" height="999" frameX="-3" frameY="0" frameWidth="93" frameHeight="999"/>
+	<SubTexture name="палкааа instance 10012" x="0" y="0" width="90" height="999" frameX="-3" frameY="0" frameWidth="93" frameHeight="999"/>
+	<SubTexture name="палкааа instance 10013" x="0" y="0" width="90" height="999" frameX="-3" frameY="0" frameWidth="93" frameHeight="999"/>
+	<SubTexture name="палкааа instance 10014" x="183" y="0" width="83" height="999" frameX="0" frameY="0" frameWidth="93" frameHeight="999"/>
+	<SubTexture name="палкааа instance 10015" x="183" y="0" width="83" height="999" frameX="0" frameY="0" frameWidth="93" frameHeight="999"/>
+	<SubTexture name="палкааа instance 10016" x="183" y="0" width="83" height="999" frameX="0" frameY="0" frameWidth="93" frameHeight="999"/>
+	<SubTexture name="палкааа instance 10017" x="183" y="0" width="83" height="999" frameX="0" frameY="0" frameWidth="93" frameHeight="999"/>
+	<SubTexture name="палкааа instance 10018" x="183" y="0" width="83" height="999" frameX="0" frameY="0" frameWidth="93" frameHeight="999"/>
+	<SubTexture name="палкааа instance 10019" x="183" y="0" width="83" height="999" frameX="0" frameY="0" frameWidth="93" frameHeight="999"/>
+	<SubTexture name="палкааа instance 10020" x="183" y="0" width="83" height="999" frameX="0" frameY="0" frameWidth="93" frameHeight="999"/>
+</TextureAtlas>

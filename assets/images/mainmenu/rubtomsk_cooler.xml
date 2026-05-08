@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="rubtomsk_cooler.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="атака бпла0000" x="1106" y="0" width="552" height="355" frameX="0" frameY="0" frameWidth="552" frameHeight="358"/>
+	<SubTexture name="атака бпла0001" x="1660" y="0" width="550" height="355" frameX="0" frameY="0" frameWidth="552" frameHeight="358"/>
+	<SubTexture name="атака бпла0002" x="0" y="0" width="552" height="358"/>
+	<SubTexture name="атака бпла0003" x="554" y="0" width="550" height="358" frameX="0" frameY="0" frameWidth="552" frameHeight="358"/>
+</TextureAtlas>

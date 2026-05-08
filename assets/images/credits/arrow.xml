@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 DEV https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="стрелошка.png" width="105" height="344" spritePadding="2" borderPadding="0">
+	<SubTexture name="стрелошка0000" x="0" y="126" width="104" height="70" frameX="0" frameY="-1" frameWidth="106" frameHeight="73"/>
+	<SubTexture name="стрелошка0001" x="0" y="126" width="104" height="70" frameX="0" frameY="-1" frameWidth="106" frameHeight="73"/>
+	<SubTexture name="стрелошка0002" x="0" y="126" width="104" height="70" frameX="0" frameY="-1" frameWidth="106" frameHeight="73"/>
+	<SubTexture name="стрелошка0003" x="0" y="126" width="104" height="70" frameX="0" frameY="-1" frameWidth="106" frameHeight="73"/>
+	<SubTexture name="стрелошка0004" x="0" y="126" width="104" height="70" frameX="0" frameY="-1" frameWidth="106" frameHeight="73"/>
+	<SubTexture name="стрелошка0005" x="0" y="271" width="105" height="73" frameX="0" frameY="0" frameWidth="106" frameHeight="73"/>
+	<SubTexture name="стрелошка0006" x="0" y="271" width="105" height="73" frameX="0" frameY="0" frameWidth="106" frameHeight="73"/>
+	<SubTexture name="стрелошка0007" x="0" y="271" width="105" height="73" frameX="0" frameY="0" frameWidth="106" frameHeight="73"/>
+	<SubTexture name="стрелошка0008" x="0" y="271" width="105" height="73" frameX="0" frameY="0" frameWidth="106" frameHeight="73"/>
+	<SubTexture name="стрелошка0009" x="0" y="271" width="105" height="73" frameX="0" frameY="0" frameWidth="106" frameHeight="73"/>
+	<SubTexture name="стрелошка0010" x="0" y="198" width="105" height="71" frameX="-1" frameY="-1" frameWidth="106" frameHeight="73"/>
+	<SubTexture name="стрелошка0011" x="0" y="198" width="105" height="71" frameX="-1" frameY="-1" frameWidth="106" frameHeight="73"/>
+	<SubTexture name="стрелошка0012" x="0" y="198" width="105" height="71" frameX="-1" frameY="-1" frameWidth="106" frameHeight="73"/>
+	<SubTexture name="стрелошка0013" x="0" y="198" width="105" height="71" frameX="-1" frameY="-1" frameWidth="106" frameHeight="73"/>
+	<SubTexture name="стрелошка0014" x="0" y="198" width="105" height="71" frameX="-1" frameY="-1" frameWidth="106" frameHeight="73"/>
+	<SubTexture name="стрелошка нажатая0000" x="0" y="0" width="89" height="61" frameX="-1" frameY="0" frameWidth="91" frameHeight="61"/>
+	<SubTexture name="стрелошка нажатая0001" x="0" y="0" width="89" height="61" frameX="-1" frameY="0" frameWidth="91" frameHeight="61"/>
+	<SubTexture name="стрелошка нажатая0002" x="0" y="0" width="89" height="61" frameX="-1" frameY="0" frameWidth="91" frameHeight="61"/>
+	<SubTexture name="стрелошка нажатая0003" x="0" y="63" width="91" height="61" frameX="0" frameY="0" frameWidth="91" frameHeight="61"/>
+	<SubTexture name="стрелошка нажатая0004" x="0" y="63" width="91" height="61" frameX="0" frameY="0" frameWidth="91" frameHeight="61"/>
+	<SubTexture name="стрелошка нажатая0005" x="0" y="63" width="91" height="61" frameX="0" frameY="0" frameWidth="91" frameHeight="61"/>
+	<SubTexture name="стрелошка нажатая0006" x="0" y="63" width="91" height="61" frameX="0" frameY="0" frameWidth="91" frameHeight="61"/>
+	<SubTexture name="стрелошка нажатая0007" x="0" y="63" width="91" height="61" frameX="0" frameY="0" frameWidth="91" frameHeight="61"/>
+	<SubTexture name="стрелошка нажатая0008" x="0" y="63" width="91" height="61" frameX="0" frameY="0" frameWidth="91" frameHeight="61"/>
+	<SubTexture name="стрелошка нажатая0009" x="0" y="63" width="91" height="61" frameX="0" frameY="0" frameWidth="91" frameHeight="61"/>
+	<SubTexture name="стрелошка нажатая0010" x="0" y="63" width="91" height="61" frameX="0" frameY="0" frameWidth="91" frameHeight="61"/>
+	<SubTexture name="стрелошка нажатая0011" x="0" y="63" width="91" height="61" frameX="0" frameY="0" frameWidth="91" frameHeight="61"/>
+	<SubTexture name="стрелошка нажатая0012" x="0" y="63" width="91" height="61" frameX="0" frameY="0" frameWidth="91" frameHeight="61"/>
+	<SubTexture name="стрелошка нажатая0013" x="0" y="63" width="91" height="61" frameX="0" frameY="0" frameWidth="91" frameHeight="61"/>
+	<SubTexture name="стрелошка нажатая0014" x="0" y="63" width="91" height="61" frameX="0" frameY="0" frameWidth="91" frameHeight="61"/>
+	<SubTexture name="стрелошка нажатая0015" x="0" y="63" width="91" height="61" frameX="0" frameY="0" frameWidth="91" frameHeight="61"/>
+	<SubTexture name="стрелошка нажатая0016" x="0" y="63" width="91" height="61" frameX="0" frameY="0" frameWidth="91" frameHeight="61"/>
+	<SubTexture name="стрелошка нажатая0017" x="0" y="63" width="91" height="61" frameX="0" frameY="0" frameWidth="91" frameHeight="61"/>
+	<SubTexture name="стрелошка нажатая0018" x="0" y="63" width="91" height="61" frameX="0" frameY="0" frameWidth="91" frameHeight="61"/>
+	<SubTexture name="стрелошка нажатая0019" x="0" y="63" width="91" height="61" frameX="0" frameY="0" frameWidth="91" frameHeight="61"/>
+	<SubTexture name="стрелошка нажатая0020" x="0" y="63" width="91" height="61" frameX="0" frameY="0" frameWidth="91" frameHeight="61"/>
+	<SubTexture name="стрелошка нажатая0021" x="0" y="63" width="91" height="61" frameX="0" frameY="0" frameWidth="91" frameHeight="61"/>
+	<SubTexture name="стрелошка нажатая0022" x="0" y="63" width="91" height="61" frameX="0" frameY="0" frameWidth="91" frameHeight="61"/>
+	<SubTexture name="стрелошка нажатая0023" x="0" y="63" width="91" height="61" frameX="0" frameY="0" frameWidth="91" frameHeight="61"/>
+	<SubTexture name="стрелошка нажатая0024" x="0" y="63" width="91" height="61" frameX="0" frameY="0" frameWidth="91" frameHeight="61"/>
+	<SubTexture name="стрелошка нажатая0025" x="0" y="63" width="91" height="61" frameX="0" frameY="0" frameWidth="91" frameHeight="61"/>
+	<SubTexture name="стрелошка нажатая0026" x="0" y="63" width="91" height="61" frameX="0" frameY="0" frameWidth="91" frameHeight="61"/>
+	<SubTexture name="стрелошка нажатая0027" x="0" y="63" width="91" height="61" frameX="0" frameY="0" frameWidth="91" frameHeight="61"/>
+	<SubTexture name="стрелошка нажатая0028" x="0" y="63" width="91" height="61" frameX="0" frameY="0" frameWidth="91" frameHeight="61"/>
+	<SubTexture name="стрелошка нажатая0029" x="0" y="63" width="91" height="61" frameX="0" frameY="0" frameWidth="91" frameHeight="61"/>
+	<SubTexture name="стрелошка нажатая0030" x="0" y="63" width="91" height="61" frameX="0" frameY="0" frameWidth="91" frameHeight="61"/>
+	<SubTexture name="стрелошка нажатая0031" x="0" y="63" width="91" height="61" frameX="0" frameY="0" frameWidth="91" frameHeight="61"/>
+	<SubTexture name="стрелошка нажатая0032" x="0" y="63" width="91" height="61" frameX="0" frameY="0" frameWidth="91" frameHeight="61"/>
+	<SubTexture name="стрелошка нажатая0033" x="0" y="63" width="91" height="61" frameX="0" frameY="0" frameWidth="91" frameHeight="61"/>
+	<SubTexture name="стрелошка нажатая0034" x="0" y="63" width="91" height="61" frameX="0" frameY="0" frameWidth="91" frameHeight="61"/>
+</TextureAtlas>

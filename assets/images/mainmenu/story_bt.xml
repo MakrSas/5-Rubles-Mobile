@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="story_bt.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="story_idle0000" x="648" y="814" width="321" height="159" frameX="-3" frameY="-1" frameWidth="325" frameHeight="160"/>
+	<SubTexture name="story_idle0001" x="648" y="814" width="321" height="159" frameX="-3" frameY="-1" frameWidth="325" frameHeight="160"/>
+	<SubTexture name="story_idle0002" x="648" y="814" width="321" height="159" frameX="-3" frameY="-1" frameWidth="325" frameHeight="160"/>
+	<SubTexture name="story_idle0003" x="648" y="814" width="321" height="159" frameX="-3" frameY="-1" frameWidth="325" frameHeight="160"/>
+	<SubTexture name="story_idle0004" x="648" y="814" width="321" height="159" frameX="-3" frameY="-1" frameWidth="325" frameHeight="160"/>
+	<SubTexture name="story_idle0005" x="0" y="849" width="324" height="159" frameX="0" frameY="-1" frameWidth="325" frameHeight="160"/>
+	<SubTexture name="story_idle0006" x="0" y="849" width="324" height="159" frameX="0" frameY="-1" frameWidth="325" frameHeight="160"/>
+	<SubTexture name="story_idle0007" x="0" y="849" width="324" height="159" frameX="0" frameY="-1" frameWidth="325" frameHeight="160"/>
+	<SubTexture name="story_idle0008" x="0" y="849" width="324" height="159" frameX="0" frameY="-1" frameWidth="325" frameHeight="160"/>
+	<SubTexture name="story_idle0009" x="0" y="849" width="324" height="159" frameX="0" frameY="-1" frameWidth="325" frameHeight="160"/>
+	<SubTexture name="story_idle0010" x="0" y="687" width="324" height="160" frameX="-1" frameY="0" frameWidth="325" frameHeight="160"/>
+	<SubTexture name="story_idle0011" x="0" y="687" width="324" height="160" frameX="-1" frameY="0" frameWidth="325" frameHeight="160"/>
+	<SubTexture name="story_idle0012" x="0" y="687" width="324" height="160" frameX="-1" frameY="0" frameWidth="325" frameHeight="160"/>
+	<SubTexture name="story_idle0013" x="0" y="687" width="324" height="160" frameX="-1" frameY="0" frameWidth="325" frameHeight="160"/>
+	<SubTexture name="story_idle0014" x="0" y="687" width="324" height="160" frameX="-1" frameY="0" frameWidth="325" frameHeight="160"/>
+	<SubTexture name="story_locked0000" x="729" y="650" width="326" height="162" frameX="-2" frameY="-2" frameWidth="328" frameHeight="164"/>
+	<SubTexture name="story_locked0001" x="729" y="650" width="326" height="162" frameX="-2" frameY="-2" frameWidth="328" frameHeight="164"/>
+	<SubTexture name="story_locked0002" x="729" y="650" width="326" height="162" frameX="-2" frameY="-2" frameWidth="328" frameHeight="164"/>
+	<SubTexture name="story_locked0003" x="729" y="650" width="326" height="162" frameX="-2" frameY="-2" frameWidth="328" frameHeight="164"/>
+	<SubTexture name="story_locked0004" x="729" y="650" width="326" height="162" frameX="-2" frameY="-2" frameWidth="328" frameHeight="164"/>
+	<SubTexture name="story_locked0005" x="399" y="485" width="328" height="164" frameX="0" frameY="-1" frameWidth="330" frameHeight="167"/>
+	<SubTexture name="story_locked0006" x="399" y="485" width="328" height="164" frameX="0" frameY="-1" frameWidth="330" frameHeight="167"/>
+	<SubTexture name="story_locked0007" x="399" y="485" width="328" height="164" frameX="0" frameY="-1" frameWidth="330" frameHeight="167"/>
+	<SubTexture name="story_locked0008" x="399" y="485" width="328" height="164" frameX="0" frameY="-1" frameWidth="330" frameHeight="167"/>
+	<SubTexture name="story_locked0009" x="399" y="485" width="328" height="164" frameX="0" frameY="-1" frameWidth="330" frameHeight="167"/>
+	<SubTexture name="story_locked0010" x="0" y="521" width="327" height="164" frameX="-1" frameY="0" frameWidth="328" frameHeight="164"/>
+	<SubTexture name="story_locked0011" x="0" y="521" width="327" height="164" frameX="-1" frameY="0" frameWidth="328" frameHeight="164"/>
+	<SubTexture name="story_locked0012" x="0" y="521" width="327" height="164" frameX="-1" frameY="0" frameWidth="328" frameHeight="164"/>
+	<SubTexture name="story_locked0013" x="0" y="521" width="327" height="164" frameX="-1" frameY="0" frameWidth="328" frameHeight="164"/>
+	<SubTexture name="story_locked0014" x="0" y="521" width="327" height="164" frameX="-1" frameY="0" frameWidth="328" frameHeight="164"/>
+	<SubTexture name="story_lockedClicked0000" x="767" y="330" width="329" height="143" frameX="-1" frameY="-11" frameWidth="330" frameHeight="167"/>
+	<SubTexture name="story_lockedClicked0001" x="425" y="0" width="328" height="167" frameX="-1" frameY="0" frameWidth="330" frameHeight="167"/>
+	<SubTexture name="story_lockedClicked0002" x="326" y="814" width="320" height="161" frameX="-5" frameY="0" frameWidth="330" frameHeight="167"/>
+	<SubTexture name="story_lockedClicked0003" x="329" y="651" width="322" height="161" frameX="-4" frameY="-2" frameWidth="330" frameHeight="167"/>
+	<SubTexture name="story_lockedClicked0004" x="767" y="166" width="327" height="162" frameX="-1" frameY="0" frameWidth="330" frameHeight="167"/>
+	<SubTexture name="story_lockedClicked0005" x="729" y="485" width="328" height="163" frameX="0" frameY="0" frameWidth="330" frameHeight="167"/>
+	<SubTexture name="story_lockedClicked0006" x="755" y="0" width="328" height="164" frameX="0" frameY="0" frameWidth="330" frameHeight="167"/>
+	<SubTexture name="story_lockedClicked0007" x="755" y="0" width="328" height="164" frameX="0" frameY="0" frameWidth="330" frameHeight="167"/>
+	<SubTexture name="story_lockedClicked0008" x="399" y="485" width="328" height="164" frameX="0" frameY="0" frameWidth="330" frameHeight="167"/>
+	<SubTexture name="story_selected0000" x="0" y="0" width="423" height="268"/>
+	<SubTexture name="story_selected0001" x="0" y="0" width="423" height="268"/>
+	<SubTexture name="story_selected0002" x="0" y="0" width="423" height="268"/>
+	<SubTexture name="story_selected0003" x="399" y="270" width="366" height="213" frameX="-31" frameY="-22" frameWidth="423" frameHeight="268"/>
+	<SubTexture name="story_selected0004" x="399" y="270" width="366" height="213" frameX="-31" frameY="-22" frameWidth="423" frameHeight="268"/>
+	<SubTexture name="story_selected0005" x="399" y="270" width="366" height="213" frameX="-31" frameY="-22" frameWidth="423" frameHeight="268"/>
+	<SubTexture name="story_selected0006" x="0" y="270" width="397" height="249" frameX="-17" frameY="-12" frameWidth="423" frameHeight="268"/>
+	<SubTexture name="story_selected0007" x="0" y="270" width="397" height="249" frameX="-17" frameY="-12" frameWidth="423" frameHeight="268"/>
+	<SubTexture name="story_selected0008" x="0" y="270" width="397" height="249" frameX="-17" frameY="-12" frameWidth="423" frameHeight="268"/>
+	<SubTexture name="story_selected0009" x="399" y="270" width="366" height="213" frameX="-31" frameY="-22" frameWidth="423" frameHeight="268"/>
+	<SubTexture name="story_selected0010" x="399" y="270" width="366" height="213" frameX="-31" frameY="-22" frameWidth="423" frameHeight="268"/>
+	<SubTexture name="story_selected0011" x="399" y="270" width="366" height="213" frameX="-31" frameY="-22" frameWidth="423" frameHeight="268"/>
+</TextureAtlas>

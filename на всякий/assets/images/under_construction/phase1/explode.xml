@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="explode.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="взрів какашки0000" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0001" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0002" x="0" y="3075" width="1517" height="482" frameX="-84" frameY="-296" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0003" x="3262" y="0" width="1265" height="887" frameX="-244" frameY="0" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0004" x="1633" y="0" width="1627" height="1023" frameX="0" frameY="0" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0005" x="0" y="0" width="1631" height="1023" frameX="-24" frameY="0" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0006" x="0" y="1025" width="1631" height="1023" frameX="-24" frameY="0" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0007" x="1633" y="1025" width="1630" height="946" frameX="-47" frameY="0" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0008" x="0" y="2050" width="1556" height="1023" frameX="-90" frameY="0" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0009" x="0" y="2050" width="1556" height="1023" frameX="-90" frameY="0" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0010" x="1633" y="1973" width="1603" height="719" frameX="-65" frameY="0" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0011" x="3171" y="2694" width="1603" height="692" frameX="-65" frameY="0" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0012" x="1558" y="2694" width="1611" height="692" frameX="-67" frameY="0" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0013" x="3265" y="889" width="1432" height="644" frameX="-127" frameY="0" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0014" x="3265" y="889" width="1432" height="644" frameX="-127" frameY="0" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0015" x="3265" y="889" width="1432" height="644" frameX="-127" frameY="0" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0016" x="3265" y="1535" width="1477" height="618" frameX="-114" frameY="0" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0017" x="3265" y="1535" width="1477" height="618" frameX="-114" frameY="0" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0018" x="3238" y="2155" width="930" height="454" frameX="-244" frameY="-164" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0019" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0020" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0021" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0022" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0023" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0024" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0025" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0026" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0027" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0028" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0029" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0030" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0031" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0032" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0033" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0034" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0035" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0036" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0037" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0038" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0039" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0040" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0041" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0042" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0043" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0044" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0045" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0046" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0047" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0048" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0049" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0050" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0051" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0052" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0053" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0054" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0055" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0056" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0057" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0058" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0059" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+	<SubTexture name="взрів какашки0060" x="0" y="0" width="0" height="0" frameX="-51" frameY="2372" frameWidth="1678" frameHeight="1023"/>
+</TextureAtlas>

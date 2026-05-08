@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="naisonji.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="naisonji0000" x="0" y="0" width="146" height="113" frameX="-5" frameY="-7" frameWidth="161" frameHeight="154"/>
+	<SubTexture name="naisonji0001" x="148" y="0" width="161" height="105" frameX="0" frameY="-11" frameWidth="161" frameHeight="154"/>
+	<SubTexture name="naisonji0002" x="148" y="0" width="161" height="105" frameX="0" frameY="-11" frameWidth="161" frameHeight="154"/>
+	<SubTexture name="naisonji0003" x="0" y="115" width="148" height="154" frameX="-7" frameY="0" frameWidth="161" frameHeight="154"/>
+	<SubTexture name="naisonji0004" x="0" y="115" width="148" height="154" frameX="-7" frameY="0" frameWidth="161" frameHeight="154"/>
+	<SubTexture name="naisonji0005" x="150" y="115" width="155" height="147" frameX="-3" frameY="-2" frameWidth="161" frameHeight="154"/>
+</TextureAtlas>

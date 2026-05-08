@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mathew.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="мэтью фон0000" x="0" y="0" width="249" height="433" frameX="0" frameY="0" frameWidth="249" frameHeight="437"/>
+	<SubTexture name="мэтью фон0001" x="0" y="0" width="249" height="433" frameX="0" frameY="0" frameWidth="249" frameHeight="437"/>
+	<SubTexture name="мэтью фон0002" x="0" y="0" width="249" height="433" frameX="0" frameY="0" frameWidth="249" frameHeight="437"/>
+	<SubTexture name="мэтью фон0003" x="0" y="0" width="249" height="433" frameX="0" frameY="0" frameWidth="249" frameHeight="437"/>
+	<SubTexture name="мэтью фон0004" x="251" y="0" width="249" height="435" frameX="0" frameY="-2" frameWidth="249" frameHeight="437"/>
+	<SubTexture name="мэтью фон0005" x="251" y="0" width="249" height="435" frameX="0" frameY="-2" frameWidth="249" frameHeight="437"/>
+	<SubTexture name="мэтью фон0006" x="251" y="0" width="249" height="435" frameX="0" frameY="-2" frameWidth="249" frameHeight="437"/>
+	<SubTexture name="мэтью фон0007" x="251" y="0" width="249" height="435" frameX="0" frameY="-2" frameWidth="249" frameHeight="437"/>
+</TextureAtlas>

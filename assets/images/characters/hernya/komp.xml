@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="komp.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="komp die0000" x="0" y="417" width="236" height="282" frameX="-343" frameY="-42" frameWidth="579" frameHeight="743"/>
+	<SubTexture name="komp die0001" x="0" y="417" width="236" height="282" frameX="-343" frameY="-42" frameWidth="579" frameHeight="743"/>
+	<SubTexture name="komp die0002" x="701" y="0" width="248" height="293" frameX="-288" frameY="-9" frameWidth="579" frameHeight="743"/>
+	<SubTexture name="komp die0003" x="701" y="0" width="248" height="293" frameX="-288" frameY="-9" frameWidth="579" frameHeight="743"/>
+	<SubTexture name="komp die0004" x="450" y="0" width="249" height="305" frameX="-273" frameY="0" frameWidth="579" frameHeight="743"/>
+	<SubTexture name="komp die0005" x="450" y="0" width="249" height="305" frameX="-273" frameY="0" frameWidth="579" frameHeight="743"/>
+	<SubTexture name="komp die0006" x="196" y="0" width="252" height="308" frameX="-254" frameY="-12" frameWidth="579" frameHeight="743"/>
+	<SubTexture name="komp die0007" x="196" y="0" width="252" height="308" frameX="-254" frameY="-12" frameWidth="579" frameHeight="743"/>
+	<SubTexture name="komp die0008" x="0" y="0" width="194" height="415" frameX="-208" frameY="-84" frameWidth="579" frameHeight="743"/>
+	<SubTexture name="komp die0009" x="563" y="1112" width="379" height="145" frameX="-10" frameY="-597" frameWidth="579" frameHeight="743"/>
+	<SubTexture name="komp die0010" x="563" y="1112" width="379" height="145" frameX="-10" frameY="-597" frameWidth="579" frameHeight="743"/>
+	<SubTexture name="komp die0011" x="455" y="307" width="336" height="171" frameX="-26" frameY="-542" frameWidth="579" frameHeight="743"/>
+	<SubTexture name="komp die0012" x="455" y="307" width="336" height="171" frameX="-26" frameY="-542" frameWidth="579" frameHeight="743"/>
+	<SubTexture name="komp die0013" x="455" y="480" width="336" height="169" frameX="-24" frameY="-549" frameWidth="579" frameHeight="743"/>
+	<SubTexture name="komp die0014" x="227" y="853" width="343" height="164" frameX="0" frameY="-579" frameWidth="579" frameHeight="743"/>
+	<SubTexture name="komp die0015" x="227" y="853" width="343" height="164" frameX="0" frameY="-579" frameWidth="579" frameHeight="743"/>
+	<SubTexture name="komp die0016" x="450" y="651" width="337" height="167" frameX="-3" frameY="-576" frameWidth="579" frameHeight="743"/>
+	<SubTexture name="komp die0017" x="450" y="651" width="337" height="167" frameX="-3" frameY="-576" frameWidth="579" frameHeight="743"/>
+	<SubTexture name="komp die0018" x="223" y="1019" width="338" height="166" frameX="-2" frameY="-577" frameWidth="579" frameHeight="743"/>
+	<SubTexture name="komp die0019" x="223" y="1019" width="338" height="166" frameX="-2" frameY="-577" frameWidth="579" frameHeight="743"/>
+	<SubTexture name="komp die0020" x="223" y="1019" width="338" height="166" frameX="-2" frameY="-577" frameWidth="579" frameHeight="743"/>
+	<SubTexture name="komp die0021" x="223" y="1019" width="338" height="166" frameX="-2" frameY="-577" frameWidth="579" frameHeight="743"/>
+	<SubTexture name="komp die0022" x="223" y="1019" width="338" height="166" frameX="-2" frameY="-577" frameWidth="579" frameHeight="743"/>
+	<SubTexture name="komp die0023" x="223" y="1019" width="338" height="166" frameX="-2" frameY="-577" frameWidth="579" frameHeight="743"/>
+	<SubTexture name="komp die0024" x="223" y="1019" width="338" height="166" frameX="-2" frameY="-577" frameWidth="579" frameHeight="743"/>
+	<SubTexture name="komp die0025" x="223" y="1019" width="338" height="166" frameX="-2" frameY="-577" frameWidth="579" frameHeight="743"/>
+	<SubTexture name="komp die0026" x="223" y="1019" width="338" height="166" frameX="-2" frameY="-577" frameWidth="579" frameHeight="743"/>
+	<SubTexture name="komp down0000" x="572" y="829" width="225" height="249" frameX="0" frameY="-11" frameWidth="225" frameHeight="260"/>
+	<SubTexture name="komp down0001" x="572" y="829" width="225" height="249" frameX="0" frameY="-11" frameWidth="225" frameHeight="260"/>
+	<SubTexture name="komp down0002" x="793" y="567" width="217" height="260" frameX="-1" frameY="0" frameWidth="225" frameHeight="260"/>
+	<SubTexture name="komp down0003" x="793" y="567" width="217" height="260" frameX="-1" frameY="0" frameWidth="225" frameHeight="260"/>
+	<SubTexture name="komp idle0000" x="238" y="583" width="210" height="268"/>
+	<SubTexture name="komp left0000" x="951" y="0" width="218" height="273" frameX="0" frameY="0" frameWidth="222" frameHeight="273"/>
+	<SubTexture name="komp left0001" x="951" y="0" width="218" height="273" frameX="0" frameY="0" frameWidth="222" frameHeight="273"/>
+	<SubTexture name="komp left0002" x="238" y="310" width="215" height="271" frameX="-7" frameY="0" frameWidth="222" frameHeight="273"/>
+	<SubTexture name="komp left0003" x="238" y="310" width="215" height="271" frameX="-7" frameY="0" frameWidth="222" frameHeight="273"/>
+	<SubTexture name="komp right0000" x="0" y="701" width="225" height="270" frameX="-1" frameY="0" frameWidth="226" frameHeight="270"/>
+	<SubTexture name="komp right0001" x="0" y="701" width="225" height="270" frameX="-1" frameY="0" frameWidth="226" frameHeight="270"/>
+	<SubTexture name="komp right0002" x="0" y="973" width="221" height="268" frameX="0" frameY="0" frameWidth="226" frameHeight="270"/>
+	<SubTexture name="komp right0003" x="0" y="973" width="221" height="268" frameX="0" frameY="0" frameWidth="226" frameHeight="270"/>
+	<SubTexture name="komp up0000" x="799" y="829" width="199" height="281" frameX="-4" frameY="0" frameWidth="209" frameHeight="281"/>
+	<SubTexture name="komp up0001" x="799" y="829" width="199" height="281" frameX="-4" frameY="0" frameWidth="209" frameHeight="281"/>
+	<SubTexture name="komp up0002" x="793" y="295" width="209" height="270" frameX="0" frameY="-8" frameWidth="209" frameHeight="281"/>
+	<SubTexture name="komp up0003" x="793" y="295" width="209" height="270" frameX="0" frameY="-8" frameWidth="209" frameHeight="281"/>
+</TextureAtlas>

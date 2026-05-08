@@ -1,0 +1,4 @@
+THINK FAST CHUCKLENUTS!!!
+
+Value 1: duration,hex color,cam (default: 1.0,ffffff,game)
+Value 2: flash/fade (default: flash)

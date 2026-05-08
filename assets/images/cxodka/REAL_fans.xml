@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="REAL_fans.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="бг люди вместе0000" x="0" y="2335" width="1942" height="768" frameX="0" frameY="-13" frameWidth="1942" frameHeight="782"/>
+	<SubTexture name="бг люди вместе0001" x="0" y="2335" width="1942" height="768" frameX="0" frameY="-13" frameWidth="1942" frameHeight="782"/>
+	<SubTexture name="бг люди вместе0002" x="0" y="784" width="1939" height="771" frameX="0" frameY="-11" frameWidth="1942" frameHeight="782"/>
+	<SubTexture name="бг люди вместе0003" x="0" y="784" width="1939" height="771" frameX="0" frameY="-11" frameWidth="1942" frameHeight="782"/>
+	<SubTexture name="бг люди вместе0004" x="0" y="3105" width="1920" height="769" frameX="-17" frameY="-13" frameWidth="1942" frameHeight="782"/>
+	<SubTexture name="бг люди вместе0005" x="0" y="3105" width="1920" height="769" frameX="-17" frameY="-13" frameWidth="1942" frameHeight="782"/>
+	<SubTexture name="бг люди вместе0006" x="0" y="3876" width="1920" height="769" frameX="-17" frameY="-13" frameWidth="1942" frameHeight="782"/>
+	<SubTexture name="бг люди вместе0007" x="0" y="3876" width="1920" height="769" frameX="-17" frameY="-13" frameWidth="1942" frameHeight="782"/>
+	<SubTexture name="бг люди вместе0008" x="0" y="0" width="1912" height="782" frameX="-25" frameY="0" frameWidth="1942" frameHeight="782"/>
+	<SubTexture name="бг люди вместе0009" x="0" y="0" width="1912" height="782" frameX="-25" frameY="0" frameWidth="1942" frameHeight="782"/>
+	<SubTexture name="бг люди вместе0010" x="0" y="0" width="1912" height="782" frameX="-25" frameY="0" frameWidth="1942" frameHeight="782"/>
+	<SubTexture name="бг люди вместе0011" x="0" y="0" width="1912" height="782" frameX="-25" frameY="0" frameWidth="1942" frameHeight="782"/>
+	<SubTexture name="бг люди вместе0012" x="0" y="4647" width="1912" height="770" frameX="-25" frameY="-12" frameWidth="1942" frameHeight="782"/>
+	<SubTexture name="бг люди вместе0013" x="0" y="4647" width="1912" height="770" frameX="-25" frameY="-12" frameWidth="1942" frameHeight="782"/>
+	<SubTexture name="бг люди вместе0014" x="0" y="4647" width="1912" height="770" frameX="-25" frameY="-12" frameWidth="1942" frameHeight="782"/>
+	<SubTexture name="бг люди вместе ПОГИБ0000" x="0" y="1557" width="1923" height="776" frameX="-13" frameY="-6" frameWidth="1942" frameHeight="782"/>
+</TextureAtlas>

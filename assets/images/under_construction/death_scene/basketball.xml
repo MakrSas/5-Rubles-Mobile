@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="basketball.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="поиграем в баскетбол?0000" x="2" y="2" width="98" height="97" frameX="0" frameY="-1" frameWidth="98" frameHeight="98"/>
+	<SubTexture name="поиграем в баскетбол?0001" x="2" y="2" width="98" height="97" frameX="0" frameY="-1" frameWidth="98" frameHeight="98"/>
+	<SubTexture name="поиграем в баскетбол?0002" x="2" y="2" width="98" height="97" frameX="0" frameY="-1" frameWidth="98" frameHeight="98"/>
+	<SubTexture name="поиграем в баскетбол?0003" x="2" y="2" width="98" height="97" frameX="0" frameY="-1" frameWidth="98" frameHeight="98"/>
+	<SubTexture name="поиграем в баскетбол?0004" x="2" y="2" width="98" height="97" frameX="0" frameY="-1" frameWidth="98" frameHeight="98"/>
+	<SubTexture name="поиграем в баскетбол?0005" x="2" y="2" width="98" height="97" frameX="0" frameY="-1" frameWidth="98" frameHeight="98"/>
+	<SubTexture name="поиграем в баскетбол?0006" x="300" y="2" width="96" height="97" frameX="-1" frameY="-1" frameWidth="98" frameHeight="98"/>
+	<SubTexture name="поиграем в баскетбол?0007" x="300" y="2" width="96" height="97" frameX="-1" frameY="-1" frameWidth="98" frameHeight="98"/>
+	<SubTexture name="поиграем в баскетбол?0008" x="300" y="2" width="96" height="97" frameX="-1" frameY="-1" frameWidth="98" frameHeight="98"/>
+	<SubTexture name="поиграем в баскетбол?0009" x="300" y="2" width="96" height="97" frameX="-1" frameY="-1" frameWidth="98" frameHeight="98"/>
+	<SubTexture name="поиграем в баскетбол?0010" x="300" y="2" width="96" height="97" frameX="-1" frameY="-1" frameWidth="98" frameHeight="98"/>
+	<SubTexture name="поиграем в баскетбол?0011" x="300" y="2" width="96" height="97" frameX="-1" frameY="-1" frameWidth="98" frameHeight="98"/>
+	<SubTexture name="поиграем в баскетбол?0012" x="201" y="2" width="97" height="97" frameX="-1" frameY="-1" frameWidth="98" frameHeight="98"/>
+	<SubTexture name="поиграем в баскетбол?0013" x="201" y="2" width="97" height="97" frameX="-1" frameY="-1" frameWidth="98" frameHeight="98"/>
+	<SubTexture name="поиграем в баскетбол?0014" x="201" y="2" width="97" height="97" frameX="-1" frameY="-1" frameWidth="98" frameHeight="98"/>
+	<SubTexture name="поиграем в баскетбол?0015" x="201" y="2" width="97" height="97" frameX="-1" frameY="-1" frameWidth="98" frameHeight="98"/>
+	<SubTexture name="поиграем в баскетбол?0016" x="201" y="2" width="97" height="97" frameX="-1" frameY="-1" frameWidth="98" frameHeight="98"/>
+	<SubTexture name="поиграем в баскетбол?0017" x="201" y="2" width="97" height="97" frameX="-1" frameY="-1" frameWidth="98" frameHeight="98"/>
+	<SubTexture name="поиграем в баскетбол?0018" x="102" y="2" width="97" height="98" frameX="0" frameY="0" frameWidth="98" frameHeight="98"/>
+	<SubTexture name="поиграем в баскетбол?0019" x="102" y="2" width="97" height="98" frameX="0" frameY="0" frameWidth="98" frameHeight="98"/>
+	<SubTexture name="поиграем в баскетбол?0020" x="102" y="2" width="97" height="98" frameX="0" frameY="0" frameWidth="98" frameHeight="98"/>
+	<SubTexture name="поиграем в баскетбол?0021" x="102" y="2" width="97" height="98" frameX="0" frameY="0" frameWidth="98" frameHeight="98"/>
+	<SubTexture name="поиграем в баскетбол?0022" x="102" y="2" width="97" height="98" frameX="0" frameY="0" frameWidth="98" frameHeight="98"/>
+	<SubTexture name="поиграем в баскетбол?0023" x="102" y="2" width="97" height="98" frameX="0" frameY="0" frameWidth="98" frameHeight="98"/>
+</TextureAtlas>

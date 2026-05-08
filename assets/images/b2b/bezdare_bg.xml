@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bezdare_bg.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bg bop образец 10000" x="2" y="3372" width="2776" height="1115" frameX="-2" frameY="-6" frameWidth="2778" frameHeight="1124"/>
+	<SubTexture name="bg bop образец 10001" x="2" y="3372" width="2776" height="1115" frameX="-2" frameY="-6" frameWidth="2778" frameHeight="1124"/>
+	<SubTexture name="bg bop образец 10002" x="2" y="2252" width="2773" height="1118" frameX="-4" frameY="-6" frameWidth="2778" frameHeight="1124"/>
+	<SubTexture name="bg bop образец 10003" x="2" y="2252" width="2773" height="1118" frameX="-4" frameY="-6" frameWidth="2778" frameHeight="1124"/>
+	<SubTexture name="bg bop образец 10004" x="2" y="1128" width="2776" height="1122" frameX="-1" frameY="-2" frameWidth="2778" frameHeight="1124"/>
+	<SubTexture name="bg bop образец 10005" x="2" y="1128" width="2776" height="1122" frameX="-1" frameY="-2" frameWidth="2778" frameHeight="1124"/>
+	<SubTexture name="bg bop образец 10006" x="2" y="2" width="2777" height="1124" frameX="0" frameY="0" frameWidth="2778" frameHeight="1124"/>
+	<SubTexture name="bg bop образец 10007" x="2" y="2" width="2777" height="1124" frameX="0" frameY="0" frameWidth="2778" frameHeight="1124"/>
+	<SubTexture name="bg bop образец 10008" x="2" y="2" width="2777" height="1124" frameX="0" frameY="0" frameWidth="2778" frameHeight="1124"/>
+</TextureAtlas>

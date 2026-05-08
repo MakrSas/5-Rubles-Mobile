@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="stones_bg.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="к00000" x="0" y="0" width="314" height="350"/>
+	<SubTexture name="к10000" x="0" y="352" width="158" height="141"/>
+	<SubTexture name="к20000" x="160" y="352" width="72" height="137"/>
+	<SubTexture name="к30000" x="346" y="376" width="49" height="100"/>
+	<SubTexture name="к40000" x="234" y="376" width="110" height="84"/>
+	<SubTexture name="к50000" x="316" y="217" width="77" height="157"/>
+	<SubTexture name="к60000" x="316" y="0" width="82" height="215"/>
+</TextureAtlas>

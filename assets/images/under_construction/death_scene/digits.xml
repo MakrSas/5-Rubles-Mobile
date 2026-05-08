@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="digits.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="digits digits0000" x="72" y="2" width="67" height="86" frameX="-1" frameY="-2" frameWidth="69" frameHeight="89"/>
+	<SubTexture name="digits digits0001" x="2" y="2" width="68" height="86" frameX="0" frameY="-3" frameWidth="69" frameHeight="89"/>
+	<SubTexture name="digits digits0002" x="141" y="2" width="66" height="87" frameX="-1" frameY="-1" frameWidth="69" frameHeight="89"/>
+	<SubTexture name="digits digits0003" x="277" y="2" width="65" height="86" frameX="-2" frameY="-2" frameWidth="69" frameHeight="89"/>
+	<SubTexture name="digits digits0004" x="209" y="2" width="66" height="87" frameX="-1" frameY="-1" frameWidth="69" frameHeight="89"/>
+	<SubTexture name="digits digits0005" x="344" y="2" width="65" height="86" frameX="-4" frameY="-2" frameWidth="69" frameHeight="89"/>
+	<SubTexture name="digits digits0006" x="411" y="2" width="64" height="86" frameX="-5" frameY="-2" frameWidth="69" frameHeight="89"/>
+	<SubTexture name="digits digits0007" x="608" y="2" width="61" height="86" frameX="-5" frameY="-1" frameWidth="69" frameHeight="89"/>
+	<SubTexture name="digits digits0008" x="543" y="2" width="63" height="87" frameX="-5" frameY="0" frameWidth="69" frameHeight="89"/>
+	<SubTexture name="digits digits0009" x="477" y="2" width="64" height="86" frameX="-4" frameY="0" frameWidth="69" frameHeight="89"/>
+</TextureAtlas>

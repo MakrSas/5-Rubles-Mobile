@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="5rofos-alt.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="down-alt0000" x="1595" y="0" width="563" height="832" frameX="0" frameY="-13" frameWidth="563" frameHeight="845"/>
+	<SubTexture name="down-alt0001" x="1595" y="0" width="563" height="832" frameX="0" frameY="-13" frameWidth="563" frameHeight="845"/>
+	<SubTexture name="down-alt0002" x="0" y="933" width="549" height="842" frameX="-14" frameY="-1" frameWidth="563" frameHeight="845"/>
+	<SubTexture name="down-alt0003" x="0" y="933" width="549" height="842" frameX="-14" frameY="-1" frameWidth="563" frameHeight="845"/>
+	<SubTexture name="down-alt0004" x="2160" y="0" width="549" height="843" frameX="-14" frameY="0" frameWidth="563" frameHeight="845"/>
+	<SubTexture name="down-alt0005" x="2160" y="0" width="549" height="843" frameX="-14" frameY="0" frameWidth="563" frameHeight="845"/>
+	<SubTexture name="left-alt0000" x="551" y="932" width="504" height="904" frameX="0" frameY="-1" frameWidth="509" frameHeight="905"/>
+	<SubTexture name="left-alt0001" x="551" y="932" width="504" height="904" frameX="0" frameY="-1" frameWidth="509" frameHeight="905"/>
+	<SubTexture name="left-alt0002" x="1057" y="932" width="492" height="905" frameX="-16" frameY="0" frameWidth="509" frameHeight="905"/>
+	<SubTexture name="left-alt0003" x="1057" y="932" width="492" height="905" frameX="-16" frameY="0" frameWidth="509" frameHeight="905"/>
+	<SubTexture name="left-alt0004" x="2711" y="0" width="491" height="905" frameX="-18" frameY="0" frameWidth="509" frameHeight="905"/>
+	<SubTexture name="left-alt0005" x="2711" y="0" width="491" height="905" frameX="-18" frameY="0" frameWidth="509" frameHeight="905"/>
+	<SubTexture name="right-alt0000" x="1070" y="0" width="523" height="927" frameX="-8" frameY="-4" frameWidth="534" frameHeight="931"/>
+	<SubTexture name="right-alt0001" x="1070" y="0" width="523" height="927" frameX="-8" frameY="-4" frameWidth="534" frameHeight="931"/>
+	<SubTexture name="right-alt0002" x="536" y="0" width="532" height="930" frameX="-2" frameY="-1" frameWidth="534" frameHeight="931"/>
+	<SubTexture name="right-alt0003" x="536" y="0" width="532" height="930" frameX="-2" frameY="-1" frameWidth="534" frameHeight="931"/>
+	<SubTexture name="right-alt0004" x="0" y="0" width="534" height="931"/>
+	<SubTexture name="right-alt0005" x="0" y="0" width="534" height="931"/>
+	<SubTexture name="up-alt0000" x="2532" y="907" width="452" height="945" frameX="-6" frameY="0" frameWidth="468" frameHeight="947"/>
+	<SubTexture name="up-alt0001" x="2532" y="907" width="452" height="945" frameX="-6" frameY="0" frameWidth="468" frameHeight="947"/>
+	<SubTexture name="up-alt0002" x="2065" y="845" width="465" height="940" frameX="-1" frameY="-7" frameWidth="468" frameHeight="947"/>
+	<SubTexture name="up-alt0003" x="2065" y="845" width="465" height="940" frameX="-1" frameY="-7" frameWidth="468" frameHeight="947"/>
+	<SubTexture name="up-alt0004" x="1595" y="834" width="468" height="939" frameX="0" frameY="-8" frameWidth="468" frameHeight="947"/>
+	<SubTexture name="up-alt0005" x="1595" y="834" width="468" height="939" frameX="0" frameY="-8" frameWidth="468" frameHeight="947"/>
+</TextureAtlas>

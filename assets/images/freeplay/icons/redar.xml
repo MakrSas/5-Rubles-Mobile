@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="redar.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="redar0000" x="0" y="0" width="108" height="145" frameX="-7" frameY="-12" frameWidth="139" frameHeight="159"/>
+	<SubTexture name="redar0001" x="110" y="0" width="139" height="130" frameX="0" frameY="-29" frameWidth="139" frameHeight="159"/>
+	<SubTexture name="redar0002" x="110" y="0" width="139" height="130" frameX="0" frameY="-29" frameWidth="139" frameHeight="159"/>
+	<SubTexture name="redar0003" x="251" y="0" width="100" height="156" frameX="-12" frameY="0" frameWidth="139" frameHeight="159"/>
+	<SubTexture name="redar0004" x="251" y="0" width="100" height="156" frameX="-12" frameY="0" frameWidth="139" frameHeight="159"/>
+	<SubTexture name="redar0005" x="353" y="0" width="108" height="146" frameX="-9" frameY="-8" frameWidth="139" frameHeight="159"/>
+</TextureAtlas>

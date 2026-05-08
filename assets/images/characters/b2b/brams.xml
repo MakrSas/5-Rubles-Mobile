@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="brams.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="brams0000" x="717" y="0" width="235" height="252" frameX="-1" frameY="0" frameWidth="236" frameHeight="252"/>
+	<SubTexture name="brams0001" x="717" y="0" width="235" height="252" frameX="-1" frameY="0" frameWidth="236" frameHeight="252"/>
+	<SubTexture name="brams0002" x="717" y="0" width="235" height="252" frameX="-1" frameY="0" frameWidth="236" frameHeight="252"/>
+	<SubTexture name="brams0003" x="717" y="0" width="235" height="252" frameX="-1" frameY="0" frameWidth="236" frameHeight="252"/>
+	<SubTexture name="brams0004" x="241" y="0" width="236" height="251" frameX="0" frameY="-1" frameWidth="236" frameHeight="252"/>
+	<SubTexture name="brams0005" x="241" y="0" width="236" height="251" frameX="0" frameY="-1" frameWidth="236" frameHeight="252"/>
+	<SubTexture name="brams0006" x="241" y="0" width="236" height="251" frameX="0" frameY="-1" frameWidth="236" frameHeight="252"/>
+	<SubTexture name="brams0007" x="241" y="0" width="236" height="251" frameX="0" frameY="-1" frameWidth="236" frameHeight="252"/>
+	<SubTexture name="bramsHEY0000" x="0" y="0" width="239" height="257" frameX="0" frameY="0" frameWidth="242" frameHeight="257"/>
+	<SubTexture name="bramsHEY0001" x="0" y="0" width="239" height="257" frameX="0" frameY="0" frameWidth="242" frameHeight="257"/>
+	<SubTexture name="bramsHEY0002" x="1191" y="0" width="235" height="251" frameX="-7" frameY="-6" frameWidth="242" frameHeight="257"/>
+	<SubTexture name="bramsHEY0003" x="1191" y="0" width="235" height="251" frameX="-7" frameY="-6" frameWidth="242" frameHeight="257"/>
+	<SubTexture name="bramsHEY0004" x="1428" y="0" width="235" height="251" frameX="-7" frameY="-6" frameWidth="242" frameHeight="257"/>
+	<SubTexture name="bramsHEY0005" x="1428" y="0" width="235" height="251" frameX="-7" frameY="-6" frameWidth="242" frameHeight="257"/>
+	<SubTexture name="bramsHEY0006" x="1428" y="0" width="235" height="251" frameX="-7" frameY="-6" frameWidth="242" frameHeight="257"/>
+	<SubTexture name="bramsHEY0007" x="1428" y="0" width="235" height="251" frameX="-7" frameY="-6" frameWidth="242" frameHeight="257"/>
+	<SubTexture name="bramsLICKING0000" x="1665" y="0" width="243" height="217"/>
+	<SubTexture name="bramsSCARED0000" x="954" y="0" width="235" height="252" frameX="-1" frameY="0" frameWidth="236" frameHeight="252"/>
+	<SubTexture name="bramsSCARED0001" x="954" y="0" width="235" height="252" frameX="-1" frameY="0" frameWidth="236" frameHeight="252"/>
+	<SubTexture name="bramsSCARED0002" x="954" y="0" width="235" height="252" frameX="-1" frameY="0" frameWidth="236" frameHeight="252"/>
+	<SubTexture name="bramsSCARED0003" x="954" y="0" width="235" height="252" frameX="-1" frameY="0" frameWidth="236" frameHeight="252"/>
+	<SubTexture name="bramsSCARED0004" x="479" y="0" width="236" height="251" frameX="0" frameY="-1" frameWidth="236" frameHeight="252"/>
+	<SubTexture name="bramsSCARED0005" x="479" y="0" width="236" height="251" frameX="0" frameY="-1" frameWidth="236" frameHeight="252"/>
+	<SubTexture name="bramsSCARED0006" x="479" y="0" width="236" height="251" frameX="0" frameY="-1" frameWidth="236" frameHeight="252"/>
+	<SubTexture name="bramsSCARED0007" x="479" y="0" width="236" height="251" frameX="0" frameY="-1" frameWidth="236" frameHeight="252"/>
+	<SubTexture name="bramsSLEEP0000" x="1910" y="0" width="281" height="181" frameX="0" frameY="0" frameWidth="283" frameHeight="181"/>
+	<SubTexture name="bramsSLEEP0001" x="1910" y="0" width="281" height="181" frameX="0" frameY="0" frameWidth="283" frameHeight="181"/>
+	<SubTexture name="bramsSLEEP0002" x="1910" y="0" width="281" height="181" frameX="0" frameY="0" frameWidth="283" frameHeight="181"/>
+	<SubTexture name="bramsSLEEP0003" x="1910" y="0" width="281" height="181" frameX="0" frameY="0" frameWidth="283" frameHeight="181"/>
+	<SubTexture name="bramsSLEEP0004" x="1910" y="0" width="281" height="181" frameX="0" frameY="0" frameWidth="283" frameHeight="181"/>
+	<SubTexture name="bramsSLEEP0005" x="1910" y="0" width="281" height="181" frameX="0" frameY="0" frameWidth="283" frameHeight="181"/>
+	<SubTexture name="bramsSLEEP0006" x="2193" y="0" width="282" height="179" frameX="-1" frameY="-1" frameWidth="283" frameHeight="181"/>
+	<SubTexture name="bramsSLEEP0007" x="2193" y="0" width="282" height="179" frameX="-1" frameY="-1" frameWidth="283" frameHeight="181"/>
+	<SubTexture name="bramsSLEEP0008" x="2193" y="0" width="282" height="179" frameX="-1" frameY="-1" frameWidth="283" frameHeight="181"/>
+	<SubTexture name="bramsSLEEP0009" x="2193" y="0" width="282" height="179" frameX="-1" frameY="-1" frameWidth="283" frameHeight="181"/>
+	<SubTexture name="bramsSLEEP0010" x="2193" y="0" width="282" height="179" frameX="-1" frameY="-1" frameWidth="283" frameHeight="181"/>
+	<SubTexture name="bramsSLEEP0011" x="2193" y="0" width="282" height="179" frameX="-1" frameY="-1" frameWidth="283" frameHeight="181"/>
+</TextureAtlas>

@@ -1,0 +1,67 @@
+{
+	"animations": [
+		{
+			"anim": "idle",
+			"nameAnim": "face",
+			"loop": true,
+			"fps": 24,
+			"indices": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		},
+		{
+			"anim": "lose",
+			"nameAnim": "face",
+			"fps": 24,
+			"indices": [22, 23, 24, 25]
+		},
+		{
+			"anim": "lose-loop",
+			"nameAnim": "face",
+			"loop": true,
+			"fps": 24,
+			"indices": [26, 27, 28, 29, 30, 31, 32, 33, 34]
+		},
+		{
+			"anim": "win",
+			"nameAnim": "face",
+			"fps": 24,
+			"indices": [9, 10, 11, 12]
+		},
+		{
+			"anim": "win-loop",
+			"nameAnim": "face",
+			"loop": true,
+			"fps": 24,
+			"indices": [13, 14, 15, 16, 17, 18, 19, 20, 21]
+		},
+		{
+			"anim": "lose->idle",
+			"nameAnim": "face",
+			"fps": 24,
+			"indices": [25, 24, 23, 22]
+		},
+		{
+			"anim": "win->idle",
+			"nameAnim": "face",
+			"fps": 24,
+			"indices": [12, 11, 10, 9]
+		}
+	],
+	"triggers": [
+		{
+			"name": "lose",
+			"indices": [0, 20]
+		},
+		{
+			"name": "idle",
+			"indices": [21, 79]
+		},
+		{
+			"name": "win",
+			"indices": [80, 100]
+		}
+	],
+	"image": "face",
+	"hadXml": true,
+	"flipX": true,
+	"offsets": [0, -4]
+}

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="rubtomsk.png">
+	<!-- Created with Adobe Animate version 18.0.1.115 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="было0000" x="2" y="64" width="247" height="60" frameX="-1" frameY="0" frameWidth="248" frameHeight="60"/>
+	<SubTexture name="было0001" x="2" y="64" width="247" height="60" frameX="-1" frameY="0" frameWidth="248" frameHeight="60"/>
+	<SubTexture name="было0002" x="2" y="2" width="248" height="60"/>
+	<SubTexture name="было0003" x="2" y="2" width="248" height="60"/>
+</TextureAtlas>

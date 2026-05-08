@@ -1,0 +1,77 @@
+{
+	"animations": [
+		{
+			"anim": "lose",
+			"nameAnim": "lose",
+			"fps": 24,
+			"flipX": true
+		},
+		{
+			"anim": "lose-loop",
+			"nameAnim": "loop lose",
+			"loop": true,
+			"fps": 24,
+			"flipX": true
+		},
+		{
+			"anim": "idle",
+			"nameAnim": "neutral",
+			"loop": true,
+			"fps": 24,
+			"flipX": true
+		},
+		{
+			"anim": "win",
+			"nameAnim": "win",
+			"fps": 24,
+			"flipX": true
+		},
+		{
+			"anim": "win-loop",
+			"nameAnim": "loop win",
+			"loop": true,
+			"fps": 24,
+			"flipX": true
+		},
+		{
+			"anim": "lose->idle",
+			"nameAnim": "lose",
+			"fps": 24,
+			"reversed": true,
+			"flipX": true
+		},
+		{
+			"anim": "win->idle",
+			"nameAnim": "win",
+			"fps": 24,
+			"reversed": true,
+			"flipX": true
+		}
+	],
+	"triggers": [
+		{
+			"name": "lose",
+			"indices": [0, 20]
+		},
+		{
+			"name": "idle",
+			"indices": [21, 79]
+		},
+		{
+			"name": "win",
+			"indices": [80, 100]
+		}
+	],
+	"image": "rubl4Ss",
+	"hadXml": true,
+	"healthbar_colors": [
+		75,
+		147,
+		178
+	],
+	"offsets": [
+		0,
+		-13
+	],
+	"scale": 1
+}

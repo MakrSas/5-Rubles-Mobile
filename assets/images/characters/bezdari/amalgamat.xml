@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="amalgamat.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="DAUN0000" x="1663" y="902" width="505" height="850" frameX="0" frameY="-8" frameWidth="505" frameHeight="858"/>
+	<SubTexture name="DAUN0001" x="1663" y="902" width="505" height="850" frameX="0" frameY="-8" frameWidth="505" frameHeight="858"/>
+	<SubTexture name="DAUN0002" x="2170" y="900" width="498" height="856" frameX="-7" frameY="0" frameWidth="505" frameHeight="858"/>
+	<SubTexture name="DAUN0003" x="2170" y="900" width="498" height="856" frameX="-7" frameY="0" frameWidth="505" frameHeight="858"/>
+	<SubTexture name="DAUN0004" x="2170" y="900" width="498" height="856" frameX="-7" frameY="0" frameWidth="505" frameHeight="858"/>
+	<SubTexture name="DAUN0005" x="2170" y="900" width="498" height="856" frameX="-7" frameY="0" frameWidth="505" frameHeight="858"/>
+	<SubTexture name="DAUN0006" x="2170" y="900" width="498" height="856" frameX="-7" frameY="0" frameWidth="505" frameHeight="858"/>
+	<SubTexture name="DAUN0007" x="2170" y="900" width="498" height="856" frameX="-7" frameY="0" frameWidth="505" frameHeight="858"/>
+	<SubTexture name="DAUN ALT0000" x="2670" y="897" width="500" height="846" frameX="0" frameY="-10" frameWidth="500" frameHeight="856"/>
+	<SubTexture name="DAUN ALT0001" x="2670" y="897" width="500" height="846" frameX="0" frameY="-10" frameWidth="500" frameHeight="856"/>
+	<SubTexture name="DAUN ALT0002" x="3172" y="886" width="493" height="854" frameX="-7" frameY="0" frameWidth="500" frameHeight="856"/>
+	<SubTexture name="DAUN ALT0003" x="3172" y="886" width="493" height="854" frameX="-7" frameY="0" frameWidth="500" frameHeight="856"/>
+	<SubTexture name="DAUN ALT0004" x="3172" y="886" width="493" height="854" frameX="-7" frameY="0" frameWidth="500" frameHeight="856"/>
+	<SubTexture name="DAUN ALT0005" x="3172" y="886" width="493" height="854" frameX="-7" frameY="0" frameWidth="500" frameHeight="856"/>
+	<SubTexture name="DAUN ALT0006" x="3172" y="886" width="493" height="854" frameX="-7" frameY="0" frameWidth="500" frameHeight="856"/>
+	<SubTexture name="DAUN ALT0007" x="3172" y="886" width="493" height="854" frameX="-7" frameY="0" frameWidth="500" frameHeight="856"/>
+	<SubTexture name="DAUN ALT0008" x="3172" y="886" width="493" height="854" frameX="-7" frameY="0" frameWidth="500" frameHeight="856"/>
+	<SubTexture name="DAUN ALT0009" x="3172" y="886" width="493" height="854" frameX="-7" frameY="0" frameWidth="500" frameHeight="856"/>
+	<SubTexture name="DAUN ALT0010" x="3172" y="886" width="493" height="854" frameX="-7" frameY="0" frameWidth="500" frameHeight="856"/>
+	<SubTexture name="DAUN ALT0011" x="3172" y="886" width="493" height="854" frameX="-7" frameY="0" frameWidth="500" frameHeight="856"/>
+	<SubTexture name="DAUN ALT0012" x="3172" y="886" width="493" height="854" frameX="-7" frameY="0" frameWidth="500" frameHeight="856"/>
+	<SubTexture name="DAUN ALT0013" x="3172" y="886" width="493" height="854" frameX="-7" frameY="0" frameWidth="500" frameHeight="856"/>
+	<SubTexture name="DAUN ALT0014" x="3172" y="886" width="493" height="854" frameX="-7" frameY="0" frameWidth="500" frameHeight="856"/>
+	<SubTexture name="DAUN ALT0015" x="3172" y="886" width="493" height="854" frameX="-7" frameY="0" frameWidth="500" frameHeight="856"/>
+	<SubTexture name="DAUN ALT0016" x="3172" y="886" width="493" height="854" frameX="-7" frameY="0" frameWidth="500" frameHeight="856"/>
+	<SubTexture name="DAUN ALT0017" x="3172" y="886" width="493" height="854" frameX="-7" frameY="0" frameWidth="500" frameHeight="856"/>
+	<SubTexture name="DAUN ALT0018" x="3172" y="886" width="493" height="854" frameX="-7" frameY="0" frameWidth="500" frameHeight="856"/>
+	<SubTexture name="DAUN ALT0019" x="3172" y="886" width="493" height="854" frameX="-7" frameY="0" frameWidth="500" frameHeight="856"/>
+	<SubTexture name="DAUN ALT0020" x="3172" y="886" width="493" height="854" frameX="-7" frameY="0" frameWidth="500" frameHeight="856"/>
+	<SubTexture name="DAUN ALT0021" x="3172" y="886" width="493" height="854" frameX="-7" frameY="0" frameWidth="500" frameHeight="856"/>
+	<SubTexture name="DAUN ALT0022" x="3172" y="886" width="493" height="854" frameX="-7" frameY="0" frameWidth="500" frameHeight="856"/>
+	<SubTexture name="DAUN ALT0023" x="3172" y="886" width="493" height="854" frameX="-7" frameY="0" frameWidth="500" frameHeight="856"/>
+	<SubTexture name="DAUN ALT0024" x="3172" y="886" width="493" height="854" frameX="-7" frameY="0" frameWidth="500" frameHeight="856"/>
+	<SubTexture name="DAUN ALT0025" x="3172" y="886" width="493" height="854" frameX="-7" frameY="0" frameWidth="500" frameHeight="856"/>
+	<SubTexture name="DAUN ALT0026" x="3172" y="886" width="493" height="854" frameX="-7" frameY="0" frameWidth="500" frameHeight="856"/>
+	<SubTexture name="DAUN ALT0027" x="3172" y="886" width="493" height="854" frameX="-7" frameY="0" frameWidth="500" frameHeight="856"/>
+	<SubTexture name="DAUN ALT0028" x="3172" y="886" width="493" height="854" frameX="-7" frameY="0" frameWidth="500" frameHeight="856"/>
+	<SubTexture name="DAUN ALT0029" x="3172" y="886" width="493" height="854" frameX="-7" frameY="0" frameWidth="500" frameHeight="856"/>
+	<SubTexture name="IDLE0000" x="1149" y="904" width="512" height="874" frameX="-6" frameY="-11" frameWidth="518" frameHeight="885"/>
+	<SubTexture name="IDLE0001" x="1149" y="904" width="512" height="874" frameX="-6" frameY="-11" frameWidth="518" frameHeight="885"/>
+	<SubTexture name="IDLE0002" x="4832" y="0" width="515" height="877" frameX="0" frameY="-7" frameWidth="518" frameHeight="885"/>
+	<SubTexture name="IDLE0003" x="4832" y="0" width="515" height="877" frameX="0" frameY="-7" frameWidth="518" frameHeight="885"/>
+	<SubTexture name="IDLE0004" x="3803" y="0" width="514" height="881" frameX="-1" frameY="-3" frameWidth="518" frameHeight="885"/>
+	<SubTexture name="IDLE0005" x="3803" y="0" width="514" height="881" frameX="-1" frameY="-3" frameWidth="518" frameHeight="885"/>
+	<SubTexture name="IDLE0006" x="638" y="904" width="509" height="884" frameX="-6" frameY="0" frameWidth="518" frameHeight="885"/>
+	<SubTexture name="IDLE0007" x="638" y="904" width="509" height="884" frameX="-6" frameY="0" frameWidth="518" frameHeight="885"/>
+	<SubTexture name="IDLE0008" x="4319" y="0" width="511" height="884" frameX="-6" frameY="0" frameWidth="518" frameHeight="885"/>
+	<SubTexture name="IDLE0009" x="4319" y="0" width="511" height="884" frameX="-6" frameY="0" frameWidth="518" frameHeight="885"/>
+	<SubTexture name="IDLE0010" x="4319" y="0" width="511" height="884" frameX="-6" frameY="0" frameWidth="518" frameHeight="885"/>
+	<SubTexture name="IDLE0011" x="4319" y="0" width="511" height="884" frameX="-6" frameY="0" frameWidth="518" frameHeight="885"/>
+	<SubTexture name="IDLE0012" x="4319" y="0" width="511" height="884" frameX="-6" frameY="0" frameWidth="518" frameHeight="885"/>
+	<SubTexture name="IDLE0013" x="4319" y="0" width="511" height="884" frameX="-6" frameY="0" frameWidth="518" frameHeight="885"/>
+	<SubTexture name="LEVO0000" x="4129" y="886" width="458" height="870" frameX="0" frameY="-4" frameWidth="464" frameHeight="875"/>
+	<SubTexture name="LEVO0001" x="4129" y="886" width="458" height="870" frameX="0" frameY="-4" frameWidth="464" frameHeight="875"/>
+	<SubTexture name="LEVO0002" x="3667" y="885" width="460" height="875" frameX="-4" frameY="0" frameWidth="464" frameHeight="875"/>
+	<SubTexture name="LEVO0003" x="3667" y="885" width="460" height="875" frameX="-4" frameY="0" frameWidth="464" frameHeight="875"/>
+	<SubTexture name="LEVO0004" x="3667" y="885" width="460" height="875" frameX="-4" frameY="0" frameWidth="464" frameHeight="875"/>
+	<SubTexture name="LEVO0005" x="3667" y="885" width="460" height="875" frameX="-4" frameY="0" frameWidth="464" frameHeight="875"/>
+	<SubTexture name="LEVO0006" x="3667" y="885" width="460" height="875" frameX="-4" frameY="0" frameWidth="464" frameHeight="875"/>
+	<SubTexture name="LEVO0007" x="3667" y="885" width="460" height="875" frameX="-4" frameY="0" frameWidth="464" frameHeight="875"/>
+	<SubTexture name="LEVO ALT0000" x="5042" y="879" width="439" height="860" frameX="-4" frameY="-10" frameWidth="451" frameHeight="871"/>
+	<SubTexture name="LEVO ALT0001" x="5042" y="879" width="439" height="860" frameX="-4" frameY="-10" frameWidth="451" frameHeight="871"/>
+	<SubTexture name="LEVO ALT0002" x="4589" y="886" width="451" height="871"/>
+	<SubTexture name="LEVO ALT0003" x="4589" y="886" width="451" height="871"/>
+	<SubTexture name="LEVO ALT0004" x="4589" y="886" width="451" height="871"/>
+	<SubTexture name="LEVO ALT0005" x="4589" y="886" width="451" height="871"/>
+	<SubTexture name="LEVO ALT0006" x="4589" y="886" width="451" height="871"/>
+	<SubTexture name="LEVO ALT0007" x="4589" y="886" width="451" height="871"/>
+	<SubTexture name="LEVO ALT0008" x="4589" y="886" width="451" height="871"/>
+	<SubTexture name="LEVO ALT0009" x="4589" y="886" width="451" height="871"/>
+	<SubTexture name="LEVO ALT0010" x="4589" y="886" width="451" height="871"/>
+	<SubTexture name="LEVO ALT0011" x="4589" y="886" width="451" height="871"/>
+	<SubTexture name="LEVO ALT0012" x="4589" y="886" width="451" height="871"/>
+	<SubTexture name="LEVO ALT0013" x="4589" y="886" width="451" height="871"/>
+	<SubTexture name="LEVO ALT0014" x="4589" y="886" width="451" height="871"/>
+	<SubTexture name="LEVO ALT0015" x="4589" y="886" width="451" height="871"/>
+	<SubTexture name="LEVO ALT0016" x="4589" y="886" width="451" height="871"/>
+	<SubTexture name="LEVO ALT0017" x="4589" y="886" width="451" height="871"/>
+	<SubTexture name="LEVO ALT0018" x="4589" y="886" width="451" height="871"/>
+	<SubTexture name="LEVO ALT0019" x="4589" y="886" width="451" height="871"/>
+	<SubTexture name="LEVO ALT0020" x="4589" y="886" width="451" height="871"/>
+	<SubTexture name="LEVO ALT0021" x="4589" y="886" width="451" height="871"/>
+	<SubTexture name="LEVO ALT0022" x="4589" y="886" width="451" height="871"/>
+	<SubTexture name="LEVO ALT0023" x="4589" y="886" width="451" height="871"/>
+	<SubTexture name="LEVO ALT0024" x="4589" y="886" width="451" height="871"/>
+	<SubTexture name="LEVO ALT0025" x="4589" y="886" width="451" height="871"/>
+	<SubTexture name="LEVO ALT0026" x="4589" y="886" width="451" height="871"/>
+	<SubTexture name="LEVO ALT0027" x="4589" y="886" width="451" height="871"/>
+	<SubTexture name="LEVO ALT0028" x="4589" y="886" width="451" height="871"/>
+	<SubTexture name="LEVO ALT0029" x="4589" y="886" width="451" height="871"/>
+	<SubTexture name="PRAvO0000" x="2756" y="0" width="526" height="884" frameX="-1" frameY="0" frameWidth="527" frameHeight="884"/>
+	<SubTexture name="PRAvO0001" x="2756" y="0" width="526" height="884" frameX="-1" frameY="0" frameWidth="527" frameHeight="884"/>
+	<SubTexture name="PRAvO0002" x="3284" y="0" width="517" height="883" frameX="0" frameY="-1" frameWidth="527" frameHeight="884"/>
+	<SubTexture name="PRAvO0003" x="3284" y="0" width="517" height="883" frameX="0" frameY="-1" frameWidth="527" frameHeight="884"/>
+	<SubTexture name="PRAvO0004" x="3284" y="0" width="517" height="883" frameX="0" frameY="-1" frameWidth="527" frameHeight="884"/>
+	<SubTexture name="PRAvO0005" x="3284" y="0" width="517" height="883" frameX="0" frameY="-1" frameWidth="527" frameHeight="884"/>
+	<SubTexture name="PRAvO0006" x="3284" y="0" width="517" height="883" frameX="0" frameY="-1" frameWidth="527" frameHeight="884"/>
+	<SubTexture name="PRAvO0007" x="3284" y="0" width="517" height="883" frameX="0" frameY="-1" frameWidth="527" frameHeight="884"/>
+	<SubTexture name="PRAvO ALT0000" x="0" y="0" width="650" height="881" frameX="-1" frameY="-2" frameWidth="651" frameHeight="883"/>
+	<SubTexture name="PRAvO ALT0001" x="0" y="0" width="650" height="881" frameX="-1" frameY="-2" frameWidth="651" frameHeight="883"/>
+	<SubTexture name="PRAvO ALT0002" x="0" y="883" width="636" height="883" frameX="0" frameY="0" frameWidth="651" frameHeight="883"/>
+	<SubTexture name="PRAvO ALT0003" x="0" y="883" width="636" height="883" frameX="0" frameY="0" frameWidth="651" frameHeight="883"/>
+	<SubTexture name="PRAvO ALT0004" x="0" y="883" width="636" height="883" frameX="0" frameY="0" frameWidth="651" frameHeight="883"/>
+	<SubTexture name="PRAvO ALT0005" x="0" y="883" width="636" height="883" frameX="0" frameY="0" frameWidth="651" frameHeight="883"/>
+	<SubTexture name="PRAvO ALT0006" x="0" y="883" width="636" height="883" frameX="0" frameY="0" frameWidth="651" frameHeight="883"/>
+	<SubTexture name="PRAvO ALT0007" x="0" y="883" width="636" height="883" frameX="0" frameY="0" frameWidth="651" frameHeight="883"/>
+	<SubTexture name="PRAvO ALT0008" x="0" y="883" width="636" height="883" frameX="0" frameY="0" frameWidth="651" frameHeight="883"/>
+	<SubTexture name="PRAvO ALT0009" x="0" y="883" width="636" height="883" frameX="0" frameY="0" frameWidth="651" frameHeight="883"/>
+	<SubTexture name="PRAvO ALT0010" x="0" y="883" width="636" height="883" frameX="0" frameY="0" frameWidth="651" frameHeight="883"/>
+	<SubTexture name="PRAvO ALT0011" x="0" y="883" width="636" height="883" frameX="0" frameY="0" frameWidth="651" frameHeight="883"/>
+	<SubTexture name="PRAvO ALT0012" x="0" y="883" width="636" height="883" frameX="0" frameY="0" frameWidth="651" frameHeight="883"/>
+	<SubTexture name="PRAvO ALT0013" x="0" y="883" width="636" height="883" frameX="0" frameY="0" frameWidth="651" frameHeight="883"/>
+	<SubTexture name="PRAvO ALT0014" x="0" y="883" width="636" height="883" frameX="0" frameY="0" frameWidth="651" frameHeight="883"/>
+	<SubTexture name="PRAvO ALT0015" x="0" y="883" width="636" height="883" frameX="0" frameY="0" frameWidth="651" frameHeight="883"/>
+	<SubTexture name="PRAvO ALT0016" x="0" y="883" width="636" height="883" frameX="0" frameY="0" frameWidth="651" frameHeight="883"/>
+	<SubTexture name="PRAvO ALT0017" x="0" y="883" width="636" height="883" frameX="0" frameY="0" frameWidth="651" frameHeight="883"/>
+	<SubTexture name="PRAvO ALT0018" x="0" y="883" width="636" height="883" frameX="0" frameY="0" frameWidth="651" frameHeight="883"/>
+	<SubTexture name="PRAvO ALT0019" x="0" y="883" width="636" height="883" frameX="0" frameY="0" frameWidth="651" frameHeight="883"/>
+	<SubTexture name="PRAvO ALT0020" x="0" y="883" width="636" height="883" frameX="0" frameY="0" frameWidth="651" frameHeight="883"/>
+	<SubTexture name="PRAvO ALT0021" x="0" y="883" width="636" height="883" frameX="0" frameY="0" frameWidth="651" frameHeight="883"/>
+	<SubTexture name="PRAvO ALT0022" x="0" y="883" width="636" height="883" frameX="0" frameY="0" frameWidth="651" frameHeight="883"/>
+	<SubTexture name="PRAvO ALT0023" x="0" y="883" width="636" height="883" frameX="0" frameY="0" frameWidth="651" frameHeight="883"/>
+	<SubTexture name="PRAvO ALT0024" x="0" y="883" width="636" height="883" frameX="0" frameY="0" frameWidth="651" frameHeight="883"/>
+	<SubTexture name="PRAvO ALT0025" x="0" y="883" width="636" height="883" frameX="0" frameY="0" frameWidth="651" frameHeight="883"/>
+	<SubTexture name="PRAvO ALT0026" x="0" y="883" width="636" height="883" frameX="0" frameY="0" frameWidth="651" frameHeight="883"/>
+	<SubTexture name="PRAvO ALT0027" x="0" y="883" width="636" height="883" frameX="0" frameY="0" frameWidth="651" frameHeight="883"/>
+	<SubTexture name="PRAvO ALT0028" x="0" y="883" width="636" height="883" frameX="0" frameY="0" frameWidth="651" frameHeight="883"/>
+	<SubTexture name="PRAvO ALT0029" x="0" y="883" width="636" height="883" frameX="0" frameY="0" frameWidth="651" frameHeight="883"/>
+	<SubTexture name="VERH0000" x="652" y="0" width="528" height="902" frameX="-3" frameY="0" frameWidth="531" frameHeight="902"/>
+	<SubTexture name="VERH0001" x="652" y="0" width="528" height="902" frameX="-3" frameY="0" frameWidth="531" frameHeight="902"/>
+	<SubTexture name="VERH0002" x="1182" y="0" width="525" height="900" frameX="0" frameY="-2" frameWidth="531" frameHeight="902"/>
+	<SubTexture name="VERH0003" x="1182" y="0" width="525" height="900" frameX="0" frameY="-2" frameWidth="531" frameHeight="902"/>
+	<SubTexture name="VERH0004" x="1182" y="0" width="525" height="900" frameX="0" frameY="-2" frameWidth="531" frameHeight="902"/>
+	<SubTexture name="VERH0005" x="1182" y="0" width="525" height="900" frameX="0" frameY="-2" frameWidth="531" frameHeight="902"/>
+	<SubTexture name="VERH0006" x="1182" y="0" width="525" height="900" frameX="0" frameY="-2" frameWidth="531" frameHeight="902"/>
+	<SubTexture name="VERH0007" x="1182" y="0" width="525" height="900" frameX="0" frameY="-2" frameWidth="531" frameHeight="902"/>
+	<SubTexture name="VERH ALT0000" x="2234" y="0" width="520" height="895" frameX="-4" frameY="-3" frameWidth="524" frameHeight="898"/>
+	<SubTexture name="VERH ALT0001" x="2234" y="0" width="520" height="895" frameX="-4" frameY="-3" frameWidth="524" frameHeight="898"/>
+	<SubTexture name="VERH ALT0002" x="1709" y="0" width="523" height="898" frameX="0" frameY="0" frameWidth="524" frameHeight="898"/>
+	<SubTexture name="VERH ALT0003" x="1709" y="0" width="523" height="898" frameX="0" frameY="0" frameWidth="524" frameHeight="898"/>
+	<SubTexture name="VERH ALT0004" x="1709" y="0" width="523" height="898" frameX="0" frameY="0" frameWidth="524" frameHeight="898"/>
+	<SubTexture name="VERH ALT0005" x="1709" y="0" width="523" height="898" frameX="0" frameY="0" frameWidth="524" frameHeight="898"/>
+	<SubTexture name="VERH ALT0006" x="1709" y="0" width="523" height="898" frameX="0" frameY="0" frameWidth="524" frameHeight="898"/>
+	<SubTexture name="VERH ALT0007" x="1709" y="0" width="523" height="898" frameX="0" frameY="0" frameWidth="524" frameHeight="898"/>
+	<SubTexture name="VERH ALT0008" x="1709" y="0" width="523" height="898" frameX="0" frameY="0" frameWidth="524" frameHeight="898"/>
+	<SubTexture name="VERH ALT0009" x="1709" y="0" width="523" height="898" frameX="0" frameY="0" frameWidth="524" frameHeight="898"/>
+	<SubTexture name="VERH ALT0010" x="1709" y="0" width="523" height="898" frameX="0" frameY="0" frameWidth="524" frameHeight="898"/>
+	<SubTexture name="VERH ALT0011" x="1709" y="0" width="523" height="898" frameX="0" frameY="0" frameWidth="524" frameHeight="898"/>
+	<SubTexture name="VERH ALT0012" x="1709" y="0" width="523" height="898" frameX="0" frameY="0" frameWidth="524" frameHeight="898"/>
+	<SubTexture name="VERH ALT0013" x="1709" y="0" width="523" height="898" frameX="0" frameY="0" frameWidth="524" frameHeight="898"/>
+	<SubTexture name="VERH ALT0014" x="1709" y="0" width="523" height="898" frameX="0" frameY="0" frameWidth="524" frameHeight="898"/>
+	<SubTexture name="VERH ALT0015" x="1709" y="0" width="523" height="898" frameX="0" frameY="0" frameWidth="524" frameHeight="898"/>
+	<SubTexture name="VERH ALT0016" x="1709" y="0" width="523" height="898" frameX="0" frameY="0" frameWidth="524" frameHeight="898"/>
+	<SubTexture name="VERH ALT0017" x="1709" y="0" width="523" height="898" frameX="0" frameY="0" frameWidth="524" frameHeight="898"/>
+	<SubTexture name="VERH ALT0018" x="1709" y="0" width="523" height="898" frameX="0" frameY="0" frameWidth="524" frameHeight="898"/>
+	<SubTexture name="VERH ALT0019" x="1709" y="0" width="523" height="898" frameX="0" frameY="0" frameWidth="524" frameHeight="898"/>
+	<SubTexture name="VERH ALT0020" x="1709" y="0" width="523" height="898" frameX="0" frameY="0" frameWidth="524" frameHeight="898"/>
+	<SubTexture name="VERH ALT0021" x="1709" y="0" width="523" height="898" frameX="0" frameY="0" frameWidth="524" frameHeight="898"/>
+	<SubTexture name="VERH ALT0022" x="1709" y="0" width="523" height="898" frameX="0" frameY="0" frameWidth="524" frameHeight="898"/>
+	<SubTexture name="VERH ALT0023" x="1709" y="0" width="523" height="898" frameX="0" frameY="0" frameWidth="524" frameHeight="898"/>
+	<SubTexture name="VERH ALT0024" x="1709" y="0" width="523" height="898" frameX="0" frameY="0" frameWidth="524" frameHeight="898"/>
+	<SubTexture name="VERH ALT0025" x="1709" y="0" width="523" height="898" frameX="0" frameY="0" frameWidth="524" frameHeight="898"/>
+	<SubTexture name="VERH ALT0026" x="1709" y="0" width="523" height="898" frameX="0" frameY="0" frameWidth="524" frameHeight="898"/>
+	<SubTexture name="VERH ALT0027" x="1709" y="0" width="523" height="898" frameX="0" frameY="0" frameWidth="524" frameHeight="898"/>
+	<SubTexture name="VERH ALT0028" x="1709" y="0" width="523" height="898" frameX="0" frameY="0" frameWidth="524" frameHeight="898"/>
+	<SubTexture name="VERH ALT0029" x="1709" y="0" width="523" height="898" frameX="0" frameY="0" frameWidth="524" frameHeight="898"/>
+</TextureAtlas>

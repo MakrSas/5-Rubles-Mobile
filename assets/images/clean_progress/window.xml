@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 DEV https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="окно.png" width="3904" height="1917" spritePadding="2" borderPadding="0">
+	<SubTexture name="окно появление0000" x="0" y="0" width="1288" height="782" frameX="-122" frameY="-13" frameWidth="1288" frameHeight="784"/>
+	<SubTexture name="окно появление0001" x="1290" y="0" width="1242" height="668" frameX="-1" frameY="-2" frameWidth="1288" frameHeight="784"/>
+	<SubTexture name="окно появление0002" x="1290" y="0" width="1242" height="668" frameX="-1" frameY="-2" frameWidth="1288" frameHeight="784"/>
+	<SubTexture name="окно появление0003" x="2534" y="0" width="1166" height="650" frameX="-40" frameY="-15" frameWidth="1288" frameHeight="784"/>
+	<SubTexture name="окно появление0004" x="0" y="784" width="1123" height="608" frameX="-70" frameY="-13" frameWidth="1288" frameHeight="784"/>
+	<SubTexture name="окно появление0005" x="1125" y="784" width="1059" height="594" frameX="-83" frameY="-15" frameWidth="1288" frameHeight="784"/>
+	<SubTexture name="окно появление0006" x="2186" y="784" width="995" height="582" frameX="-144" frameY="-27" frameWidth="1288" frameHeight="784"/>
+	<SubTexture name="окно статичное0000" x="3183" y="784" width="721" height="520" frameX="-5" frameY="-1" frameWidth="727" frameHeight="527"/>
+	<SubTexture name="окно статичное0001" x="0" y="1394" width="722" height="523" frameX="0" frameY="-4" frameWidth="727" frameHeight="527"/>
+	<SubTexture name="окно статичное0002" x="724" y="1394" width="716" height="511" frameX="-9" frameY="-9" frameWidth="727" frameHeight="527"/>
+	<SubTexture name="окно статичное0003" x="1442" y="1394" width="721" height="520" frameX="-5" frameY="0" frameWidth="727" frameHeight="527"/>
+	<SubTexture name="окно статичное0004" x="2165" y="1394" width="721" height="523" frameX="0" frameY="-4" frameWidth="727" frameHeight="527"/>
+	<SubTexture name="окно статичное0005" x="2888" y="1394" width="719" height="513" frameX="-6" frameY="-8" frameWidth="727" frameHeight="527"/>
+</TextureAtlas>

@@ -1,0 +1,9 @@
+images/under_construction/death_scene/*
+images/under_construction/phase2/*
+images/under_construction/phase3/*
+images/under_construction/phase4/*
+images/under_construction/phase5/*
+images/under_construction/*
+videos/liryc sigma.mp4
+videos/uc intro.mp4
+videos/uc GDE.mp4

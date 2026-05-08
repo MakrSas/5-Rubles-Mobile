@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="credits_bt.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="credits_break0000" x="284" y="474" width="262" height="121"/>
+	<SubTexture name="credits_break0001" x="548" y="474" width="233" height="103" frameX="-17" frameY="-1" frameWidth="262" frameHeight="121"/>
+	<SubTexture name="credits_break0002" x="548" y="474" width="233" height="103" frameX="-17" frameY="-1" frameWidth="262" frameHeight="121"/>
+	<SubTexture name="credits_break0003" x="0" y="501" width="247" height="104" frameX="-11" frameY="-1" frameWidth="262" frameHeight="121"/>
+	<SubTexture name="credits_break0004" x="0" y="501" width="247" height="104" frameX="-11" frameY="-1" frameWidth="262" frameHeight="121"/>
+	<SubTexture name="credits_break0005" x="0" y="501" width="247" height="104" frameX="-11" frameY="-1" frameWidth="262" frameHeight="121"/>
+	<SubTexture name="credits_break0006" x="0" y="501" width="247" height="104" frameX="-11" frameY="-1" frameWidth="262" frameHeight="121"/>
+	<SubTexture name="credits_break0007" x="0" y="501" width="247" height="104" frameX="-11" frameY="-1" frameWidth="262" frameHeight="121"/>
+	<SubTexture name="credits_break0008" x="0" y="501" width="247" height="104" frameX="-11" frameY="-1" frameWidth="262" frameHeight="121"/>
+	<SubTexture name="credits_break0009" x="0" y="501" width="247" height="104" frameX="-11" frameY="-1" frameWidth="262" frameHeight="121"/>
+	<SubTexture name="credits_idle0000" x="317" y="351" width="283" height="121" frameX="0" frameY="-2" frameWidth="283" frameHeight="123"/>
+	<SubTexture name="credits_idle0001" x="317" y="351" width="283" height="121" frameX="0" frameY="-2" frameWidth="283" frameHeight="123"/>
+	<SubTexture name="credits_idle0002" x="317" y="351" width="283" height="121" frameX="0" frameY="-2" frameWidth="283" frameHeight="123"/>
+	<SubTexture name="credits_idle0003" x="317" y="351" width="283" height="121" frameX="0" frameY="-2" frameWidth="283" frameHeight="123"/>
+	<SubTexture name="credits_idle0004" x="317" y="351" width="283" height="121" frameX="0" frameY="-2" frameWidth="283" frameHeight="123"/>
+	<SubTexture name="credits_idle0005" x="0" y="378" width="282" height="121" frameX="-1" frameY="-1" frameWidth="283" frameHeight="123"/>
+	<SubTexture name="credits_idle0006" x="0" y="378" width="282" height="121" frameX="-1" frameY="-1" frameWidth="283" frameHeight="123"/>
+	<SubTexture name="credits_idle0007" x="0" y="378" width="282" height="121" frameX="-1" frameY="-1" frameWidth="283" frameHeight="123"/>
+	<SubTexture name="credits_idle0008" x="0" y="378" width="282" height="121" frameX="-1" frameY="-1" frameWidth="283" frameHeight="123"/>
+	<SubTexture name="credits_idle0009" x="0" y="378" width="282" height="121" frameX="-1" frameY="-1" frameWidth="283" frameHeight="123"/>
+	<SubTexture name="credits_idle0010" x="317" y="227" width="282" height="122" frameX="-1" frameY="0" frameWidth="283" frameHeight="123"/>
+	<SubTexture name="credits_idle0011" x="317" y="227" width="282" height="122" frameX="-1" frameY="0" frameWidth="283" frameHeight="123"/>
+	<SubTexture name="credits_idle0012" x="317" y="227" width="282" height="122" frameX="-1" frameY="0" frameWidth="283" frameHeight="123"/>
+	<SubTexture name="credits_idle0013" x="317" y="227" width="282" height="122" frameX="-1" frameY="0" frameWidth="283" frameHeight="123"/>
+	<SubTexture name="credits_idle0014" x="317" y="227" width="282" height="122" frameX="-1" frameY="0" frameWidth="283" frameHeight="123"/>
+	<SubTexture name="credits_selected0000" x="430" y="0" width="361" height="225" frameX="-35" frameY="0" frameWidth="428" frameHeight="241"/>
+	<SubTexture name="credits_selected0001" x="430" y="0" width="361" height="225" frameX="-35" frameY="0" frameWidth="428" frameHeight="241"/>
+	<SubTexture name="credits_selected0002" x="430" y="0" width="361" height="225" frameX="-35" frameY="0" frameWidth="428" frameHeight="241"/>
+	<SubTexture name="credits_selected0003" x="0" y="205" width="315" height="171" frameX="-70" frameY="-36" frameWidth="428" frameHeight="241"/>
+	<SubTexture name="credits_selected0004" x="0" y="205" width="315" height="171" frameX="-70" frameY="-36" frameWidth="428" frameHeight="241"/>
+	<SubTexture name="credits_selected0005" x="0" y="205" width="315" height="171" frameX="-70" frameY="-36" frameWidth="428" frameHeight="241"/>
+	<SubTexture name="credits_selected0006" x="0" y="0" width="428" height="203" frameX="0" frameY="-38" frameWidth="428" frameHeight="241"/>
+	<SubTexture name="credits_selected0007" x="0" y="0" width="428" height="203" frameX="0" frameY="-38" frameWidth="428" frameHeight="241"/>
+	<SubTexture name="credits_selected0008" x="0" y="0" width="428" height="203" frameX="0" frameY="-38" frameWidth="428" frameHeight="241"/>
+	<SubTexture name="credits_selected0009" x="0" y="205" width="315" height="171" frameX="-70" frameY="-36" frameWidth="428" frameHeight="241"/>
+	<SubTexture name="credits_selected0010" x="0" y="205" width="315" height="171" frameX="-70" frameY="-36" frameWidth="428" frameHeight="241"/>
+	<SubTexture name="credits_selected0011" x="0" y="205" width="315" height="171" frameX="-70" frameY="-36" frameWidth="428" frameHeight="241"/>
+</TextureAtlas>

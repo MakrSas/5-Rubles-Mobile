@@ -1,0 +1,30 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				17,
+				-42.2
+			],
+			"name": "Символ 1 образец 1",
+			"anim": "idle"
+		}
+	],
+	"image": "characters/rofls/5rofuls",
+	"position": [
+		-14,
+		-140
+	],
+	"healthicon": "rubleWay",
+	"flip_x": true,
+	"healthbar_colors": [
+		104,
+		107,
+		147
+	],
+	"camera_position": [
+		398,
+		132
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

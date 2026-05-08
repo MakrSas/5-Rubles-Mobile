@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="void.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="пошел козлик instance 10000" x="0" y="0" width="395" height="494" frameX="-8" frameY="0" frameWidth="403" frameHeight="494"/>
+	<SubTexture name="пошел козлик instance 10001" x="0" y="0" width="395" height="494" frameX="-8" frameY="0" frameWidth="403" frameHeight="494"/>
+	<SubTexture name="пошел козлик instance 10002" x="0" y="0" width="395" height="494" frameX="-8" frameY="0" frameWidth="403" frameHeight="494"/>
+	<SubTexture name="пошел козлик instance 10003" x="0" y="0" width="395" height="494" frameX="-8" frameY="0" frameWidth="403" frameHeight="494"/>
+	<SubTexture name="пошел козлик instance 10004" x="0" y="0" width="395" height="494" frameX="-8" frameY="0" frameWidth="403" frameHeight="494"/>
+	<SubTexture name="пошел козлик instance 10005" x="0" y="0" width="395" height="494" frameX="-8" frameY="0" frameWidth="403" frameHeight="494"/>
+	<SubTexture name="пошел козлик instance 10006" x="0" y="0" width="395" height="494" frameX="-8" frameY="0" frameWidth="403" frameHeight="494"/>
+	<SubTexture name="пошел козлик instance 10007" x="397" y="0" width="401" height="474" frameX="0" frameY="-7" frameWidth="403" frameHeight="494"/>
+	<SubTexture name="пошел козлик instance 10008" x="397" y="0" width="401" height="474" frameX="0" frameY="-7" frameWidth="403" frameHeight="494"/>
+	<SubTexture name="пошел козлик instance 10009" x="397" y="0" width="401" height="474" frameX="0" frameY="-7" frameWidth="403" frameHeight="494"/>
+	<SubTexture name="пошел козлик instance 10010" x="397" y="0" width="401" height="474" frameX="0" frameY="-7" frameWidth="403" frameHeight="494"/>
+	<SubTexture name="пошел козлик instance 10011" x="397" y="0" width="401" height="474" frameX="0" frameY="-7" frameWidth="403" frameHeight="494"/>
+	<SubTexture name="пошел козлик instance 10012" x="397" y="0" width="401" height="474" frameX="0" frameY="-7" frameWidth="403" frameHeight="494"/>
+	<SubTexture name="пошел козлик instance 10013" x="397" y="0" width="401" height="474" frameX="0" frameY="-7" frameWidth="403" frameHeight="494"/>
+	<SubTexture name="пошел козлик instance 10014" x="0" y="0" width="395" height="494" frameX="-8" frameY="0" frameWidth="403" frameHeight="494"/>
+	<SubTexture name="пошел козлик instance 10015" x="0" y="0" width="395" height="494" frameX="-8" frameY="0" frameWidth="403" frameHeight="494"/>
+	<SubTexture name="пошел козлик instance 10016" x="0" y="0" width="395" height="494" frameX="-8" frameY="0" frameWidth="403" frameHeight="494"/>
+	<SubTexture name="пошел козлик instance 10017" x="0" y="0" width="395" height="494" frameX="-8" frameY="0" frameWidth="403" frameHeight="494"/>
+	<SubTexture name="пошел козлик instance 10018" x="0" y="0" width="395" height="494" frameX="-8" frameY="0" frameWidth="403" frameHeight="494"/>
+	<SubTexture name="пошел козлик instance 10019" x="0" y="0" width="395" height="494" frameX="-8" frameY="0" frameWidth="403" frameHeight="494"/>
+	<SubTexture name="пошел козлик instance 10020" x="0" y="0" width="395" height="494" frameX="-8" frameY="0" frameWidth="403" frameHeight="494"/>
+	<SubTexture name="пошел козлик instance 10021" x="800" y="0" width="399" height="461" frameX="0" frameY="-7" frameWidth="403" frameHeight="494"/>
+	<SubTexture name="пошел козлик instance 10022" x="800" y="0" width="399" height="461" frameX="0" frameY="-7" frameWidth="403" frameHeight="494"/>
+	<SubTexture name="пошел козлик instance 10023" x="800" y="0" width="399" height="461" frameX="0" frameY="-7" frameWidth="403" frameHeight="494"/>
+	<SubTexture name="пошел козлик instance 10024" x="800" y="0" width="399" height="461" frameX="0" frameY="-7" frameWidth="403" frameHeight="494"/>
+	<SubTexture name="пошел козлик instance 10025" x="800" y="0" width="399" height="461" frameX="0" frameY="-7" frameWidth="403" frameHeight="494"/>
+	<SubTexture name="пошел козлик instance 10026" x="800" y="0" width="399" height="461" frameX="0" frameY="-7" frameWidth="403" frameHeight="494"/>
+	<SubTexture name="пошел козлик instance 10027" x="800" y="0" width="399" height="461" frameX="0" frameY="-7" frameWidth="403" frameHeight="494"/>
+</TextureAtlas>

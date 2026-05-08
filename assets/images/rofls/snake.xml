@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="snake.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="пур снай0000" x="328" y="733" width="326" height="724" frameX="0" frameY="-5" frameWidth="329" frameHeight="729"/>
+	<SubTexture name="пур снай0001" x="328" y="733" width="326" height="724" frameX="0" frameY="-5" frameWidth="329" frameHeight="729"/>
+	<SubTexture name="пур снай0002" x="655" y="0" width="326" height="724" frameX="-1" frameY="-5" frameWidth="329" frameHeight="729"/>
+	<SubTexture name="пур снай0003" x="655" y="0" width="326" height="724" frameX="-1" frameY="-5" frameWidth="329" frameHeight="729"/>
+	<SubTexture name="пур снай0004" x="983" y="0" width="323" height="729" frameX="-2" frameY="0" frameWidth="329" frameHeight="729"/>
+	<SubTexture name="пур снай0005" x="983" y="0" width="323" height="729" frameX="-2" frameY="0" frameWidth="329" frameHeight="729"/>
+	<SubTexture name="пур снай0006" x="656" y="731" width="323" height="729" frameX="-2" frameY="0" frameWidth="329" frameHeight="729"/>
+	<SubTexture name="пур снай0007" x="656" y="731" width="323" height="729" frameX="-2" frameY="0" frameWidth="329" frameHeight="729"/>
+	<SubTexture name="пур снай0008" x="656" y="731" width="323" height="729" frameX="-2" frameY="0" frameWidth="329" frameHeight="729"/>
+	<SubTexture name="пур снай0009" x="0" y="0" width="328" height="726" frameX="-1" frameY="-3" frameWidth="329" frameHeight="729"/>
+	<SubTexture name="пур снай0010" x="0" y="0" width="328" height="726" frameX="-1" frameY="-3" frameWidth="329" frameHeight="729"/>
+	<SubTexture name="пур снай0011" x="0" y="728" width="326" height="726" frameX="-2" frameY="-3" frameWidth="329" frameHeight="729"/>
+	<SubTexture name="пур снай0012" x="0" y="728" width="326" height="726" frameX="-2" frameY="-3" frameWidth="329" frameHeight="729"/>
+	<SubTexture name="пур снай0013" x="981" y="731" width="323" height="729" frameX="-2" frameY="0" frameWidth="329" frameHeight="729"/>
+	<SubTexture name="пур снай0014" x="981" y="731" width="323" height="729" frameX="-2" frameY="0" frameWidth="329" frameHeight="729"/>
+	<SubTexture name="пур снай0015" x="656" y="731" width="323" height="729" frameX="-2" frameY="0" frameWidth="329" frameHeight="729"/>
+	<SubTexture name="пур снай0016" x="656" y="731" width="323" height="729" frameX="-2" frameY="0" frameWidth="329" frameHeight="729"/>
+	<SubTexture name="пур снай0017" x="656" y="731" width="323" height="729" frameX="-2" frameY="0" frameWidth="329" frameHeight="729"/>
+	<SubTexture name="пур снай СМЕРТЬ0000" x="330" y="0" width="323" height="731"/>
+</TextureAtlas>

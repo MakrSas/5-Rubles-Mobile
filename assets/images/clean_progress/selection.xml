@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 DEV https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="выбор.png" width="364" height="433" spritePadding="2" borderPadding="0">
+	<SubTexture name="да русский0000" x="282" y="0" width="67" height="165" rotated="true" frameX="0" frameY="0" frameWidth="165" frameHeight="67"/>
+	<SubTexture name="да русский0001" x="282" y="0" width="67" height="165" rotated="true" frameX="0" frameY="0" frameWidth="165" frameHeight="67"/>
+	<SubTexture name="да русский0002" x="282" y="0" width="67" height="165" rotated="true" frameX="0" frameY="0" frameWidth="165" frameHeight="67"/>
+	<SubTexture name="да русский0003" x="0" y="195" width="67" height="164" rotated="true" frameX="-1" frameY="-1" frameWidth="165" frameHeight="67"/>
+	<SubTexture name="да русский0004" x="0" y="195" width="67" height="164" rotated="true" frameX="-1" frameY="-1" frameWidth="165" frameHeight="67"/>
+	<SubTexture name="да русский0005" x="0" y="195" width="67" height="164" rotated="true" frameX="-1" frameY="-1" frameWidth="165" frameHeight="67"/>
+	<SubTexture name="да русский выбор0000" x="0" y="0" width="92" height="193" rotated="true" frameX="-5" frameY="-6" frameWidth="205" frameHeight="105"/>
+	<SubTexture name="да русский выбор0001" x="0" y="0" width="92" height="193" rotated="true" frameX="-5" frameY="-6" frameWidth="205" frameHeight="105"/>
+	<SubTexture name="да русский выбор0002" x="94" y="0" width="92" height="193" rotated="true" frameX="-5" frameY="-6" frameWidth="205" frameHeight="105"/>
+	<SubTexture name="да русский выбор0003" x="94" y="0" width="92" height="193" rotated="true" frameX="-5" frameY="-6" frameWidth="205" frameHeight="105"/>
+	<SubTexture name="да русский выбор0004" x="188" y="0" width="92" height="193" rotated="true" frameX="-5" frameY="-6" frameWidth="205" frameHeight="105"/>
+	<SubTexture name="да русский выбор0005" x="188" y="0" width="92" height="193" rotated="true" frameX="-5" frameY="-6" frameWidth="205" frameHeight="105"/>
+	<SubTexture name="нет русский0000" x="0" y="374" width="147" height="59" frameX="0" frameY="-1" frameWidth="147" frameHeight="60"/>
+	<SubTexture name="нет русский0001" x="0" y="374" width="147" height="59" frameX="0" frameY="-1" frameWidth="147" frameHeight="60"/>
+	<SubTexture name="нет русский0002" x="0" y="374" width="147" height="59" frameX="0" frameY="-1" frameWidth="147" frameHeight="60"/>
+	<SubTexture name="нет русский0003" x="149" y="374" width="147" height="57" frameX="-1" frameY="-1" frameWidth="147" frameHeight="60"/>
+	<SubTexture name="нет русский0004" x="149" y="374" width="147" height="57" frameX="-1" frameY="-1" frameWidth="147" frameHeight="60"/>
+	<SubTexture name="нет русский0005" x="149" y="374" width="147" height="57" frameX="-1" frameY="-1" frameWidth="147" frameHeight="60"/>
+	<SubTexture name="нет русский выбор0000" x="69" y="195" width="97" height="177" rotated="true" frameX="-4" frameY="-5" frameWidth="190" frameHeight="115"/>
+	<SubTexture name="нет русский выбор0001" x="69" y="195" width="97" height="177" rotated="true" frameX="-4" frameY="-5" frameWidth="190" frameHeight="115"/>
+	<SubTexture name="нет русский выбор0002" x="168" y="195" width="97" height="177" rotated="true" frameX="-4" frameY="-5" frameWidth="190" frameHeight="115"/>
+	<SubTexture name="нет русский выбор0003" x="168" y="195" width="97" height="177" rotated="true" frameX="-4" frameY="-5" frameWidth="190" frameHeight="115"/>
+	<SubTexture name="нет русский выбор0004" x="267" y="195" width="97" height="177" rotated="true" frameX="-4" frameY="-5" frameWidth="190" frameHeight="115"/>
+	<SubTexture name="нет русский выбор0005" x="267" y="195" width="97" height="177" rotated="true" frameX="-4" frameY="-5" frameWidth="190" frameHeight="115"/>
+</TextureAtlas>

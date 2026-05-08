@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="alikpiss.png">
+<SubTexture name="alikpiss idle0000" x="0" y="0" width="455" height="1282" frameX="-1006" frameY="-117" frameWidth="2667" frameHeight="1500" />
+<SubTexture name="alikpiss idle0001" x="0" y="0" width="455" height="1282" frameX="-1006" frameY="-117" frameWidth="2667" frameHeight="1500" />
+<SubTexture name="alikpiss idle0002" x="1727" y="1282" width="447" height="1194" frameX="-1010" frameY="-205" frameWidth="2667" frameHeight="1500" />
+<SubTexture name="alikpiss idle0003" x="1727" y="1282" width="447" height="1194" frameX="-1010" frameY="-205" frameWidth="2667" frameHeight="1500" />
+<SubTexture name="alikpiss idle0004" x="1293" y="1282" width="434" height="1220" frameX="-1017" frameY="-179" frameWidth="2667" frameHeight="1500" />
+<SubTexture name="alikpiss idle0005" x="1293" y="1282" width="434" height="1220" frameX="-1017" frameY="-179" frameWidth="2667" frameHeight="1500" />
+<SubTexture name="alikpiss idle0006" x="1732" y="0" width="426" height="1231" frameX="-1021" frameY="-168" frameWidth="2667" frameHeight="1500" />
+<SubTexture name="alikpiss idle0007" x="1732" y="0" width="426" height="1231" frameX="-1021" frameY="-168" frameWidth="2667" frameHeight="1500" />
+<SubTexture name="alikpiss left0000" x="857" y="1282" width="436" height="1221" frameX="-988" frameY="-178" frameWidth="2667" frameHeight="1500" />
+<SubTexture name="alikpiss left0001" x="857" y="1282" width="436" height="1221" frameX="-988" frameY="-178" frameWidth="2667" frameHeight="1500" />
+<SubTexture name="alikpiss left0002" x="2158" y="0" width="429" height="1228" frameX="-1002" frameY="-171" frameWidth="2667" frameHeight="1500" />
+<SubTexture name="alikpiss left0003" x="2158" y="0" width="429" height="1228" frameX="-1002" frameY="-171" frameWidth="2667" frameHeight="1500" />
+<SubTexture name="alikpiss down0000" x="455" y="0" width="447" height="1271" frameX="-1010" frameY="-128" frameWidth="2667" frameHeight="1500" />
+<SubTexture name="alikpiss down0001" x="455" y="0" width="447" height="1271" frameX="-1010" frameY="-128" frameWidth="2667" frameHeight="1500" />
+<SubTexture name="alikpiss down0002" x="2587" y="0" width="434" height="1194" frameX="-1017" frameY="-205" frameWidth="2667" frameHeight="1500" />
+<SubTexture name="alikpiss down0003" x="2587" y="0" width="434" height="1194" frameX="-1017" frameY="-205" frameWidth="2667" frameHeight="1500" />
+<SubTexture name="alikpiss up0000" x="902" y="0" width="411" height="1269" frameX="-1029" frameY="-130" frameWidth="2667" frameHeight="1500" />
+<SubTexture name="alikpiss up0001" x="902" y="0" width="411" height="1269" frameX="-1029" frameY="-130" frameWidth="2667" frameHeight="1500" />
+<SubTexture name="alikpiss up0002" x="1313" y="0" width="419" height="1248" frameX="-1025" frameY="-151" frameWidth="2667" frameHeight="1500" />
+<SubTexture name="alikpiss up0003" x="1313" y="0" width="419" height="1248" frameX="-1025" frameY="-151" frameWidth="2667" frameHeight="1500" />
+<SubTexture name="alikpiss right0000" x="0" y="1282" width="429" height="1224" frameX="-1043" frameY="-175" frameWidth="2667" frameHeight="1500" />
+<SubTexture name="alikpiss right0001" x="0" y="1282" width="429" height="1224" frameX="-1043" frameY="-175" frameWidth="2667" frameHeight="1500" />
+<SubTexture name="alikpiss right0002" x="429" y="1282" width="428" height="1224" frameX="-1033" frameY="-175" frameWidth="2667" frameHeight="1500" />
+<SubTexture name="alikpiss right0003" x="429" y="1282" width="428" height="1224" frameX="-1033" frameY="-175" frameWidth="2667" frameHeight="1500" />
+</TextureAtlas>

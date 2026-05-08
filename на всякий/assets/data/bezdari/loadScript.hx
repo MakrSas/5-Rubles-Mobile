@@ -1,0 +1,1 @@
+loadHScript(AssetsPaths.getPath("data/multiShit.hx")); dispose();

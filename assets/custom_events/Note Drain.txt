@@ -1,0 +1,5 @@
+Value 1: On/Off (Default: Off)
+Value 2: Options:
+   - Drain Bound Percent (Default: 10)
+   - Drain Multiplier (Default: 0.8)
+Value 3: Note Types (Default: All)

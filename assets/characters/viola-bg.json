@@ -1,0 +1,1 @@
+{"animations":[{"offsets":[-0.2,-1],"name":"death reaction","anim":"death"},{"loop":true,"name":"idle-loop","anim":"idle"},{"offsets":[-9,1.8],"name":"looking","anim":"look"}],"image":"characters/bezdari/Viola_BG","position":[0,0],"beatDance":2,"healthicon":"dad","healthbar_colors":[175,102,206],"camera_position":[0,0],"sing_duration":6.1,"scale":0.9}

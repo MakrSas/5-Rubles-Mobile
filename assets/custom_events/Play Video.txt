@@ -1,0 +1,3 @@
+value1: название видео
+value2: vlc опции
+value3: камера (по умолчанию: camOther)

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 DEV https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="bezdari_mixes_available.png" width="2528" height="695" spritePadding="2" borderPadding="0">
+	<SubTexture name="loop bezdari0000" x="0" y="0" width="1263" height="695" frameX="0" frameY="0" frameWidth="1263" frameHeight="695"/>
+	<SubTexture name="loop bezdari0001" x="0" y="0" width="1263" height="695" frameX="0" frameY="0" frameWidth="1263" frameHeight="695"/>
+	<SubTexture name="loop bezdari0002" x="0" y="0" width="1263" height="695" frameX="0" frameY="0" frameWidth="1263" frameHeight="695"/>
+	<SubTexture name="loop bezdari0003" x="0" y="0" width="1263" height="695" frameX="0" frameY="0" frameWidth="1263" frameHeight="695"/>
+	<SubTexture name="loop bezdari0004" x="1265" y="0" width="1263" height="695" frameX="0" frameY="0" frameWidth="1263" frameHeight="695"/>
+	<SubTexture name="loop bezdari0005" x="1265" y="0" width="1263" height="695" frameX="0" frameY="0" frameWidth="1263" frameHeight="695"/>
+	<SubTexture name="loop bezdari0006" x="1265" y="0" width="1263" height="695" frameX="0" frameY="0" frameWidth="1263" frameHeight="695"/>
+	<SubTexture name="loop bezdari0007" x="1265" y="0" width="1263" height="695" frameX="0" frameY="0" frameWidth="1263" frameHeight="695"/>
+</TextureAtlas>

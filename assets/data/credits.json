@@ -1,0 +1,266 @@
+{
+	"people": [
+		{
+			"name": "Matr4ss",
+			"image": "transitionSwag/stickers-set-1/matr4Ssticker0001",
+			"check": "credits/checks/check01",
+			"socials":
+			{
+				"telegram": "https://t.me/Matr4Ss",
+				"tiktok": "https://www.tiktok.com/@matr4ss/video/7065930768979086593",
+				"x": "https://x.com/Matr4Ss",
+				"twitch": "https://www.twitch.tv/matr4ss",
+				"youtube": "https://www.youtube.com/@Matr4Ss"
+			}
+		},
+		{
+			"name": "juztexd",
+			"image": "transitionSwag/stickers-set-1/juztexdSticker0001",
+			"check": "credits/checks/check02",
+			"socials":
+			{
+				"newgrounds": "https://juztexd.newgrounds.com",
+				"x": "https://x.com/juztexd",
+				"youtube": "https://youtube.com/@juztexd"
+			}
+		},
+		{
+			"name": "HopKa",
+			"image": "transitionSwag/stickers-set-1/hopkaSticker0002",
+			"yOffset": -3.5,
+			"check": "credits/checks/check06",
+			"socials":
+			{
+				"tiktok": "https://www.tiktok.com/@hopka_opka",
+				"telegram": "https://t.me/hopka_notes",
+				"x": "https://t.me/hopka_notes",
+				"youtube": "https://t.me/hopka_notes",
+				"twitch": "https://www.twitch.tv/hopka_opka"
+			}
+		},
+		{
+			"name": "naisonji",
+			"image": "transitionSwag/stickers-set-1/naisonjiSticker0001",
+			"check": "credits/checks/check05",
+			"socials":
+			{
+				"newgrounds": "https://naisonji11.newgrounds.com",
+				"telegram": "https://t.me/naisonji",
+				"x": "https://x.com/naisonji"
+			}
+		},
+		{
+			"name": "Xiavier",
+			"image": "transitionSwag/stickers-set-1/xiavierSticker0002",
+			"check": "credits/checks/check15",
+			"socials":
+			{
+				"telegram": "https://t.me/Xiavier_silly_ghost",
+				"newgrounds": "https://bermund.newgrounds.com",
+				"x": "https://x.com/Xiavier_ghost",
+				"youtube": "https://www.youtube.com/@Xiavier_Official"
+			}
+		},
+		{
+			"name": "d4rkwinged",
+			"image": "transitionSwag/stickers-set-1/d4rkwingedSticker0002",
+			"check": "credits/checks/check04",
+			"socials":
+			{
+				"x": "https://x.com/d4rkwinged",
+				"soundcloud": "https://soundcloud.com/dark-winged-24288577",
+				"youtube": "https://www.youtube.com/@d4rkwinged"
+			}
+		},
+		{
+			"name": "Magman",
+			"image": "transitionSwag/stickers-set-1/magmanSticker0001",
+			"check": "credits/checks/check03",
+			"socials":
+			{
+				"telegram": "https://t.me/magmansplace",
+				"x": "https://x.com/MoruMagman"
+			}
+		},
+		{
+			"name": "redar13",
+			"image": "transitionSwag/stickers-set-1/redarSticker0001",
+			"check": "credits/checks/check07",
+			"socials":
+			{
+				"telegram": "https://t.me/Redar13TGKanal",
+				"x": "https://x.com/Redar13176784",
+				"github": "https://github.com/Redar13"
+			}
+		},
+		{
+			"name": "richTrash21",
+			"image": "transitionSwag/stickers-set-1/richSticker0001",
+			"check": "credits/checks/check08",
+			"socials":
+			{
+				"newgrounds": "https://richtrash21.newgrounds.com/",
+				"telegram": "https://t.me/art_richTrash21",
+				"github": "https://github.com/richTrash21"
+			}
+		},
+		{
+			"name": "PurSnake",
+			"image": "transitionSwag/stickers-set-1/purSticker0001",
+			"check": "credits/checks/check09",
+			"socials":
+			{
+				"telegram": "https://t.me/pursnakescave",
+				"x": "https://x.com/PurSnake",
+				"github": "https://github.com/PurSnake"
+			}
+		},
+		{
+			"name": "Sector",
+			"image": "transitionSwag/stickers-set-1/sectorSticker0001",
+			"check": "credits/checks/check10",
+			"socials":
+			{
+				"telegram": "https://t.me/sssssctrb",
+				"github": "https://github.com/sector-a",
+				"youtube": "https://www.youtube.com/@sector_55721"
+			}
+		},
+		{
+			"name": "SwayTheDev",
+			"image": "transitionSwag/stickers-set-1/swaySticker0001",
+			"check": "credits/checks/check11",
+			"socials":
+			{
+				"telegram": "https://t.me/SwayTGC",
+				"newgrounds": "https://swaythedev.newgrounds.com/",
+				"x": "https://x.com/SwayTheDev",
+				"soundcloud": "https://on.soundcloud.com/uNRAnCPHtWZhX21d7",
+				"youtube": "https://youtube.com/@SALTED_MARM"
+			}
+		},
+		{
+			"name": "Amalgamat",
+			"image": "transitionSwag/stickers-set-1/amalgamatSticker0001",
+			"check": "credits/checks/check12",
+			"socials":
+			{
+				"newgrounds": "https://amalgamat.newgrounds.com/",
+				"x": "https://x.com/amalgamat4"
+			}
+		},
+		{
+			"name": "skarleryeah",
+			"image": "transitionSwag/stickers-set-1/skarlerSticker0001",
+			"check": "credits/checks/check13",
+			"socials":
+			{
+				"telegram": "https://t.me/skarlerobros",
+				"x": "https://x.com/skarleryeah?t=zMHXF0wdwUE418hxlAJ17w&s=09"
+			}
+		},
+		{
+			"name": "PivozavrikSay",
+			"image": "transitionSwag/stickers-set-1/pivozavrikSticker0004",
+			"check": "credits/checks/check14",
+			"socials":
+			{
+				"x": "https://x.com/PivozavrikovSay?t=zXBa7OofHwkEmWaMj32bDA&s=09",
+				"vk": "https://vk.com/pivozavriksayaanich"
+			}
+		},
+		{
+			"name": "g3hree",
+			"image": "transitionSwag/stickers-set-1/G3Sticker0001",
+			"check": "credits/checks/check16",
+			"socials":
+			{
+				"x": "https://x.com/g3hreebad",
+				"youtube": "https://www.youtube.com/channel/UCpn2u_63QUUNZ0oc00-Y7Aw"
+			}
+		},
+		{
+			"name": "kersive",
+			"image": "transitionSwag/stickers-set-1/kersiveSticker0001",
+			"check": "credits/checks/check17",
+			"socials":
+			{
+				"x": "https://x.com/KerSive0_0",
+				"youtube": "https://www.youtube.com/channel/UCHwyop_gioaS_JgEqDA7pPQ"
+			}
+		},
+		{
+			"name": "Alyaneshko",
+			"image": "transitionSwag/stickers-set-1/alyaneshkoSticker0001",
+			"check": "credits/checks/check18",
+			"socials":
+			{
+				"x": "https://x.com/TheAlyaneshko",
+				"youtube": "https://www.youtube.com/watch?v=s5m7OBkPJoU"
+			}
+		},
+		{
+			"name": "PukovichCat",
+			"image": "transitionSwag/stickers-set-1/pukovichSticker0001",
+			"check": "credits/checks/check19",
+			"socials":
+			{
+				"x": "https://x.com/PukovichCat?t=iy1sOE43cZLj4c3J8xlOGA&s=09",
+				"youtube": "https://youtube.com/@pukovichcat?si=WzdsTWe8OzwdPp_C"
+			}
+		},
+		{
+			"name": "simnsnd",
+			"image": "transitionSwag/stickers-set-1/simnSticker0001",
+			"check": "credits/checks/check20",
+			"socials":
+			{
+				"telegram": "https://t.me/simnsnd",
+				"newgrounds": "https://simnsnd.newgrounds.com/",
+				"tiktok": "https://tiktok.com/simnsnd",
+				"x": "https://x.com/simnsnd",
+				"soundcloud": "https://soundcloud.com/simnsnd",
+				"discord": "https://discord.gg/dS9DEnQ6Gh",
+				"twitch": "https://twitch.tv/simnsnd",
+				"youtube": "https://youtube.com/@simnsnd"
+			}
+		},
+		{
+			"name": "rofos",
+			"image": "transitionSwag/stickers-set-1/rofosSticker0001",
+			"check": "credits/checks/check21",
+			"socials":
+			{
+				"x": "https://x.com/HristoRofos",
+				"youtube": "https://www.youtube.com/channel/UCrmmU6n4OZK_1fSB04ZJe3A",
+				"soundcloud": "https://soundcloud.com/rofostered"
+			}
+		},
+		{
+			"name": "Lostel",
+			"image": "transitionSwag/stickers-set-1/lostelSticker0002",
+			"check": "credits/checks/check22",
+			"socials":
+			{
+				"x": "https://x.com/yaboilostel",
+				"soundcloud": "https://soundcloud.com/1lostel"
+			}
+		},
+		{
+			"name": "Leebert",
+			"image": "transitionSwag/stickers-set-1/leebertSticker0001",
+			"check": "credits/checks/check23",
+			"socials":
+			{
+				"x": "https://x.com/bruh_leebert",
+				"soundcloud": "https://soundcloud.com/user-812005192-899672170",
+				"youtube": "https://www.youtube.com/channel/UCSzpHkPa3u5wB7tbdH6fgSA"
+			}
+		},
+		{
+			"name": "Special Thanks",
+			"image": "transitionSwag/stickers-set-1/5rubles",
+			"check": "credits/checks/check24"
+		}
+	]
+}

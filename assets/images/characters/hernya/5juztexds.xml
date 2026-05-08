@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="5juztexds.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="juztexd idol0000" x="1525" y="1" width="502" height="834" frameX="0" frameY="-11" frameWidth="514" frameHeight="845"/>
+	<SubTexture name="juztexd idol0001" x="1525" y="1" width="502" height="834" frameX="0" frameY="-11" frameWidth="514" frameHeight="845"/>
+	<SubTexture name="juztexd idol0002" x="2028" y="1" width="496" height="835" frameX="-6" frameY="-10" frameWidth="514" frameHeight="845"/>
+	<SubTexture name="juztexd idol0003" x="2028" y="1" width="496" height="835" frameX="-6" frameY="-10" frameWidth="514" frameHeight="845"/>
+	<SubTexture name="juztexd idol0004" x="1023" y="1" width="501" height="841" frameX="-7" frameY="-4" frameWidth="514" frameHeight="845"/>
+	<SubTexture name="juztexd idol0005" x="1023" y="1" width="501" height="841" frameX="-7" frameY="-4" frameWidth="514" frameHeight="845"/>
+	<SubTexture name="juztexd idol0006" x="1" y="1" width="510" height="845" frameX="-4" frameY="0" frameWidth="514" frameHeight="845"/>
+	<SubTexture name="juztexd idol0007" x="1" y="1" width="510" height="845" frameX="-4" frameY="0" frameWidth="514" frameHeight="845"/>
+	<SubTexture name="juztexd idol0008" x="512" y="1" width="510" height="845" frameX="-4" frameY="0" frameWidth="514" frameHeight="845"/>
+	<SubTexture name="juztexd idol0009" x="512" y="1" width="510" height="845" frameX="-4" frameY="0" frameWidth="514" frameHeight="845"/>
+	<SubTexture name="juztexd idol0010" x="512" y="1" width="510" height="845" frameX="-4" frameY="0" frameWidth="514" frameHeight="845"/>
+	<SubTexture name="juztexd idol0011" x="512" y="1" width="510" height="845" frameX="-4" frameY="0" frameWidth="514" frameHeight="845"/>
+	<SubTexture name="juztexd idol0012" x="512" y="1" width="510" height="845" frameX="-4" frameY="0" frameWidth="514" frameHeight="845"/>
+	<SubTexture name="juztexd idol0013" x="512" y="1" width="510" height="845" frameX="-4" frameY="0" frameWidth="514" frameHeight="845"/>
+</TextureAtlas>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="kalail.png">
+	<!-- Created with Adobe Animate version 24.0.0.305 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="КАЛИЛ0000" x="2" y="2" width="329" height="547"/>
+	<SubTexture name="КАЛИЛ0001" x="2" y="2" width="329" height="547"/>
+	<SubTexture name="КАЛИЛ0002" x="2" y="2" width="329" height="547"/>
+	<SubTexture name="КАЛИЛ0003" x="2" y="2" width="329" height="547"/>
+	<SubTexture name="КАЛИЛ0004" x="333" y="2" width="329" height="547"/>
+	<SubTexture name="КАЛИЛ0005" x="333" y="2" width="329" height="547"/>
+	<SubTexture name="КАЛИЛ0006" x="333" y="2" width="329" height="547"/>
+	<SubTexture name="КАЛИЛ0007" x="333" y="2" width="329" height="547"/>
+</TextureAtlas>

@@ -1,0 +1,76 @@
+{
+	"animations": [
+		{
+			"anim": "lose-loop",
+			"nameAnim": "loop-lose",
+			"loop": true,
+			"flipX": true,
+			"fps": 24
+		},
+		{
+			"anim": "lose",
+			"nameAnim": "lose",
+			"flipX": true,
+			"fps": 24
+		},
+		{
+			"anim": "idle",
+			"nameAnim": "neutral",
+			"loop": true,
+			"fps": 24
+		},
+		{
+			"anim": "win-loop",
+			"nameAnim": "loop-win",
+			"flipX": true,
+			"loop": true,
+			"fps": 24
+		},
+		{
+			"anim": "win",
+			"nameAnim": "win",
+			"flipX": true,
+			"fps": 24
+		},
+		{
+			"anim": "lose->idle",
+			"nameAnim": "lose",
+			"flipX": true,
+			"reversed": true,
+			"fps": 24
+		},
+		{
+			"anim": "win->idle",
+			"nameAnim": "win",
+			"flipX": true,
+			"reversed": true,
+			"fps": 24
+		}
+	],
+	"triggers": [
+		{
+			"name": "lose",
+			"indices": [0, 20]
+		},
+		{
+			"name": "idle",
+			"indices": [21, 79]
+		},
+		{
+			"name": "win",
+			"indices": [80, 100]
+		}
+	],
+	"image": "icon-naisonji",
+	"hadXml": true,
+	"healthbar_colors": [
+		100,
+		135,
+		149
+	],
+	"offsets": [
+		0,
+		-11
+	],
+	"scale": 1
+}

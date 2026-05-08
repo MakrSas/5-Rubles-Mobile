@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="album_titles.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="VOL.1 placeholder0000" x="0" y="0" width="198" height="100" frameX="-13" frameY="-26" frameWidth="248" frameHeight="128"/>
+	<SubTexture name="VOL.1 placeholder0001" x="0" y="0" width="198" height="100" frameX="-13" frameY="-26" frameWidth="248" frameHeight="128"/>
+	<SubTexture name="VOL.1 placeholder0002" x="200" y="0" width="198" height="100" frameX="-13" frameY="-28" frameWidth="248" frameHeight="128"/>
+	<SubTexture name="VOL.1 placeholder0003" x="400" y="0" width="248" height="127" frameX="0" frameY="0" frameWidth="248" frameHeight="128"/>
+	<SubTexture name="VOL.1 placeholder0004" x="400" y="0" width="248" height="127" frameX="0" frameY="0" frameWidth="248" frameHeight="128"/>
+	<SubTexture name="VOL.1 placeholder0005" x="650" y="0" width="248" height="126" frameX="0" frameY="-2" frameWidth="248" frameHeight="128"/>
+</TextureAtlas>

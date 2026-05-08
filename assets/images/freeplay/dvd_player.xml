@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="dvd_player.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="dvd_player0000" x="0" y="1615" width="489" height="104" frameX="-65" frameY="-367" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0001" x="0" y="1615" width="489" height="104" frameX="-65" frameY="-367" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0002" x="0" y="1615" width="489" height="104" frameX="-65" frameY="-367" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0003" x="0" y="1615" width="489" height="104" frameX="-65" frameY="-367" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0004" x="0" y="1615" width="489" height="104" frameX="-65" frameY="-367" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0005" x="0" y="1615" width="489" height="104" frameX="-65" frameY="-367" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0006" x="0" y="1721" width="489" height="104" frameX="-65" frameY="-367" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0007" x="0" y="1721" width="489" height="104" frameX="-65" frameY="-367" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0008" x="0" y="1403" width="495" height="104" frameX="-59" frameY="-367" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0009" x="0" y="601" width="554" height="116" frameX="0" frameY="-367" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0010" x="0" y="601" width="554" height="116" frameX="0" frameY="-367" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0011" x="0" y="1175" width="544" height="112" frameX="-10" frameY="-367" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0012" x="0" y="1175" width="544" height="112" frameX="-10" frameY="-367" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0013" x="0" y="719" width="545" height="112" frameX="-9" frameY="-367" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0014" x="0" y="719" width="545" height="112" frameX="-9" frameY="-367" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0015" x="0" y="719" width="545" height="112" frameX="-9" frameY="-367" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0016" x="0" y="0" width="545" height="479" frameX="-9" frameY="0" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0017" x="0" y="481" width="545" height="118" frameX="-9" frameY="-365" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0018" x="0" y="481" width="545" height="118" frameX="-9" frameY="-367" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0019" x="0" y="833" width="545" height="112" frameX="-9" frameY="-367" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0020" x="0" y="833" width="545" height="112" frameX="-9" frameY="-367" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0021" x="0" y="947" width="545" height="112" frameX="-9" frameY="-367" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0022" x="0" y="947" width="545" height="112" frameX="-9" frameY="-367" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0023" x="0" y="1061" width="545" height="112" frameX="-9" frameY="-367" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0024" x="0" y="1061" width="545" height="112" frameX="-9" frameY="-367" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0025" x="0" y="1289" width="544" height="112" frameX="-10" frameY="-367" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0026" x="0" y="1289" width="544" height="112" frameX="-10" frameY="-367" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0027" x="0" y="1509" width="495" height="104" frameX="-59" frameY="-367" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0028" x="0" y="1509" width="495" height="104" frameX="-59" frameY="-367" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0029" x="0" y="1721" width="489" height="104" frameX="-65" frameY="-367" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0030" x="0" y="1721" width="489" height="104" frameX="-65" frameY="-367" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0031" x="0" y="1615" width="489" height="104" frameX="-65" frameY="-367" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0032" x="0" y="1615" width="489" height="104" frameX="-65" frameY="-367" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0033" x="0" y="1615" width="489" height="104" frameX="-65" frameY="-367" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0034" x="0" y="1615" width="489" height="104" frameX="-65" frameY="-367" frameWidth="554" frameHeight="483"/>
+	<SubTexture name="dvd_player0035" x="0" y="1615" width="489" height="104" frameX="-65" frameY="-367" frameWidth="554" frameHeight="483"/>
+</TextureAtlas>

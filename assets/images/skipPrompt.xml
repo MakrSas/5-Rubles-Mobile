@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="skipPrompt.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Press0000" x="0" y="0" width="320" height="65" frameX="0" frameY="-1" frameWidth="321" frameHeight="71"/>
+	<SubTexture name="Press0001" x="322" y="0" width="320" height="66" frameX="0" frameY="0" frameWidth="321" frameHeight="71"/>
+	<SubTexture name="Press0002" x="644" y="0" width="320" height="66" frameX="0" frameY="0" frameWidth="321" frameHeight="71"/>
+	<SubTexture name="Press0003" x="966" y="0" width="253" height="60" frameX="-67" frameY="-6" frameWidth="321" frameHeight="71"/>
+	<SubTexture name="Press0004" x="1221" y="0" width="177" height="70" frameX="-144" frameY="-1" frameWidth="321" frameHeight="71"/>
+</TextureAtlas>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="zorka.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="zorka0000" x="0" y="159" width="121" height="139" frameX="-8" frameY="-20" frameWidth="135" frameHeight="162"/>
+	<SubTexture name="zorka0001" x="123" y="164" width="132" height="127" frameX="-3" frameY="-34" frameWidth="135" frameHeight="162"/>
+	<SubTexture name="zorka0002" x="123" y="164" width="132" height="127" frameX="-3" frameY="-34" frameWidth="135" frameHeight="162"/>
+	<SubTexture name="zorka0003" x="136" y="0" width="129" height="162" frameX="-1" frameY="0" frameWidth="135" frameHeight="162"/>
+	<SubTexture name="zorka0004" x="136" y="0" width="129" height="162" frameX="-1" frameY="0" frameWidth="135" frameHeight="162"/>
+	<SubTexture name="zorka0005" x="0" y="0" width="134" height="157" frameX="0" frameY="-2" frameWidth="135" frameHeight="162"/>
+</TextureAtlas>

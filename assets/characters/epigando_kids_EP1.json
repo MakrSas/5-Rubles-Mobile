@@ -1,0 +1,26 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"name": "пись",
+			"anim": "idle"
+		}
+	],
+	"image": "epigando_kids_EP1",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "dad",
+	"healthbar_colors": [
+		175,
+		102,
+		206
+	],
+	"camera_position": [
+		180,
+		345
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

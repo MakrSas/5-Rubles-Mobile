@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"anim": "lose",
+			"nameAnim": "lose",
+			"fps": 24,
+			"flipX": true
+		},
+		{
+			"anim": "lose-loop",
+			"nameAnim": "loop lose",
+			"fps": 24,
+			"loop": true,
+			"flipX": true
+		},
+		{
+			"anim": "idle",
+			"nameAnim": "neutral",
+			"fps": 24,
+			"loop": true,
+			"flipX": true
+
+		},
+		{
+			"anim": "win",
+			"nameAnim": "win",
+			"fps": 24,
+			"flipX": true
+		},
+		{
+			"anim": "win-loop",
+			"nameAnim": "loop win",
+			"fps": 24,
+			"loop": true,
+			"flipX": true
+		},
+		{
+			"anim": "lose->idle",
+			"nameAnim": "lose",
+			"fps": 24,
+			"flipX": true,
+			"reversed": true
+		},
+		{
+			"anim": "win->idle",
+			"nameAnim": "win",
+			"fps": 24,
+			"flipX": true,
+			"reversed": true
+		}
+	],
+	"triggers": [
+		{
+			"name": "lose",
+			"indices": [0, 20]
+		},
+		{
+			"name": "idle",
+			"indices": [21, 79]
+		},
+		{
+			"name": "win",
+			"indices": [80, 100]
+		}
+	],
+	"image": "5pico",
+	"hadXml": true,
+	"healthbar_colors": [
+		126,
+		187,
+		69
+	],
+	"offsets": [
+		0,
+		-12
+	],
+	"scale": 1
+}

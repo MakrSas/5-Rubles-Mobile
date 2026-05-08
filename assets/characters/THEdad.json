@@ -1,0 +1,1 @@
+{"animations":[{"name":"Symbol 5","anim":"danceLeft","indices":[0,1,2,3,4,5,6,7]},{"name":"Symbol 5","anim":"danceRight","indices":[8,9,10,11,12,13,14,15]}],"image":"characters/THE_dad","position":[0,0],"beatDance":1,"healthicon":"dad","healthbar_colors":[175,102,206],"camera_position":[0,0],"sing_duration":6.1,"scale":1}

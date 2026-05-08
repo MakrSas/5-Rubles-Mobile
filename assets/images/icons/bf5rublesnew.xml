@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bf5rublesnew.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="neutral0000" x="0" y="0" width="102" height="92" frameX="-11" frameY="-4" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="neutral0001" x="0" y="0" width="102" height="92" frameX="-11" frameY="-4" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="neutral0002" x="0" y="0" width="102" height="92" frameX="-11" frameY="-4" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="neutral0003" x="104" y="0" width="102" height="92" frameX="-11" frameY="-4" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="neutral0004" x="104" y="0" width="102" height="92" frameX="-11" frameY="-4" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="neutral0005" x="104" y="0" width="102" height="92" frameX="-11" frameY="-4" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="neutral0006" x="208" y="0" width="102" height="92" frameX="-11" frameY="-4" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="neutral0007" x="208" y="0" width="102" height="92" frameX="-11" frameY="-4" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="neutral0008" x="208" y="0" width="102" height="92" frameX="-11" frameY="-4" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="win0000" x="312" y="0" width="112" height="86" frameX="-6" frameY="-7" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="win0001" x="312" y="0" width="112" height="86" frameX="-6" frameY="-7" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="win0002" x="426" y="0" width="112" height="100" frameX="-4" frameY="0" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="win0003" x="426" y="0" width="112" height="100" frameX="-4" frameY="0" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="loop win0000" x="540" y="0" width="116" height="97" frameX="-2" frameY="-2" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="loop win0001" x="540" y="0" width="116" height="97" frameX="-2" frameY="-2" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="loop win0002" x="540" y="0" width="116" height="97" frameX="-2" frameY="-2" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="loop win0003" x="658" y="0" width="117" height="97" frameX="-2" frameY="-2" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="loop win0004" x="658" y="0" width="117" height="97" frameX="-2" frameY="-2" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="loop win0005" x="658" y="0" width="117" height="97" frameX="-2" frameY="-2" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="loop win0006" x="777" y="0" width="117" height="97" frameX="-2" frameY="-2" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="loop win0007" x="777" y="0" width="117" height="97" frameX="-2" frameY="-2" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="loop win0008" x="777" y="0" width="117" height="97" frameX="-2" frameY="-2" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="lose0000" x="896" y="0" width="113" height="87" frameX="-6" frameY="-6" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="lose0001" x="896" y="0" width="113" height="87" frameX="-6" frameY="-6" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="lose0002" x="1011" y="0" width="120" height="95" frameX="-2" frameY="-4" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="lose0003" x="1011" y="0" width="120" height="95" frameX="-2" frameY="-4" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="lose0004" x="1133" y="0" width="126" height="97" frameX="0" frameY="-6" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="lose0005" x="1133" y="0" width="126" height="97" frameX="0" frameY="-6" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="lose0006" x="1261" y="0" width="126" height="93" frameX="0" frameY="-6" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="lose0007" x="1389" y="0" width="126" height="92" frameX="0" frameY="-6" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="lose0008" x="1389" y="0" width="126" height="92" frameX="0" frameY="-6" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="lose0009" x="1389" y="0" width="126" height="92" frameX="0" frameY="-6" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="lose0010" x="1517" y="0" width="126" height="92" frameX="0" frameY="-6" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="lose0011" x="1517" y="0" width="126" height="92" frameX="0" frameY="-6" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="lose0012" x="1517" y="0" width="126" height="92" frameX="0" frameY="-6" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="loop lose0000" x="1261" y="0" width="126" height="93" frameX="0" frameY="-6" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="loop lose0001" x="1261" y="0" width="126" height="93" frameX="0" frameY="-6" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="loop lose0002" x="1261" y="0" width="126" height="93" frameX="0" frameY="-6" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="loop lose0003" x="1389" y="0" width="126" height="92" frameX="0" frameY="-6" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="loop lose0004" x="1389" y="0" width="126" height="92" frameX="0" frameY="-6" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="loop lose0005" x="1389" y="0" width="126" height="92" frameX="0" frameY="-6" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="loop lose0006" x="1517" y="0" width="126" height="92" frameX="0" frameY="-6" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="loop lose0007" x="1517" y="0" width="126" height="92" frameX="0" frameY="-6" frameWidth="126" frameHeight="103"/>
+	<SubTexture name="loop lose0008" x="1517" y="0" width="126" height="92" frameX="0" frameY="-6" frameWidth="126" frameHeight="103"/>
+</TextureAtlas>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="реклама.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="реклама0000" x="634" y="384" width="634" height="384" frameX="2" frameY="2" frameWidth="630" frameHeight="380"/>
+	<SubTexture name="реклама0001" x="0" y="768" width="634" height="384" frameX="2" frameY="2" frameWidth="630" frameHeight="380"/>
+	<SubTexture name="реклама0002" x="634" y="0" width="634" height="384" frameX="2" frameY="2" frameWidth="630" frameHeight="380"/>
+	<SubTexture name="реклама0003" x="634" y="768" width="634" height="384" frameX="2" frameY="2" frameWidth="630" frameHeight="380"/>
+	<SubTexture name="реклама0004" x="0" y="0" width="634" height="384" frameX="2" frameY="2" frameWidth="630" frameHeight="380"/>
+	<SubTexture name="реклама0005" x="0" y="384" width="634" height="384" frameX="2" frameY="2" frameWidth="630" frameHeight="380"/>
+</TextureAtlas>

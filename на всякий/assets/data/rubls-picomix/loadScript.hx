@@ -1,0 +1,1 @@
+loadHScript(AssetsPaths.getPath("data/toilet_tivi.hx")); dispose();

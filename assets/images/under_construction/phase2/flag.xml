@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="flag.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="flag0000" x="117" y="0" width="50" height="320" frameX="-7" frameY="0" frameWidth="63" frameHeight="320"/>
+	<SubTexture name="flag0001" x="117" y="0" width="50" height="320" frameX="-7" frameY="0" frameWidth="63" frameHeight="320"/>
+	<SubTexture name="flag0002" x="117" y="0" width="50" height="320" frameX="-7" frameY="0" frameWidth="63" frameHeight="320"/>
+	<SubTexture name="flag0003" x="117" y="0" width="50" height="320" frameX="-7" frameY="0" frameWidth="63" frameHeight="320"/>
+	<SubTexture name="flag0004" x="117" y="0" width="50" height="320" frameX="-7" frameY="0" frameWidth="63" frameHeight="320"/>
+	<SubTexture name="flag0005" x="117" y="0" width="50" height="320" frameX="-7" frameY="0" frameWidth="63" frameHeight="320"/>
+	<SubTexture name="flag0006" x="0" y="0" width="62" height="320" frameX="-1" frameY="0" frameWidth="63" frameHeight="320"/>
+	<SubTexture name="flag0007" x="0" y="0" width="62" height="320" frameX="-1" frameY="0" frameWidth="63" frameHeight="320"/>
+	<SubTexture name="flag0008" x="0" y="0" width="62" height="320" frameX="-1" frameY="0" frameWidth="63" frameHeight="320"/>
+	<SubTexture name="flag0009" x="0" y="0" width="62" height="320" frameX="-1" frameY="0" frameWidth="63" frameHeight="320"/>
+	<SubTexture name="flag0010" x="0" y="0" width="62" height="320" frameX="-1" frameY="0" frameWidth="63" frameHeight="320"/>
+	<SubTexture name="flag0011" x="0" y="0" width="62" height="320" frameX="-1" frameY="0" frameWidth="63" frameHeight="320"/>
+	<SubTexture name="flag0012" x="64" y="0" width="51" height="320" frameX="-3" frameY="0" frameWidth="63" frameHeight="320"/>
+	<SubTexture name="flag0013" x="64" y="0" width="51" height="320" frameX="-3" frameY="0" frameWidth="63" frameHeight="320"/>
+	<SubTexture name="flag0014" x="64" y="0" width="51" height="320" frameX="-3" frameY="0" frameWidth="63" frameHeight="320"/>
+	<SubTexture name="flag0015" x="64" y="0" width="51" height="320" frameX="-3" frameY="0" frameWidth="63" frameHeight="320"/>
+	<SubTexture name="flag0016" x="64" y="0" width="51" height="320" frameX="-3" frameY="0" frameWidth="63" frameHeight="320"/>
+	<SubTexture name="flag0017" x="64" y="0" width="51" height="320" frameX="-3" frameY="0" frameWidth="63" frameHeight="320"/>
+	<SubTexture name="flag0018" x="169" y="0" width="44" height="320" frameX="0" frameY="0" frameWidth="63" frameHeight="320"/>
+	<SubTexture name="flag0019" x="169" y="0" width="44" height="320" frameX="0" frameY="0" frameWidth="63" frameHeight="320"/>
+	<SubTexture name="flag0020" x="169" y="0" width="44" height="320" frameX="0" frameY="0" frameWidth="63" frameHeight="320"/>
+	<SubTexture name="flag0021" x="169" y="0" width="44" height="320" frameX="0" frameY="0" frameWidth="63" frameHeight="320"/>
+	<SubTexture name="flag0022" x="169" y="0" width="44" height="320" frameX="0" frameY="0" frameWidth="63" frameHeight="320"/>
+	<SubTexture name="flag0023" x="169" y="0" width="44" height="320" frameX="0" frameY="0" frameWidth="63" frameHeight="320"/>
+</TextureAtlas>

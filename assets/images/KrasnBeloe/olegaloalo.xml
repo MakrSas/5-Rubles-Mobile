@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="олег ало ало.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="discord_call instance 10000" x="0" y="0" width="484" height="547"/>
+	<SubTexture name="discord_call instance 10001" x="0" y="0" width="484" height="547"/>
+	<SubTexture name="discord_call instance 10002" x="0" y="549" width="484" height="547"/>
+	<SubTexture name="discord_call instance 10003" x="0" y="549" width="484" height="547"/>
+	<SubTexture name="discord_call instance 10004" x="0" y="1098" width="484" height="547"/>
+	<SubTexture name="discord_call instance 10005" x="0" y="1098" width="484" height="547"/>
+	<SubTexture name="discord_call instance 10006" x="0" y="1647" width="484" height="547"/>
+	<SubTexture name="discord_call instance 10007" x="0" y="1647" width="484" height="547"/>
+	<SubTexture name="discord_call instance 10008" x="0" y="2196" width="484" height="547"/>
+	<SubTexture name="discord_call instance 10009" x="0" y="2196" width="484" height="547"/>
+	<SubTexture name="discord_call instance 10010" x="0" y="2196" width="484" height="547"/>
+	<SubTexture name="discord_call instance 10011" x="0" y="2196" width="484" height="547"/>
+	<SubTexture name="discord_call instance 10012" x="0" y="2196" width="484" height="547"/>
+	<SubTexture name="discord_call instance 10013" x="0" y="2196" width="484" height="547"/>
+	<SubTexture name="discord_call instance 10014" x="0" y="2196" width="484" height="547"/>
+	<SubTexture name="discord_call instance 10015" x="0" y="2196" width="484" height="547"/>
+	<SubTexture name="discord_call instance 10016" x="0" y="2196" width="484" height="547"/>
+</TextureAtlas>

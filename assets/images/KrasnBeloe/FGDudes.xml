@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="FGDudes.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="быфенд образец 10000" x="994" y="2" width="1190" height="985"/>
+	<SubTexture name="ккчлуннаяпоходка образец 10000" x="2" y="2" width="990" height="1306"/>
+	<SubTexture name="писогейпоходка образец 10000" x="2186" y="2" width="1025" height="1082"/>
+	<SubTexture name="смпоходкагея образец 10000" x="3213" y="2" width="740" height="1347"/>
+</TextureAtlas>

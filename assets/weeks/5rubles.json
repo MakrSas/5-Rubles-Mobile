@@ -1,0 +1,36 @@
+{
+	"songs": [
+		{
+			"songName": "Black2Blue",
+			"healthIcon": "sway",
+			"freeplayColor": "#625F6C"
+		},
+		{
+			"songName": "Rubls",
+			"healthIcon": "lostel",
+			"freeplayColor": "#94526B"
+
+		},
+		{
+			"songName": "Nokia",
+			"healthIcon": "zorka",
+			"freeplayColor": "#D24553"
+		},
+		{
+			"songName": "Rofls",
+			"healthIcon": "rofos",
+			"freeplayColor": "#643A45"
+		},
+		{
+			"songName": "Bezdari",
+			"healthIcon": "rubl4Ss-playble",
+			"freeplayColor": "#395443"
+		},
+		{
+			"songName": "Hernya",
+			"healthIcon": "d4rk",
+			"freeplayColor": "#5A5A3D"
+		}
+	],
+	"isTwist": true
+}

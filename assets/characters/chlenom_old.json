@@ -1,0 +1,26 @@
+{
+	"animations": [
+		{
+			"anim": "idle",
+			"loop": true,
+			"name": "chlen export"
+		}
+	],
+	"image": "characters/rofls/chlenom",
+	"position": [
+		-303,
+		-49
+	],
+	"healthicon": "bf",
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		164,
+		398
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

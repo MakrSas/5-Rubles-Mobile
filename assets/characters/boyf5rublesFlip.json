@@ -1,0 +1,64 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-26.6,
+				-26.6
+			],
+			"anim": "singDOWN",
+			"name": "boy down"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"name": "boy idle"
+		},
+		{
+			"offsets": [
+				-41,
+				18
+			],
+			"anim": "singRIGHT",
+			"name": "boy left"
+		},
+		{
+			"offsets": [
+				75.6,
+				10.4
+			],
+			"anim": "singLEFT",
+			"name": "boy right"
+		},
+		{
+			"offsets": [
+				6.2,
+				37
+			],
+			"anim": "singUP",
+			"name": "boy up"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters\\boy_5_rubles",
+	"position": [
+		43,
+		262
+	],
+	"beatDance": 2,
+	"healthicon": "boyf5rubles",
+	"flip_x": true,
+	"healthbar_colors": [
+		75,
+		147,
+		178
+	],
+	"camera_position": [
+		83,
+		-61
+	],
+	"sing_duration": 5,
+	"scale": 1.2
+}

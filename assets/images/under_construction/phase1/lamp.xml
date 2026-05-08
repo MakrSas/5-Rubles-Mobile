@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="лампа.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="lamp norm0000" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0001" x="287" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0002" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0003" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0004" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0005" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0006" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0007" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0008" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0009" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0010" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0011" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0012" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0013" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0014" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0015" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0016" x="287" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0017" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0018" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0019" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0020" x="287" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0021" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0022" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0023" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0024" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0025" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0026" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0027" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0028" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0029" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0030" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0031" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0032" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0033" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0034" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0035" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0036" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0037" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0038" x="2" y="2" width="283" height="1074"/>
+	<SubTexture name="lamp norm0039" x="2" y="2" width="283" height="1074"/>
+</TextureAtlas>

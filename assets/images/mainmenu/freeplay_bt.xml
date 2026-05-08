@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="freeplay_bt.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="freeplay_break0000" x="1075" y="256" width="350" height="197"/>
+	<SubTexture name="freeplay_break0001" x="1427" y="181" width="321" height="181" frameX="-4" frameY="-5" frameWidth="350" frameHeight="197"/>
+	<SubTexture name="freeplay_break0002" x="1427" y="181" width="321" height="181" frameX="-4" frameY="-5" frameWidth="350" frameHeight="197"/>
+	<SubTexture name="freeplay_break0003" x="1299" y="0" width="335" height="179" frameX="0" frameY="-7" frameWidth="350" frameHeight="197"/>
+	<SubTexture name="freeplay_break0004" x="1299" y="0" width="335" height="179" frameX="0" frameY="-7" frameWidth="350" frameHeight="197"/>
+	<SubTexture name="freeplay_break0005" x="1299" y="0" width="335" height="179" frameX="0" frameY="-7" frameWidth="350" frameHeight="197"/>
+	<SubTexture name="freeplay_idle0000" x="359" y="306" width="356" height="201" frameX="0" frameY="-1" frameWidth="357" frameHeight="202"/>
+	<SubTexture name="freeplay_idle0001" x="359" y="306" width="356" height="201" frameX="0" frameY="-1" frameWidth="357" frameHeight="202"/>
+	<SubTexture name="freeplay_idle0002" x="359" y="306" width="356" height="201" frameX="0" frameY="-1" frameWidth="357" frameHeight="202"/>
+	<SubTexture name="freeplay_idle0003" x="359" y="306" width="356" height="201" frameX="0" frameY="-1" frameWidth="357" frameHeight="202"/>
+	<SubTexture name="freeplay_idle0004" x="359" y="306" width="356" height="201" frameX="0" frameY="-1" frameWidth="357" frameHeight="202"/>
+	<SubTexture name="freeplay_idle0005" x="0" y="306" width="357" height="201" frameX="0" frameY="-1" frameWidth="357" frameHeight="202"/>
+	<SubTexture name="freeplay_idle0006" x="0" y="306" width="357" height="201" frameX="0" frameY="-1" frameWidth="357" frameHeight="202"/>
+	<SubTexture name="freeplay_idle0007" x="0" y="306" width="357" height="201" frameX="0" frameY="-1" frameWidth="357" frameHeight="202"/>
+	<SubTexture name="freeplay_idle0008" x="0" y="306" width="357" height="201" frameX="0" frameY="-1" frameWidth="357" frameHeight="202"/>
+	<SubTexture name="freeplay_idle0009" x="0" y="306" width="357" height="201" frameX="0" frameY="-1" frameWidth="357" frameHeight="202"/>
+	<SubTexture name="freeplay_idle0010" x="717" y="288" width="356" height="201" frameX="0" frameY="0" frameWidth="357" frameHeight="202"/>
+	<SubTexture name="freeplay_idle0011" x="717" y="288" width="356" height="201" frameX="0" frameY="0" frameWidth="357" frameHeight="202"/>
+	<SubTexture name="freeplay_idle0012" x="717" y="288" width="356" height="201" frameX="0" frameY="0" frameWidth="357" frameHeight="202"/>
+	<SubTexture name="freeplay_idle0013" x="717" y="288" width="356" height="201" frameX="0" frameY="0" frameWidth="357" frameHeight="202"/>
+	<SubTexture name="freeplay_idle0014" x="717" y="288" width="356" height="201" frameX="0" frameY="0" frameWidth="357" frameHeight="202"/>
+	<SubTexture name="freeplay_selected0000" x="0" y="0" width="460" height="304" frameX="0" frameY="0" frameWidth="466" frameHeight="305"/>
+	<SubTexture name="freeplay_selected0001" x="0" y="0" width="460" height="304" frameX="0" frameY="0" frameWidth="466" frameHeight="305"/>
+	<SubTexture name="freeplay_selected0002" x="0" y="0" width="460" height="304" frameX="0" frameY="0" frameWidth="466" frameHeight="305"/>
+	<SubTexture name="freeplay_selected0003" x="904" y="0" width="393" height="254" frameX="-41" frameY="-28" frameWidth="466" frameHeight="305"/>
+	<SubTexture name="freeplay_selected0004" x="904" y="0" width="393" height="254" frameX="-41" frameY="-28" frameWidth="466" frameHeight="305"/>
+	<SubTexture name="freeplay_selected0005" x="904" y="0" width="393" height="254" frameX="-41" frameY="-28" frameWidth="466" frameHeight="305"/>
+	<SubTexture name="freeplay_selected0006" x="462" y="0" width="440" height="286" frameX="-26" frameY="-19" frameWidth="466" frameHeight="305"/>
+	<SubTexture name="freeplay_selected0007" x="462" y="0" width="440" height="286" frameX="-26" frameY="-19" frameWidth="466" frameHeight="305"/>
+	<SubTexture name="freeplay_selected0008" x="462" y="0" width="440" height="286" frameX="-26" frameY="-19" frameWidth="466" frameHeight="305"/>
+	<SubTexture name="freeplay_selected0009" x="904" y="0" width="393" height="254" frameX="-41" frameY="-28" frameWidth="466" frameHeight="305"/>
+	<SubTexture name="freeplay_selected0010" x="904" y="0" width="393" height="254" frameX="-41" frameY="-28" frameWidth="466" frameHeight="305"/>
+	<SubTexture name="freeplay_selected0011" x="904" y="0" width="393" height="254" frameX="-41" frameY="-28" frameWidth="466" frameHeight="305"/>
+</TextureAtlas>

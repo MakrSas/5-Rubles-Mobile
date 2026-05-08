@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pivozavrik.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="pivozavrik0000" x="0" y="0" width="151" height="160" frameX="-7" frameY="-28" frameWidth="169" frameHeight="200"/>
+	<SubTexture name="pivozavrik0001" x="0" y="162" width="162" height="164" frameX="0" frameY="-23" frameWidth="169" frameHeight="200"/>
+	<SubTexture name="pivozavrik0002" x="0" y="162" width="162" height="164" frameX="0" frameY="-23" frameWidth="169" frameHeight="200"/>
+	<SubTexture name="pivozavrik0003" x="0" y="328" width="162" height="200" frameX="-7" frameY="-16" frameWidth="169" frameHeight="200"/>
+	<SubTexture name="pivozavrik0004" x="0" y="328" width="162" height="200" frameX="-7" frameY="-16" frameWidth="169" frameHeight="200"/>
+	<SubTexture name="pivozavrik0005" x="0" y="530" width="160" height="189" frameX="-6" frameY="-18" frameWidth="169" frameHeight="200"/>
+</TextureAtlas>

@@ -1,0 +1,59 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				4,
+				-21
+			],
+			"anim": "singDOWN",
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-20,
+				43
+			],
+			"anim": "singUP",
+			"name": "up"
+		},
+		{
+			"offsets": [
+				24,
+				2
+			],
+			"anim": "singLEFT",
+			"name": "left"
+		},
+		{
+			"anim": "idle",
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				-26,
+				-3
+			],
+			"anim": "singRIGHT",
+			"name": "right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/add-me/bfIMP",
+	"position": [
+		70,
+		420
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		100,
+		220,
+		255
+	],
+	"camera_position": [
+		90,
+		-20
+	],
+	"sing_duration": 6.1,
+	"scale": 1.05
+}

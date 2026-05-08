@@ -1,0 +1,186 @@
+{
+	"animations": [
+		{
+			"anim": "idle",
+			"name": "sprait/expo/og/idle"
+		},
+		{
+			"anim": "burp",
+			"name": "sprait/expo/og/burp"
+		},
+		{
+			"anim": "singDOWN",
+			"name": "sprait/expo/og/down"
+		},
+		{
+			"anim": "singRIGHT",
+			"name": "sprait/expo/og/right"
+		},
+		{
+			"anim": "singLEFT",
+			"name": "sprait/expo/og/left"
+		},
+		{
+			"anim": "singUP",
+			"name": "sprait/expo/og/up"
+		},
+		{
+			"anim": "singDOWN-alt",
+			"name": "sprait/expo/og/alt-down"
+		},
+		{
+			"anim": "singRIGHT-alt",
+			"name": "sprait/expo/og/alt-right"
+		},
+		{
+			"anim": "singLEFT-alt",
+			"name": "sprait/expo/og/alt-left"
+		},
+		{
+			"anim": "singUP-alt",
+			"name": "sprait/expo/og/alt-up"
+		},
+		{
+			"name": "sprait/expo/og/miss-down",
+			"anim": "singDOWNmiss"
+		},
+		{
+			"name": "sprait/expo/og/miss-right",
+			"anim": "singRIGHTmiss"
+		},
+		{
+			"name": "sprait/expo/og/miss-left",
+			"anim": "singLEFTmiss"
+		},
+		{
+			"name": "sprait/expo/og/miss-up",
+			"anim": "singUPmiss"
+		},
+		{
+			"name": "sprait/expo/og/umer",
+			"anim": "deathConfirm",
+			"indices": [
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82
+			]
+		},
+		{
+			"loop": true,
+			"name": "sprait/expo/og/umer",
+			"indices": [
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57
+			],
+			"anim": "deathLoop"
+		},
+		{
+			"anim": "firstDeath",
+			"name": "sprait/expo/og/umer",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33
+			]
+		},
+		{
+			"loopPoint": 6,
+			"loop": true,
+			"name": "sprait/expo/og/helo",
+			"anim": "hi"
+		},
+		{
+			"name": "sprait/expo/og/helo",
+			"anim": "hey"
+		}
+	],
+	"image": "characters/hernya/d5rk",
+	"position": [
+		-177,
+		347
+	],
+	"healthicon": "d4rk",
+	"flip_x": true,
+	"healthbar_colors": [
+		31,
+		31,
+		31
+	],
+	"camera_position": [
+		-757,
+		28
+	],
+	"sing_duration": 6.1,
+	"scale": 1,
+	"gameover_properties": ["#self", "darkdead", "gameOver_d5rkwinged", "gameOver_d5rkwinged_end", 80]
+}

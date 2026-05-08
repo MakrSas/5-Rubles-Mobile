@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="amal_new.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="идл0000" x="0" y="0" width="129" height="105" frameX="-3" frameY="-12" frameWidth="136" frameHeight="130"/>
+	<SubTexture name="идл0001" x="0" y="0" width="129" height="105" frameX="-3" frameY="-12" frameWidth="136" frameHeight="130"/>
+	<SubTexture name="идл0002" x="0" y="0" width="129" height="105" frameX="-3" frameY="-12" frameWidth="136" frameHeight="130"/>
+	<SubTexture name="идл0003" x="0" y="107" width="129" height="105" frameX="-3" frameY="-12" frameWidth="136" frameHeight="130"/>
+	<SubTexture name="идл0004" x="0" y="107" width="129" height="105" frameX="-3" frameY="-12" frameWidth="136" frameHeight="130"/>
+	<SubTexture name="идл0005" x="0" y="107" width="129" height="105" frameX="-3" frameY="-12" frameWidth="136" frameHeight="130"/>
+	<SubTexture name="идл0006" x="0" y="214" width="129" height="105" frameX="-3" frameY="-12" frameWidth="136" frameHeight="130"/>
+	<SubTexture name="идл0007" x="0" y="214" width="129" height="105" frameX="-3" frameY="-12" frameWidth="136" frameHeight="130"/>
+	<SubTexture name="идл0008" x="0" y="214" width="129" height="105" frameX="-3" frameY="-12" frameWidth="136" frameHeight="130"/>
+	<SubTexture name="выигр переход0000" x="0" y="321" width="136" height="96" frameX="0" frameY="-18" frameWidth="136" frameHeight="130"/>
+	<SubTexture name="выигр переход0001" x="0" y="321" width="136" height="96" frameX="0" frameY="-18" frameWidth="136" frameHeight="130"/>
+	<SubTexture name="выигр переход0002" x="0" y="419" width="120" height="117" frameX="-6" frameY="-6" frameWidth="136" frameHeight="130"/>
+	<SubTexture name="выигр переход0003" x="0" y="419" width="120" height="117" frameX="-6" frameY="-6" frameWidth="136" frameHeight="130"/>
+	<SubTexture name="идл выигр0000" x="0" y="538" width="126" height="109" frameX="-3" frameY="-10" frameWidth="136" frameHeight="130"/>
+	<SubTexture name="идл выигр0001" x="0" y="538" width="126" height="109" frameX="-3" frameY="-10" frameWidth="136" frameHeight="130"/>
+	<SubTexture name="идл выигр0002" x="0" y="538" width="126" height="109" frameX="-3" frameY="-10" frameWidth="136" frameHeight="130"/>
+	<SubTexture name="идл выигр0003" x="0" y="649" width="126" height="110" frameX="-2" frameY="-10" frameWidth="136" frameHeight="130"/>
+	<SubTexture name="идл выигр0004" x="0" y="649" width="126" height="110" frameX="-2" frameY="-10" frameWidth="136" frameHeight="130"/>
+	<SubTexture name="идл выигр0005" x="0" y="649" width="126" height="110" frameX="-2" frameY="-10" frameWidth="136" frameHeight="130"/>
+	<SubTexture name="идл выигр0006" x="0" y="761" width="127" height="109" frameX="-2" frameY="-11" frameWidth="136" frameHeight="130"/>
+	<SubTexture name="идл выигр0007" x="0" y="761" width="127" height="109" frameX="-2" frameY="-11" frameWidth="136" frameHeight="130"/>
+	<SubTexture name="идл выигр0008" x="0" y="761" width="127" height="109" frameX="-2" frameY="-11" frameWidth="136" frameHeight="130"/>
+	<SubTexture name="проигр переход0000" x="0" y="872" width="136" height="96" frameX="0" frameY="-18" frameWidth="136" frameHeight="130"/>
+	<SubTexture name="проигр переход0001" x="0" y="872" width="136" height="96" frameX="0" frameY="-18" frameWidth="136" frameHeight="130"/>
+	<SubTexture name="проигр переход0002" x="0" y="970" width="125" height="130" frameX="-4" frameY="0" frameWidth="136" frameHeight="130"/>
+	<SubTexture name="проигр переход0003" x="0" y="970" width="125" height="130" frameX="-4" frameY="0" frameWidth="136" frameHeight="130"/>
+	<SubTexture name="идл проигр0000" x="0" y="1102" width="127" height="115" frameX="-1" frameY="-10" frameWidth="136" frameHeight="130"/>
+	<SubTexture name="идл проигр0001" x="0" y="1102" width="127" height="115" frameX="-1" frameY="-10" frameWidth="136" frameHeight="130"/>
+	<SubTexture name="идл проигр0002" x="0" y="1102" width="127" height="115" frameX="-1" frameY="-10" frameWidth="136" frameHeight="130"/>
+	<SubTexture name="идл проигр0003" x="0" y="1219" width="127" height="115" frameX="-1" frameY="-10" frameWidth="136" frameHeight="130"/>
+	<SubTexture name="идл проигр0004" x="0" y="1219" width="127" height="115" frameX="-1" frameY="-10" frameWidth="136" frameHeight="130"/>
+	<SubTexture name="идл проигр0005" x="0" y="1219" width="127" height="115" frameX="-1" frameY="-10" frameWidth="136" frameHeight="130"/>
+	<SubTexture name="идл проигр0006" x="0" y="1336" width="127" height="114" frameX="-1" frameY="-10" frameWidth="136" frameHeight="130"/>
+	<SubTexture name="идл проигр0007" x="0" y="1336" width="127" height="114" frameX="-1" frameY="-10" frameWidth="136" frameHeight="130"/>
+	<SubTexture name="идл проигр0008" x="0" y="1336" width="127" height="114" frameX="-1" frameY="-10" frameWidth="136" frameHeight="130"/>
+</TextureAtlas>

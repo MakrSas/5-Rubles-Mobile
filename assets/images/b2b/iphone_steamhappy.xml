@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="iphone_steamhappy.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="redar_foreground0000" x="0" y="0" width="916" height="1183" frameX="0" frameY="0" frameWidth="916" frameHeight="1184"/>
+	<SubTexture name="redar_foreground0001" x="0" y="0" width="916" height="1183" frameX="0" frameY="0" frameWidth="916" frameHeight="1184"/>
+	<SubTexture name="redar_foreground0002" x="918" y="0" width="916" height="1183" frameX="0" frameY="0" frameWidth="916" frameHeight="1184"/>
+	<SubTexture name="redar_foreground0003" x="3672" y="0" width="915" height="1183" frameX="0" frameY="-1" frameWidth="916" frameHeight="1184"/>
+	<SubTexture name="redar_foreground0004" x="4589" y="0" width="915" height="1183" frameX="0" frameY="-1" frameWidth="916" frameHeight="1184"/>
+	<SubTexture name="redar_foreground0005" x="4589" y="0" width="915" height="1183" frameX="0" frameY="-1" frameWidth="916" frameHeight="1184"/>
+	<SubTexture name="redar_foreground0006" x="1836" y="0" width="916" height="1183" frameX="0" frameY="0" frameWidth="916" frameHeight="1184"/>
+	<SubTexture name="redar_foreground0007" x="1836" y="0" width="916" height="1183" frameX="0" frameY="0" frameWidth="916" frameHeight="1184"/>
+	<SubTexture name="redar_foreground0008" x="2754" y="0" width="916" height="1183" frameX="0" frameY="0" frameWidth="916" frameHeight="1184"/>
+	<SubTexture name="redar_foreground0009" x="5506" y="0" width="915" height="1183" frameX="0" frameY="-1" frameWidth="916" frameHeight="1184"/>
+	<SubTexture name="redar_foreground0010" x="6423" y="0" width="915" height="1183" frameX="0" frameY="-1" frameWidth="916" frameHeight="1184"/>
+	<SubTexture name="redar_foreground0011" x="6423" y="0" width="915" height="1183" frameX="0" frameY="-1" frameWidth="916" frameHeight="1184"/>
+</TextureAtlas>

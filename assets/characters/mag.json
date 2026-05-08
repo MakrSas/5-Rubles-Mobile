@@ -1,0 +1,99 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				27,
+				-168
+			],
+			"name": "down",
+			"image": "",
+			"anim": "singDOWN"
+		},
+		{
+			"offsets": [
+				-57,
+				-11
+			],
+			"name": "up",
+			"image": "",
+			"anim": "singUP"
+		},
+		{
+			"name": "idle",
+			"image": "",
+			"anim": "idle"
+		},
+		{
+			"offsets": [
+				11,
+				-30
+			],
+			"image": "",
+			"name": "missdown",
+			"anim": "singDOWNmiss"
+		},
+		{
+			"offsets": [
+				-41,
+				-9
+			],
+			"image": "",
+			"name": "missup",
+			"anim": "singUPmiss"
+		},
+		{
+			"offsets": [
+				27,
+				2
+			],
+			"image": "",
+			"name": "missleft",
+			"anim": "singLEFTmiss"
+		},
+		{
+			"offsets": [
+				-30,
+				0
+			],
+			"image": "",
+			"name": "missright",
+			"anim": "singRIGHTmiss"
+		},
+		{
+			"offsets": [
+				-42,
+				-3
+			],
+			"name": "left",
+			"image": "",
+			"anim": "singRIGHT"
+		},
+		{
+			"offsets": [
+				62,
+				-16
+			],
+			"name": "right",
+			"image": "",
+			"anim": "singLEFT"
+		}
+	],
+	"image": "characters/hernya/mag",
+	"position": [
+		86,
+		27
+	],
+	"healthicon": "magman-flipped",
+	"flip_x": true,
+	"healthbar_colors": [
+		100,
+		220,
+		255
+	],
+	"camera_position": [
+		-440,
+		100
+	],
+	"sing_duration": 6.1,
+	"scale": 1.05
+}

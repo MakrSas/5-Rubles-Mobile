@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="cxvxcvxcvxcv.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="xzczxc0000" x="0" y="0" width="99" height="176"/>
+	<SubTexture name="xzczxc0001" x="0" y="0" width="99" height="176"/>
+	<SubTexture name="xzczxc0002" x="101" y="0" width="99" height="176"/>
+	<SubTexture name="xzczxc0003" x="101" y="0" width="99" height="176"/>
+	<SubTexture name="xzczxc0004" x="202" y="0" width="99" height="176"/>
+	<SubTexture name="xzczxc0005" x="202" y="0" width="99" height="176"/>
+	<SubTexture name="xzczxc0006" x="303" y="0" width="99" height="176"/>
+	<SubTexture name="xzczxc0007" x="303" y="0" width="99" height="176"/>
+	<SubTexture name="xzczxc0008" x="404" y="0" width="99" height="176"/>
+	<SubTexture name="xzczxc0009" x="404" y="0" width="99" height="176"/>
+	<SubTexture name="xzczxc0010" x="404" y="0" width="99" height="176"/>
+	<SubTexture name="xzczxc0011" x="404" y="0" width="99" height="176"/>
+	<SubTexture name="xzczxc0012" x="404" y="0" width="99" height="176"/>
+	<SubTexture name="xzczxc0013" x="404" y="0" width="99" height="176"/>
+</TextureAtlas>

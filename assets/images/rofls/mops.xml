@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mops.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="масеер0000" x="0" y="0" width="363" height="589" frameX="0" frameY="-6" frameWidth="363" frameHeight="595"/>
+	<SubTexture name="масеер0001" x="0" y="0" width="363" height="589" frameX="0" frameY="-6" frameWidth="363" frameHeight="595"/>
+	<SubTexture name="масеер0002" x="0" y="591" width="362" height="588" frameX="0" frameY="-7" frameWidth="363" frameHeight="595"/>
+	<SubTexture name="масеер0003" x="0" y="591" width="362" height="588" frameX="0" frameY="-7" frameWidth="363" frameHeight="595"/>
+	<SubTexture name="масеер0004" x="0" y="1181" width="361" height="595" frameX="-1" frameY="0" frameWidth="363" frameHeight="595"/>
+	<SubTexture name="масеер0005" x="0" y="1181" width="361" height="595" frameX="-1" frameY="0" frameWidth="363" frameHeight="595"/>
+	<SubTexture name="масеер0006" x="0" y="1778" width="360" height="595" frameX="-2" frameY="0" frameWidth="363" frameHeight="595"/>
+	<SubTexture name="масеер0007" x="0" y="1778" width="360" height="595" frameX="-2" frameY="0" frameWidth="363" frameHeight="595"/>
+	<SubTexture name="масеер0008" x="0" y="1778" width="360" height="595" frameX="-2" frameY="0" frameWidth="363" frameHeight="595"/>
+	<SubTexture name="масеер СМЕРТЬ0000" x="0" y="2375" width="352" height="601"/>
+</TextureAtlas>

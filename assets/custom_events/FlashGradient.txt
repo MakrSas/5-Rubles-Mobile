@@ -1,0 +1,2 @@
+Value1: Flash Alpha
+Value2: duration in seconds

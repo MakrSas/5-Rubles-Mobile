@@ -1,0 +1,107 @@
+{
+	"artist": "FNF 5 RUBLEI ARTISTS",
+	"name": "stickers-set-1",
+	"stickerPacks": {
+		"all": [
+			"bf",
+			"juztexd",
+			"lostel",
+			"skarler",
+			"sway",
+			"matr4ss",
+			"magman",
+			"d4rkwinged",
+			"naisonji",
+			"pivozavrik",
+			"amalgamat",
+			"zorka",
+			"redar",
+			"rofos",
+			"simn",
+			"xiavier",
+			"puk",
+			"g3",
+			"pur",
+			"rich",
+			"hopka",
+			"alya",
+			"leebert",
+			"sector",
+			"viola"
+		]
+	},
+	"stickers": {
+		"alya": ["alyaneshkoSticker0001"],
+		"amalgamat": [
+			"amalgamatSticker0001",
+			"amalgamatSticker0002",
+			"amalgamatSticker0003"
+		],
+		"bf": [
+			"boyfriendSticker0001",
+			"boyfriendSticker0002",
+			"boyfriendSticker0003"
+		],
+		"d4rkwinged": [
+			"d4rkwingedSticker0001",
+			"d4rkwingedSticker0002",
+			"d4rkwingedSticker0003"
+		],
+		"g3": ["G3Sticker0001"],
+		"hopka": ["hopkaSticker0001", "hopkaSticker0002", "hopkaSticker0003"],
+		"juztexd": [
+			"juztexdSticker0001",
+			"juztexdSticker0002",
+			"juztexdSticker0003"
+		],
+		"leebert": ["leebertSticker0001"],
+		"lostel": [
+			"lostelSticker0001",
+			"lostelSticker0002",
+			"lostelSticker0003"
+		],
+		"magman": [
+			"magmanSticker0001",
+			"magmanSticker0002",
+			"magmanSticker0003"
+		],
+		"matr4ss": [
+			"matr4Ssticker0001",
+			"matr4Ssticker0002",
+			"matr4Ssticker0003"
+		],
+		"naisonji": [
+			"naisonjiSticker0001",
+			"naisonjiSticker0002",
+			"naisonjiSticker0003"
+		],
+		"pivozavrik": [
+			"pivozavrikSticker0001",
+			"pivozavrikSticker0002",
+			"pivozavrikSticker0003",
+			"pivozavrikSticker0004",
+			"pivozavrikSticker0005",
+			"pivozavrikSticker0006"
+		],
+		"puk": ["pukovichSticker0001", "pukovichSticker0002"],
+		"pur": ["purSticker0001", "purSticker0002", "purSticker0003"],
+		"redar": ["redarSticker0001", "redarSticker0002", "redarSticker0003"],
+		"rich": ["richSticker0001"],
+		"rofos": ["rofosSticker0001", "rofosSticker0002", "rofosSticker0003"],
+		"sector": ["sectorSticker0001"],
+		"simn": ["simnSticker0001", "simnSticker0002", "simnSticker0003"],
+		"skarler": [
+			"skarlerSticker0001",
+			"skarlerSticker0002",
+			"skarlerSticker0003"
+		],
+		"sway": ["swaySticker0001", "swaySticker0002", "swaySticker0003"],
+		"viola": ["violaSticker0001", "violaSticker0002", "violaSticker0003"],
+		"xiavier": [
+			"xiavierSticker0001",
+			"xiavierSticker0002",
+			"xiavierSticker0003"
+		],
+		"zorka": ["zorkaSticker0001", "zorkaSticker0002", "zorkaSticker0003"]
+	}
+}

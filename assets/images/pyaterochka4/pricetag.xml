@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ценник.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ценник0000" x="0" y="0" width="64" height="37"/>
+	<SubTexture name="ценник0001" x="0" y="39" width="64" height="37"/>
+</TextureAtlas>

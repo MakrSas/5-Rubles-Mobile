@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="DEATH.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="артём убивалка 10000" x="2" y="1605" width="482" height="623" frameX="0" frameY="-11" frameWidth="482" frameHeight="634"/>
+	<SubTexture name="артём убивалка 10001" x="2" y="1605" width="482" height="623" frameX="0" frameY="-11" frameWidth="482" frameHeight="634"/>
+	<SubTexture name="артём убивалка 10002" x="2014" y="1609" width="470" height="634" frameX="-4" frameY="0" frameWidth="482" frameHeight="634"/>
+	<SubTexture name="артём убивалка 10003" x="2014" y="1609" width="470" height="634" frameX="-4" frameY="0" frameWidth="482" frameHeight="634"/>
+	<SubTexture name="артём убивалка 20000" x="1530" y="1516" width="482" height="623" frameX="-195" frameY="-86" frameWidth="677" frameHeight="709"/>
+	<SubTexture name="артём убивалка 20001" x="552" y="1517" width="528" height="706" frameX="0" frameY="0" frameWidth="677" frameHeight="709"/>
+	<SubTexture name="артём убивалка 20002" x="552" y="1517" width="528" height="706" frameX="0" frameY="0" frameWidth="677" frameHeight="709"/>
+	<SubTexture name="артём убивалка 20003" x="552" y="818" width="538" height="697" frameX="-4" frameY="-9" frameWidth="677" frameHeight="709"/>
+	<SubTexture name="артём убивалка 20004" x="552" y="818" width="538" height="697" frameX="-4" frameY="-9" frameWidth="677" frameHeight="709"/>
+	<SubTexture name="артём убивалка 20005" x="1092" y="803" width="536" height="697" frameX="-5" frameY="-9" frameWidth="677" frameHeight="709"/>
+	<SubTexture name="артём убивалка 20006" x="1092" y="803" width="536" height="697" frameX="-5" frameY="-9" frameWidth="677" frameHeight="709"/>
+	<SubTexture name="артём убивалка 20007" x="552" y="818" width="538" height="697" frameX="-4" frameY="-9" frameWidth="677" frameHeight="709"/>
+	<SubTexture name="артём убивалка 20008" x="552" y="818" width="538" height="697" frameX="-4" frameY="-9" frameWidth="677" frameHeight="709"/>
+	<SubTexture name="артём убивалка 20009" x="1092" y="803" width="536" height="697" frameX="-5" frameY="-9" frameWidth="677" frameHeight="709"/>
+	<SubTexture name="артём убивалка 20010" x="1092" y="803" width="536" height="697" frameX="-5" frameY="-9" frameWidth="677" frameHeight="709"/>
+	<SubTexture name="артём убивалка 20011" x="1092" y="803" width="536" height="697" frameX="-5" frameY="-9" frameWidth="677" frameHeight="709"/>
+	<SubTexture name="рубл4 убивалка 10000" x="2170" y="2" width="452" height="797" frameX="0" frameY="-9" frameWidth="452" frameHeight="806"/>
+	<SubTexture name="рубл4 убивалка 10001" x="2170" y="2" width="452" height="797" frameX="0" frameY="-9" frameWidth="452" frameHeight="806"/>
+	<SubTexture name="рубл4 убивалка 10002" x="2157" y="801" width="432" height="806" frameX="-4" frameY="0" frameWidth="452" frameHeight="806"/>
+	<SubTexture name="рубл4 убивалка 20000" x="1641" y="2" width="527" height="764" frameX="-144" frameY="-50" frameWidth="671" frameHeight="814"/>
+	<SubTexture name="рубл4 убивалка 20001" x="1630" y="803" width="525" height="711" frameX="-130" frameY="-103" frameWidth="671" frameHeight="814"/>
+	<SubTexture name="рубл4 убивалка 20002" x="1630" y="803" width="525" height="711" frameX="-130" frameY="-103" frameWidth="671" frameHeight="814"/>
+	<SubTexture name="рубл4 убивалка 20003" x="1092" y="1502" width="436" height="747" frameX="-98" frameY="-67" frameWidth="671" frameHeight="814"/>
+	<SubTexture name="рубл4 убивалка 20004" x="553" y="2" width="537" height="814" frameX="0" frameY="0" frameWidth="671" frameHeight="814"/>
+	<SubTexture name="рубл4 убивалка 20005" x="553" y="2" width="537" height="814" frameX="0" frameY="0" frameWidth="671" frameHeight="814"/>
+	<SubTexture name="рубл4 убивалка 20006" x="2" y="2" width="549" height="800" frameX="-22" frameY="-14" frameWidth="671" frameHeight="814"/>
+	<SubTexture name="рубл4 убивалка 20007" x="2" y="2" width="549" height="800" frameX="-22" frameY="-14" frameWidth="671" frameHeight="814"/>
+	<SubTexture name="рубл4 убивалка 20008" x="2" y="804" width="548" height="799" frameX="-18" frameY="-15" frameWidth="671" frameHeight="814"/>
+	<SubTexture name="рубл4 убивалка 20009" x="2" y="804" width="548" height="799" frameX="-18" frameY="-15" frameWidth="671" frameHeight="814"/>
+	<SubTexture name="рубл4 убивалка 20010" x="1092" y="2" width="547" height="799" frameX="-19" frameY="-15" frameWidth="671" frameHeight="814"/>
+	<SubTexture name="рубл4 убивалка 20011" x="1092" y="2" width="547" height="799" frameX="-19" frameY="-15" frameWidth="671" frameHeight="814"/>
+	<SubTexture name="рубл4 убивалка 20012" x="2" y="804" width="548" height="799" frameX="-18" frameY="-15" frameWidth="671" frameHeight="814"/>
+	<SubTexture name="рубл4 убивалка 20013" x="2" y="804" width="548" height="799" frameX="-18" frameY="-15" frameWidth="671" frameHeight="814"/>
+	<SubTexture name="рубл4 убивалка 20014" x="1092" y="2" width="547" height="799" frameX="-19" frameY="-15" frameWidth="671" frameHeight="814"/>
+	<SubTexture name="рубл4 убивалка 20015" x="1092" y="2" width="547" height="799" frameX="-19" frameY="-15" frameWidth="671" frameHeight="814"/>
+</TextureAtlas>

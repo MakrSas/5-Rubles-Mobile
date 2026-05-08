@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="settings_bt.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="settings_idle0000" x="0" y="977" width="335" height="122" frameX="0" frameY="0" frameWidth="335" frameHeight="124"/>
+	<SubTexture name="settings_idle0001" x="0" y="977" width="335" height="122" frameX="0" frameY="0" frameWidth="335" frameHeight="124"/>
+	<SubTexture name="settings_idle0002" x="0" y="977" width="335" height="122" frameX="0" frameY="0" frameWidth="335" frameHeight="124"/>
+	<SubTexture name="settings_idle0003" x="0" y="977" width="335" height="122" frameX="0" frameY="0" frameWidth="335" frameHeight="124"/>
+	<SubTexture name="settings_idle0004" x="0" y="977" width="335" height="122" frameX="0" frameY="0" frameWidth="335" frameHeight="124"/>
+	<SubTexture name="settings_idle0005" x="0" y="852" width="334" height="123" frameX="0" frameY="-1" frameWidth="335" frameHeight="124"/>
+	<SubTexture name="settings_idle0006" x="0" y="852" width="334" height="123" frameX="0" frameY="-1" frameWidth="335" frameHeight="124"/>
+	<SubTexture name="settings_idle0007" x="0" y="852" width="334" height="123" frameX="0" frameY="-1" frameWidth="335" frameHeight="124"/>
+	<SubTexture name="settings_idle0008" x="0" y="852" width="334" height="123" frameX="0" frameY="-1" frameWidth="335" frameHeight="124"/>
+	<SubTexture name="settings_idle0009" x="0" y="852" width="334" height="123" frameX="0" frameY="-1" frameWidth="335" frameHeight="124"/>
+	<SubTexture name="settings_idle0010" x="0" y="1101" width="334" height="121" frameX="0" frameY="-1" frameWidth="335" frameHeight="124"/>
+	<SubTexture name="settings_idle0011" x="0" y="1101" width="334" height="121" frameX="0" frameY="-1" frameWidth="335" frameHeight="124"/>
+	<SubTexture name="settings_idle0012" x="0" y="1101" width="334" height="121" frameX="0" frameY="-1" frameWidth="335" frameHeight="124"/>
+	<SubTexture name="settings_idle0013" x="0" y="1101" width="334" height="121" frameX="0" frameY="-1" frameWidth="335" frameHeight="124"/>
+	<SubTexture name="settings_idle0014" x="0" y="1101" width="334" height="121" frameX="0" frameY="-1" frameWidth="335" frameHeight="124"/>
+	<SubTexture name="settings_selected0000" x="0" y="248" width="434" height="212" frameX="-16" frameY="-18" frameWidth="459" frameHeight="246"/>
+	<SubTexture name="settings_selected0001" x="0" y="248" width="434" height="212" frameX="-16" frameY="-18" frameWidth="459" frameHeight="246"/>
+	<SubTexture name="settings_selected0002" x="0" y="248" width="434" height="212" frameX="-16" frameY="-18" frameWidth="459" frameHeight="246"/>
+	<SubTexture name="settings_selected0003" x="0" y="462" width="420" height="193" frameX="-25" frameY="-35" frameWidth="459" frameHeight="246"/>
+	<SubTexture name="settings_selected0004" x="0" y="462" width="420" height="193" frameX="-25" frameY="-35" frameWidth="459" frameHeight="246"/>
+	<SubTexture name="settings_selected0005" x="0" y="462" width="420" height="193" frameX="-25" frameY="-35" frameWidth="459" frameHeight="246"/>
+	<SubTexture name="settings_selected0006" x="0" y="0" width="459" height="246"/>
+	<SubTexture name="settings_selected0007" x="0" y="0" width="459" height="246"/>
+	<SubTexture name="settings_selected0008" x="0" y="0" width="459" height="246"/>
+	<SubTexture name="settings_selected0009" x="0" y="657" width="420" height="193" frameX="-25" frameY="-35" frameWidth="459" frameHeight="246"/>
+	<SubTexture name="settings_selected0010" x="0" y="657" width="420" height="193" frameX="-25" frameY="-35" frameWidth="459" frameHeight="246"/>
+	<SubTexture name="settings_selected0011" x="0" y="657" width="420" height="193" frameX="-25" frameY="-35" frameWidth="459" frameHeight="246"/>
+</TextureAtlas>

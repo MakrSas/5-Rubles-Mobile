@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="redar_nokia_MISS.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="miss down0000" x="1848" y="1548" width="556" height="766" frameX="-5" frameY="-16" frameWidth="597" frameHeight="782"/>
+	<SubTexture name="miss down0001" x="0" y="1662" width="597" height="747" frameX="0" frameY="0" frameWidth="597" frameHeight="782"/>
+	<SubTexture name="miss down0002" x="0" y="1662" width="597" height="747" frameX="0" frameY="0" frameWidth="597" frameHeight="782"/>
+	<SubTexture name="miss down0003" x="1848" y="795" width="568" height="751" frameX="0" frameY="-15" frameWidth="597" frameHeight="782"/>
+	<SubTexture name="miss down0004" x="1848" y="795" width="568" height="751" frameX="0" frameY="-15" frameWidth="597" frameHeight="782"/>
+	<SubTexture name="miss left0000" x="1201" y="1603" width="588" height="819" frameX="-84" frameY="0" frameWidth="694" frameHeight="839"/>
+	<SubTexture name="miss left0001" x="0" y="0" width="694" height="817" frameX="0" frameY="-20" frameWidth="694" frameHeight="839"/>
+	<SubTexture name="miss left0002" x="0" y="0" width="694" height="817" frameX="0" frameY="-20" frameWidth="694" frameHeight="839"/>
+	<SubTexture name="miss left0003" x="609" y="1603" width="590" height="822" frameX="-89" frameY="-17" frameWidth="694" frameHeight="839"/>
+	<SubTexture name="miss left0004" x="609" y="1603" width="590" height="822" frameX="-89" frameY="-17" frameWidth="694" frameHeight="839"/>
+	<SubTexture name="miss right0000" x="0" y="819" width="607" height="841" frameX="-34" frameY="0" frameWidth="642" frameHeight="841"/>
+	<SubTexture name="miss right0001" x="609" y="819" width="625" height="782" frameX="0" frameY="-9" frameWidth="642" frameHeight="841"/>
+	<SubTexture name="miss right0002" x="609" y="819" width="625" height="782" frameX="0" frameY="-9" frameWidth="642" frameHeight="841"/>
+	<SubTexture name="miss right0003" x="696" y="0" width="611" height="787" frameX="-31" frameY="-8" frameWidth="642" frameHeight="841"/>
+	<SubTexture name="miss right0004" x="696" y="0" width="611" height="787" frameX="-31" frameY="-8" frameWidth="642" frameHeight="841"/>
+	<SubTexture name="miss up0000" x="1904" y="0" width="545" height="793" frameX="-38" frameY="0" frameWidth="619" frameHeight="810"/>
+	<SubTexture name="miss up0001" x="1236" y="789" width="610" height="786" frameX="0" frameY="-24" frameWidth="619" frameHeight="810"/>
+	<SubTexture name="miss up0002" x="1236" y="789" width="610" height="786" frameX="0" frameY="-24" frameWidth="619" frameHeight="810"/>
+	<SubTexture name="miss up0003" x="1309" y="0" width="593" height="778" frameX="-26" frameY="-4" frameWidth="619" frameHeight="810"/>
+	<SubTexture name="miss up0004" x="1309" y="0" width="593" height="778" frameX="-26" frameY="-4" frameWidth="619" frameHeight="810"/>
+</TextureAtlas>

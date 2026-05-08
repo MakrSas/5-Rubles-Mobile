@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="zzz.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ЗЭД0000" x="0" y="0" width="86" height="74" frameX="0" frameY="0" frameWidth="86" frameHeight="75"/>
+	<SubTexture name="ЗЭД0001" x="0" y="0" width="86" height="74" frameX="0" frameY="0" frameWidth="86" frameHeight="75"/>
+	<SubTexture name="ЗЭД0002" x="88" y="0" width="83" height="74" frameX="-2" frameY="-1" frameWidth="86" frameHeight="75"/>
+	<SubTexture name="ЗЭД0003" x="88" y="0" width="83" height="74" frameX="-2" frameY="-1" frameWidth="86" frameHeight="75"/>
+</TextureAtlas>

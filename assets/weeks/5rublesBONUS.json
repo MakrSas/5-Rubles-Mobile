@@ -1,0 +1,26 @@
+{
+	"songs": [
+		{
+			"songName": "Add Me In 5RUBLES",
+			"healthIcon": "olek5rubeyl-dad",
+			"freeplayColor": "#8D6083",
+			"invisibleInFreeplay": true
+		},
+		{
+			"songName": "Matematika",
+			"healthIcon": "redar",
+			"freeplayColor": "#A78B75",
+			"invisibleInFreeplay": true
+		},
+		{
+			"songName": "Under Construction",
+			"healthIcon": "vsartem",
+			"freeplayColor": "#000000",
+			"invisibleInFreeplay": true,
+			"extraFields": {
+				"condition": "uc"
+			}
+		}
+	],
+	"isTwist": true
+}

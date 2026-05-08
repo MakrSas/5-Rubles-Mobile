@@ -1,0 +1,57 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-21,
+				-36
+			],
+			"anim": "singDOWN",
+			"name": "down0"
+		},
+		{
+			"anim": "idle",
+			"name": "idle0"
+		},
+		{
+			"offsets": [
+				60,
+				2
+			],
+			"anim": "singLEFT",
+			"name": "left0"
+		},
+		{
+			"offsets": [
+				-57,
+				2
+			],
+			"anim": "singRIGHT",
+			"name": "right0"
+		},
+		{
+			"offsets": [
+				-51,
+				54
+			],
+			"anim": "singUP",
+			"name": "up0"
+		}
+	],
+	"image": "characters/naiso",
+	"position": [
+		-16,
+		-50
+	],
+	"healthicon": "rublonji",
+	"healthbar_colors": [
+		100,
+		135,
+		149
+	],
+	"camera_position": [
+		34,
+		-89
+	],
+	"sing_duration": 4.1,
+	"scale": 1
+}

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="piggybank.png">
+	<!-- Created with Adobe Animate version 24.0.0.305 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="pig0000" x="1" y="1" width="469" height="297" frameX="0" frameY="0" frameWidth="479" frameHeight="297" rotated="false"/>
+	<SubTexture name="pig0001" x="1" y="1" width="469" height="297" frameX="0" frameY="0" frameWidth="479" frameHeight="297" rotated="false"/>
+	<SubTexture name="pig0002" x="1" y="1" width="469" height="297" frameX="0" frameY="0" frameWidth="479" frameHeight="297" rotated="false"/>
+	<SubTexture name="pig0003" x="1" y="1" width="469" height="297" frameX="0" frameY="0" frameWidth="479" frameHeight="297" rotated="false"/>
+	<SubTexture name="pig0004" x="1" y="1" width="469" height="297" frameX="0" frameY="0" frameWidth="479" frameHeight="297" rotated="false"/>
+	<SubTexture name="pig0005" x="1" y="1" width="469" height="297" frameX="0" frameY="0" frameWidth="479" frameHeight="297" rotated="false"/>
+	<SubTexture name="pig0006" x="1" y="1" width="469" height="297" frameX="0" frameY="0" frameWidth="479" frameHeight="297" rotated="false"/>
+	<SubTexture name="pig0007" x="1" y="1" width="469" height="297" frameX="0" frameY="0" frameWidth="479" frameHeight="297" rotated="false"/>
+	<SubTexture name="pig0008" x="471" y="1" width="479" height="288" frameX="0" frameY="-9" frameWidth="479" frameHeight="297" rotated="false"/>
+	<SubTexture name="pig0009" x="471" y="1" width="479" height="288" frameX="0" frameY="-9" frameWidth="479" frameHeight="297" rotated="false"/>
+	<SubTexture name="pig0010" x="471" y="1" width="479" height="288" frameX="0" frameY="-9" frameWidth="479" frameHeight="297" rotated="false"/>
+	<SubTexture name="pig0011" x="471" y="1" width="479" height="288" frameX="0" frameY="-9" frameWidth="479" frameHeight="297" rotated="false"/>
+	<SubTexture name="pig0012" x="471" y="1" width="479" height="288" frameX="0" frameY="-9" frameWidth="479" frameHeight="297" rotated="false"/>
+	<SubTexture name="pig0013" x="471" y="1" width="479" height="288" frameX="0" frameY="-9" frameWidth="479" frameHeight="297" rotated="false"/>
+	<SubTexture name="pig0014" x="471" y="1" width="479" height="288" frameX="0" frameY="-9" frameWidth="479" frameHeight="297" rotated="false"/>
+	<SubTexture name="pig0015" x="471" y="1" width="479" height="288" frameX="0" frameY="-9" frameWidth="479" frameHeight="297" rotated="false"/>
+</TextureAtlas>

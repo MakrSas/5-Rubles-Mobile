@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="fnfans.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="fnfans0000" x="0" y="2621" width="2457" height="574" frameX="-3" frameY="-139" frameWidth="2477" frameHeight="720"/>
+	<SubTexture name="fnfans0001" x="0" y="2621" width="2457" height="574" frameX="-3" frameY="-139" frameWidth="2477" frameHeight="720"/>
+	<SubTexture name="fnfans0002" x="0" y="1406" width="2421" height="609" frameX="-29" frameY="-107" frameWidth="2477" frameHeight="720"/>
+	<SubTexture name="fnfans0003" x="0" y="1406" width="2421" height="609" frameX="-29" frameY="-107" frameWidth="2477" frameHeight="720"/>
+	<SubTexture name="fnfans0004" x="0" y="2017" width="2427" height="602" frameX="-23" frameY="-115" frameWidth="2477" frameHeight="720"/>
+	<SubTexture name="fnfans0005" x="0" y="2017" width="2427" height="602" frameX="-23" frameY="-115" frameWidth="2477" frameHeight="720"/>
+	<SubTexture name="fnfans0006" x="0" y="2017" width="2427" height="602" frameX="-23" frameY="-115" frameWidth="2477" frameHeight="720"/>
+	<SubTexture name="fnfans0007" x="0" y="2017" width="2427" height="602" frameX="-23" frameY="-115" frameWidth="2477" frameHeight="720"/>
+	<SubTexture name="fnfans0008" x="0" y="2017" width="2427" height="602" frameX="-23" frameY="-115" frameWidth="2477" frameHeight="720"/>
+	<SubTexture name="fnfans0009" x="0" y="2017" width="2427" height="602" frameX="-23" frameY="-115" frameWidth="2477" frameHeight="720"/>
+	<SubTexture name="fnfans0010" x="0" y="2621" width="2457" height="574" frameX="-3" frameY="-139" frameWidth="2477" frameHeight="720"/>
+	<SubTexture name="fnfans0011" x="0" y="2621" width="2457" height="574" frameX="-3" frameY="-139" frameWidth="2477" frameHeight="720"/>
+	<SubTexture name="fnfans0012" x="0" y="0" width="2477" height="718" frameX="0" frameY="0" frameWidth="2477" frameHeight="720"/>
+	<SubTexture name="fnfans0013" x="0" y="0" width="2477" height="718" frameX="0" frameY="0" frameWidth="2477" frameHeight="720"/>
+	<SubTexture name="fnfans0014" x="0" y="720" width="2434" height="684" frameX="-16" frameY="-36" frameWidth="2477" frameHeight="720"/>
+	<SubTexture name="fnfans0015" x="0" y="720" width="2434" height="684" frameX="-16" frameY="-36" frameWidth="2477" frameHeight="720"/>
+	<SubTexture name="fnfans0016" x="0" y="720" width="2434" height="684" frameX="-16" frameY="-36" frameWidth="2477" frameHeight="720"/>
+	<SubTexture name="fnfans0017" x="0" y="720" width="2434" height="684" frameX="-16" frameY="-36" frameWidth="2477" frameHeight="720"/>
+	<SubTexture name="fnfans0018" x="0" y="720" width="2434" height="684" frameX="-16" frameY="-36" frameWidth="2477" frameHeight="720"/>
+	<SubTexture name="fnfans0019" x="0" y="720" width="2434" height="684" frameX="-16" frameY="-36" frameWidth="2477" frameHeight="720"/>
+</TextureAtlas>

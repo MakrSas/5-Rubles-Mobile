@@ -1,0 +1,35 @@
+{
+	"songs": [
+		{
+			"songName": "Jopotr4ss-d4rk",
+			"healthIcon": "rubl4Ss-playble",
+			"freeplayColor": "#395443",
+			"invisibleInFreeplay": true
+		},
+		{
+			"songName": "Jopotr4ss-leebert",
+			"healthIcon": "rubl4Ss-playble",
+			"freeplayColor": "#395443",
+			"invisibleInFreeplay": true
+		},
+		{
+			"songName": "Jopotr4ss-puk",
+			"healthIcon": "rubl4Ss-playble",
+			"freeplayColor": "#395443",
+			"invisibleInFreeplay": true
+		},
+		{
+			"songName": "Jopotr4ss-rofos",
+			"healthIcon": "rubl4Ss-playble",
+			"freeplayColor": "#395443",
+			"invisibleInFreeplay": true
+		},
+		{
+			"songName": "Jopotr4ss-simon",
+			"healthIcon": "rubl4Ss-playble",
+			"freeplayColor": "#395443",
+			"invisibleInFreeplay": true
+		}
+	],
+	"isTwist": true
+}

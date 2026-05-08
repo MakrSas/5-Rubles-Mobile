@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="hopka_bg.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="hopka_idle0000" x="0" y="789" width="281" height="377" frameX="0" frameY="-7" frameWidth="285" frameHeight="384"/>
+	<SubTexture name="hopka_idle0001" x="0" y="789" width="281" height="377" frameX="0" frameY="-7" frameWidth="285" frameHeight="384"/>
+	<SubTexture name="hopka_idle0002" x="1434" y="789" width="279" height="373" frameX="-3" frameY="-11" frameWidth="285" frameHeight="384"/>
+	<SubTexture name="hopka_idle0003" x="1434" y="789" width="279" height="373" frameX="-3" frameY="-11" frameWidth="285" frameHeight="384"/>
+	<SubTexture name="hopka_idle0004" x="1154" y="789" width="278" height="377" frameX="-5" frameY="-7" frameWidth="285" frameHeight="384"/>
+	<SubTexture name="hopka_idle0005" x="1154" y="789" width="278" height="377" frameX="-5" frameY="-7" frameWidth="285" frameHeight="384"/>
+	<SubTexture name="hopka_idle0006" x="1444" y="396" width="280" height="383" frameX="-5" frameY="-1" frameWidth="285" frameHeight="384"/>
+	<SubTexture name="hopka_idle0007" x="1444" y="396" width="280" height="383" frameX="-5" frameY="-1" frameWidth="285" frameHeight="384"/>
+	<SubTexture name="hopka_idle0008" x="872" y="782" width="280" height="384" frameX="-5" frameY="0" frameWidth="285" frameHeight="384"/>
+	<SubTexture name="hopka_idle0009" x="872" y="782" width="280" height="384" frameX="-5" frameY="0" frameWidth="285" frameHeight="384"/>
+	<SubTexture name="hopka_idle0010" x="872" y="782" width="280" height="384" frameX="-5" frameY="0" frameWidth="285" frameHeight="384"/>
+	<SubTexture name="hopka_idle0011" x="872" y="782" width="280" height="384" frameX="-5" frameY="0" frameWidth="285" frameHeight="384"/>
+	<SubTexture name="hopka_idle0012" x="872" y="782" width="280" height="384" frameX="-5" frameY="0" frameWidth="285" frameHeight="384"/>
+	<SubTexture name="hopka_idle0013" x="872" y="782" width="280" height="384" frameX="-5" frameY="0" frameWidth="285" frameHeight="384"/>
+	<SubTexture name="hopka_idle0014" x="872" y="782" width="280" height="384" frameX="-5" frameY="0" frameWidth="285" frameHeight="384"/>
+	<SubTexture name="hopka_meow0000" x="283" y="789" width="279" height="377" frameX="-6" frameY="-17" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0001" x="1201" y="0" width="289" height="394"/>
+	<SubTexture name="hopka_meow0002" x="1201" y="0" width="289" height="394"/>
+	<SubTexture name="hopka_meow0003" x="299" y="395" width="285" height="392" frameX="-4" frameY="-2" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0004" x="299" y="395" width="285" height="392" frameX="-4" frameY="-2" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0005" x="586" y="391" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0006" x="586" y="391" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0007" x="872" y="389" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0008" x="872" y="389" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0009" x="1158" y="396" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0010" x="1158" y="396" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0011" x="872" y="389" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0012" x="872" y="389" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0013" x="1158" y="396" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0014" x="1158" y="396" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0015" x="872" y="389" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0016" x="872" y="389" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0017" x="1158" y="396" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0018" x="1158" y="396" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0019" x="872" y="389" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0020" x="872" y="389" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0021" x="1158" y="396" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0022" x="1158" y="396" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0023" x="872" y="389" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0024" x="872" y="389" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0025" x="1158" y="396" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0026" x="1158" y="396" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0027" x="872" y="389" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0028" x="872" y="389" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0029" x="1158" y="396" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0030" x="1158" y="396" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0031" x="872" y="389" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0032" x="872" y="389" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0033" x="1158" y="396" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0034" x="1158" y="396" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0035" x="872" y="389" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0036" x="872" y="389" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0037" x="1158" y="396" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0038" x="1158" y="396" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0039" x="872" y="389" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0040" x="872" y="389" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0041" x="1158" y="396" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0042" x="1158" y="396" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0043" x="872" y="389" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0044" x="872" y="389" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0045" x="1158" y="396" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0046" x="1158" y="396" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0047" x="872" y="389" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0048" x="872" y="389" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0049" x="1158" y="396" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_meow0050" x="1158" y="396" width="284" height="391" frameX="-4" frameY="-3" frameWidth="289" frameHeight="394"/>
+	<SubTexture name="hopka_react0000" x="564" y="789" width="277" height="377" frameX="0" frameY="-16" frameWidth="305" frameHeight="393"/>
+	<SubTexture name="hopka_react0001" x="564" y="789" width="277" height="377" frameX="0" frameY="-16" frameWidth="305" frameHeight="393"/>
+	<SubTexture name="hopka_react0002" x="0" y="395" width="297" height="392" frameX="-7" frameY="-1" frameWidth="305" frameHeight="393"/>
+	<SubTexture name="hopka_react0003" x="0" y="0" width="298" height="393" frameX="-7" frameY="0" frameWidth="305" frameHeight="393"/>
+	<SubTexture name="hopka_react0004" x="300" y="0" width="299" height="389" frameX="-4" frameY="-4" frameWidth="305" frameHeight="393"/>
+	<SubTexture name="hopka_react0005" x="300" y="0" width="299" height="389" frameX="-4" frameY="-4" frameWidth="305" frameHeight="393"/>
+	<SubTexture name="hopka_react0006" x="601" y="0" width="298" height="387" frameX="-3" frameY="-6" frameWidth="305" frameHeight="393"/>
+	<SubTexture name="hopka_react0007" x="601" y="0" width="298" height="387" frameX="-3" frameY="-6" frameWidth="305" frameHeight="393"/>
+	<SubTexture name="hopka_react0008" x="901" y="0" width="298" height="387" frameX="-3" frameY="-6" frameWidth="305" frameHeight="393"/>
+	<SubTexture name="hopka_react0009" x="901" y="0" width="298" height="387" frameX="-3" frameY="-6" frameWidth="305" frameHeight="393"/>
+</TextureAtlas>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 DEV https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="juztReact.png" width="5469" height="570" spritePadding="2" borderPadding="0">
+	<SubTexture name="concernedIDLE0000" x="2354" y="0" width="390" height="568" frameX="0" frameY="-5" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="concernedIDLE0001" x="2354" y="0" width="390" height="568" frameX="0" frameY="-5" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="concernedIDLE0002" x="2746" y="0" width="392" height="568" frameX="0" frameY="-5" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="concernedIDLE0003" x="2746" y="0" width="392" height="568" frameX="0" frameY="-5" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="concernedIDLE0004" x="3140" y="0" width="389" height="569" frameX="-1" frameY="-2" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="concernedIDLE0005" x="3140" y="0" width="389" height="569" frameX="-1" frameY="-2" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="concernedIDLE0006" x="3531" y="0" width="386" height="570" frameX="-1" frameY="0" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="concernedIDLE0007" x="3531" y="0" width="386" height="570" frameX="-1" frameY="0" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="concernedIDLE0008" x="3919" y="0" width="386" height="570" frameX="-1" frameY="0" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="concernedIDLE0009" x="3919" y="0" width="386" height="570" frameX="-1" frameY="0" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="concernedIDLE0010" x="3919" y="0" width="386" height="570" frameX="-1" frameY="0" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="concernedIDLE0011" x="3919" y="0" width="386" height="570" frameX="-1" frameY="0" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="concernedIDLE0012" x="3919" y="0" width="386" height="570" frameX="-1" frameY="0" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="concernedIDLE0013" x="3919" y="0" width="386" height="570" frameX="-1" frameY="0" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="concernedIDLE0014" x="3919" y="0" width="386" height="570" frameX="-1" frameY="0" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="happyIDLE0000" x="1180" y="0" width="390" height="566" frameX="0" frameY="-7" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="happyIDLE0001" x="1180" y="0" width="390" height="566" frameX="0" frameY="-7" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="happyIDLE0002" x="0" y="0" width="392" height="565" frameX="0" frameY="-8" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="happyIDLE0003" x="0" y="0" width="392" height="565" frameX="0" frameY="-8" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="happyIDLE0004" x="1572" y="0" width="389" height="567" frameX="-1" frameY="-4" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="happyIDLE0005" x="1572" y="0" width="389" height="567" frameX="-1" frameY="-4" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="happyIDLE0006" x="4307" y="0" width="386" height="570" frameX="-1" frameY="0" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="happyIDLE0007" x="4307" y="0" width="386" height="570" frameX="-1" frameY="0" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="happyIDLE0008" x="4695" y="0" width="386" height="570" frameX="-1" frameY="0" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="happyIDLE0009" x="4695" y="0" width="386" height="570" frameX="-1" frameY="0" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="happyIDLE0010" x="4695" y="0" width="386" height="570" frameX="-1" frameY="0" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="happyIDLE0011" x="4695" y="0" width="386" height="570" frameX="-1" frameY="0" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="happyIDLE0012" x="4695" y="0" width="386" height="570" frameX="-1" frameY="0" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="happyIDLE0013" x="4695" y="0" width="386" height="570" frameX="-1" frameY="0" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="happyIDLE0014" x="394" y="0" width="390" height="565" frameX="0" frameY="-8" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="happyIDLE0015" x="394" y="0" width="390" height="565" frameX="0" frameY="-8" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="happyIDLE0016" x="786" y="0" width="392" height="565" frameX="0" frameY="-8" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="happyIDLE0017" x="786" y="0" width="392" height="565" frameX="0" frameY="-8" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="happyIDLE0018" x="1963" y="0" width="389" height="567" frameX="-1" frameY="-4" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="happyIDLE0019" x="1963" y="0" width="389" height="567" frameX="-1" frameY="-4" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="happyIDLE0020" x="5083" y="0" width="386" height="570" frameX="-1" frameY="0" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="happyIDLE0021" x="5083" y="0" width="386" height="570" frameX="-1" frameY="0" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="happyIDLE0022" x="4695" y="0" width="386" height="570" frameX="-1" frameY="0" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="happyIDLE0023" x="4695" y="0" width="386" height="570" frameX="-1" frameY="0" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="happyIDLE0024" x="4695" y="0" width="386" height="570" frameX="-1" frameY="0" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="happyIDLE0025" x="4695" y="0" width="386" height="570" frameX="-1" frameY="0" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="happyIDLE0026" x="4695" y="0" width="386" height="570" frameX="-1" frameY="0" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="happyIDLE0027" x="4695" y="0" width="386" height="570" frameX="-1" frameY="0" frameWidth="392" frameHeight="570"/>
+	<SubTexture name="happyIDLE0028" x="4695" y="0" width="386" height="570" frameX="-1" frameY="0" frameWidth="392" frameHeight="570"/>
+</TextureAtlas>

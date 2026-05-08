@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="amalgamat.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="amalgamat0000" x="0" y="0" width="132" height="105" frameX="-11" frameY="-4" frameWidth="150" frameHeight="123"/>
+	<SubTexture name="amalgamat0001" x="134" y="0" width="138" height="106" frameX="-7" frameY="-8" frameWidth="150" frameHeight="123"/>
+	<SubTexture name="amalgamat0002" x="134" y="0" width="138" height="106" frameX="-7" frameY="-8" frameWidth="150" frameHeight="123"/>
+	<SubTexture name="amalgamat0003" x="0" y="108" width="150" height="123"/>
+	<SubTexture name="amalgamat0004" x="0" y="108" width="150" height="123"/>
+	<SubTexture name="amalgamat0005" x="152" y="108" width="137" height="116" frameX="-7" frameY="-1" frameWidth="150" frameHeight="123"/>
+</TextureAtlas>

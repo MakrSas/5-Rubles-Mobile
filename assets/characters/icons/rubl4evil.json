@@ -1,0 +1,71 @@
+{
+	"animations": [
+		{
+			"anim": "lose-loop",
+			"nameAnim": "loop lose",
+			"loop": true,
+			"fps": 24
+		},
+		{
+			"anim": "lose",
+			"nameAnim": "lose",
+			"fps": 24
+		},
+		{
+			"anim": "idle",
+			"nameAnim": "neutral",
+			"loop": true,
+			"fps": 24
+		},
+		{
+			"anim": "win-loop",
+			"nameAnim": "loop win",
+			"loop": true,
+			"fps": 24
+		},
+		{
+			"anim": "win",
+			"nameAnim": "win",
+			"fps": 24
+		},
+		{
+			"anim": "lose->idle",
+			"nameAnim": "lose",
+			"reversed": true,
+			"fps": 24
+		},
+		{
+			"anim": "win->idle",
+			"nameAnim": "win",
+			"reversed": true,
+			"fps": 24
+		}
+	],
+	"triggers": [
+		{
+			"name": "lose",
+			"indices": [0, 20]
+		},
+		{
+			"name": "idle",
+			"indices": [21, 79]
+		},
+		{
+			"name": "win",
+			"indices": [80, 100]
+		}
+	],
+	"image": "rubl4evil",
+	"hadXml": true,
+	"healthbar_colors": [
+		31,
+		109,
+		61
+
+	],
+	"offsets": [
+		0,
+		-6
+	],
+	"scale": 1
+}

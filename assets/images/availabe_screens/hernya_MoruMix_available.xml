@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 DEV https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="hernya_MoruMix_available.png" width="2471" height="675" spritePadding="2" borderPadding="0">
+	<SubTexture name="loop hernya0000" x="0" y="0" width="1235" height="675" frameX="0" frameY="-1" frameWidth="1235" frameHeight="676"/>
+	<SubTexture name="loop hernya0001" x="0" y="0" width="1235" height="675" frameX="0" frameY="-1" frameWidth="1235" frameHeight="676"/>
+	<SubTexture name="loop hernya0002" x="0" y="0" width="1235" height="675" frameX="0" frameY="-1" frameWidth="1235" frameHeight="676"/>
+	<SubTexture name="loop hernya0003" x="0" y="0" width="1235" height="675" frameX="0" frameY="-1" frameWidth="1235" frameHeight="676"/>
+	<SubTexture name="loop hernya0004" x="1237" y="0" width="1234" height="674" frameX="-1" frameY="-1" frameWidth="1235" frameHeight="676"/>
+	<SubTexture name="loop hernya0005" x="1237" y="0" width="1234" height="674" frameX="-1" frameY="-1" frameWidth="1235" frameHeight="676"/>
+	<SubTexture name="loop hernya0006" x="1237" y="0" width="1234" height="674" frameX="-1" frameY="-1" frameWidth="1235" frameHeight="676"/>
+	<SubTexture name="loop hernya0007" x="1237" y="0" width="1234" height="674" frameX="-1" frameY="-1" frameWidth="1235" frameHeight="676"/>
+</TextureAtlas>

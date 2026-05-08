@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="rofos.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="rofos0000" x="0" y="0" width="135" height="134" frameX="-6" frameY="-3" frameWidth="144" frameHeight="145"/>
+	<SubTexture name="rofos0001" x="137" y="0" width="128" height="134" frameX="-6" frameY="0" frameWidth="144" frameHeight="145"/>
+	<SubTexture name="rofos0002" x="137" y="0" width="128" height="134" frameX="-6" frameY="0" frameWidth="144" frameHeight="145"/>
+	<SubTexture name="rofos0003" x="267" y="0" width="144" height="138" frameX="0" frameY="-6" frameWidth="144" frameHeight="145"/>
+	<SubTexture name="rofos0004" x="267" y="0" width="144" height="138" frameX="0" frameY="-6" frameWidth="144" frameHeight="145"/>
+	<SubTexture name="rofos0005" x="413" y="0" width="139" height="139" frameX="-3" frameY="-6" frameWidth="144" frameHeight="145"/>
+</TextureAtlas>

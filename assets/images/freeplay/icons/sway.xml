@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="sway.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="marm0000" x="0" y="0" width="133" height="110" frameX="-5" frameY="-6" frameWidth="143" frameHeight="116"/>
+	<SubTexture name="marm0001" x="135" y="0" width="142" height="103" frameX="0" frameY="-12" frameWidth="143" frameHeight="116"/>
+	<SubTexture name="marm0002" x="135" y="0" width="142" height="103" frameX="0" frameY="-12" frameWidth="143" frameHeight="116"/>
+	<SubTexture name="marm0003" x="0" y="112" width="128" height="108" frameX="-11" frameY="0" frameWidth="143" frameHeight="116"/>
+	<SubTexture name="marm0004" x="0" y="112" width="128" height="108" frameX="-11" frameY="0" frameWidth="143" frameHeight="116"/>
+	<SubTexture name="marm0005" x="135" y="105" width="134" height="97" frameX="-9" frameY="-9" frameWidth="143" frameHeight="116"/>
+</TextureAtlas>

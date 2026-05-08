@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="fnf.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="fnf0000" x="1846" y="0" width="628" height="771" frameX="0" frameY="-11" frameWidth="628" frameHeight="875"/>
+	<SubTexture name="fnf0001" x="1846" y="0" width="628" height="771" frameX="0" frameY="-11" frameWidth="628" frameHeight="875"/>
+	<SubTexture name="fnf0002" x="0" y="0" width="615" height="803" frameX="-7" frameY="0" frameWidth="628" frameHeight="875"/>
+	<SubTexture name="fnf0003" x="0" y="0" width="615" height="803" frameX="-7" frameY="0" frameWidth="628" frameHeight="875"/>
+	<SubTexture name="fnf0004" x="1234" y="0" width="610" height="806" frameX="-9" frameY="-67" frameWidth="628" frameHeight="875"/>
+	<SubTexture name="fnf0005" x="1234" y="0" width="610" height="806" frameX="-9" frameY="-67" frameWidth="628" frameHeight="875"/>
+	<SubTexture name="fnf0006" x="617" y="0" width="615" height="803" frameX="-7" frameY="-72" frameWidth="628" frameHeight="875"/>
+	<SubTexture name="fnf0007" x="617" y="0" width="615" height="803" frameX="-7" frameY="-72" frameWidth="628" frameHeight="875"/>
+	<SubTexture name="fnf0008" x="617" y="0" width="615" height="803" frameX="-7" frameY="-72" frameWidth="628" frameHeight="875"/>
+	<SubTexture name="fnf0009" x="617" y="0" width="615" height="803" frameX="-7" frameY="-72" frameWidth="628" frameHeight="875"/>
+	<SubTexture name="fnf0010" x="617" y="0" width="615" height="803" frameX="-7" frameY="-72" frameWidth="628" frameHeight="875"/>
+	<SubTexture name="fnf0011" x="617" y="0" width="615" height="803" frameX="-7" frameY="-72" frameWidth="628" frameHeight="875"/>
+	<SubTexture name="fnf0012" x="617" y="0" width="615" height="803" frameX="-7" frameY="-72" frameWidth="628" frameHeight="875"/>
+	<SubTexture name="fnf0013" x="617" y="0" width="615" height="803" frameX="-7" frameY="-72" frameWidth="628" frameHeight="875"/>
+</TextureAtlas>

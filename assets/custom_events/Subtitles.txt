@@ -1,0 +1,3 @@
+value1: text or string id
+value2: color (char for icon color)
+value3: mode - clear, new, override, add (default: new)

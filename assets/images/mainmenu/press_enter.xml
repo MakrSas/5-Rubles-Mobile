@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="press_enter.png">
+	<!-- Created with Adobe Animate version 18.0.1.115 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="press_enter0000" x="2" y="409" width="739" height="102"/>
+	<SubTexture name="press_enter0001" x="2" y="409" width="739" height="102"/>
+	<SubTexture name="press_enter0002" x="2" y="409" width="739" height="102"/>
+	<SubTexture name="press_enter0003" x="2" y="513" width="739" height="102"/>
+	<SubTexture name="press_enter0004" x="2" y="513" width="739" height="102"/>
+	<SubTexture name="press_enter0005" x="2" y="513" width="739" height="102"/>
+	<SubTexture name="press_enter-confirm0000" x="2" y="617" width="785" height="89" frameX="-21" frameY="-32" frameWidth="828" frameHeight="154"/>
+	<SubTexture name="press_enter-confirm0001" x="2" y="617" width="785" height="89" frameX="-21" frameY="-32" frameWidth="828" frameHeight="154"/>
+	<SubTexture name="press_enter-confirm0002" x="2" y="2" width="792" height="154" frameX="-18" frameY="0" frameWidth="828" frameHeight="154"/>
+	<SubTexture name="press_enter-confirm0003" x="2" y="2" width="792" height="154" frameX="-18" frameY="0" frameWidth="828" frameHeight="154"/>
+	<SubTexture name="press_enter-confirm0004" x="2" y="158" width="828" height="125" frameX="0" frameY="-15" frameWidth="828" frameHeight="154"/>
+	<SubTexture name="press_enter-confirm0005" x="2" y="158" width="828" height="125" frameX="0" frameY="-15" frameWidth="828" frameHeight="154"/>
+	<SubTexture name="press_enter-confirm0006" x="2" y="285" width="824" height="122" frameX="-2" frameY="-16" frameWidth="828" frameHeight="154"/>
+</TextureAtlas>

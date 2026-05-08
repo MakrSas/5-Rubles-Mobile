@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 DEV https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="man.png" width="6336" height="498" spritePadding="0" borderPadding="0">
+	<SubTexture name="walk0000" x="0" y="0" width="264" height="498" frameX="0" frameY="0" frameWidth="264" frameHeight="498"/>
+	<SubTexture name="walk0001" x="0" y="0" width="264" height="498" frameX="0" frameY="0" frameWidth="264" frameHeight="498"/>
+	<SubTexture name="walk0002" x="264" y="0" width="264" height="498" frameX="0" frameY="0" frameWidth="264" frameHeight="498"/>
+	<SubTexture name="walk0003" x="528" y="0" width="264" height="498" frameX="0" frameY="0" frameWidth="264" frameHeight="498"/>
+	<SubTexture name="walk0004" x="792" y="0" width="264" height="498" frameX="0" frameY="0" frameWidth="264" frameHeight="498"/>
+	<SubTexture name="walk0005" x="1056" y="0" width="264" height="498" frameX="0" frameY="0" frameWidth="264" frameHeight="498"/>
+	<SubTexture name="walk0006" x="1320" y="0" width="264" height="498" frameX="0" frameY="0" frameWidth="264" frameHeight="498"/>
+	<SubTexture name="walk0007" x="1584" y="0" width="264" height="498" frameX="0" frameY="0" frameWidth="264" frameHeight="498"/>
+	<SubTexture name="walk0008" x="1848" y="0" width="264" height="498" frameX="0" frameY="0" frameWidth="264" frameHeight="498"/>
+	<SubTexture name="walk0009" x="2112" y="0" width="264" height="498" frameX="0" frameY="0" frameWidth="264" frameHeight="498"/>
+	<SubTexture name="walk0010" x="2376" y="0" width="264" height="498" frameX="0" frameY="0" frameWidth="264" frameHeight="498"/>
+	<SubTexture name="walk0011" x="2640" y="0" width="264" height="498" frameX="0" frameY="0" frameWidth="264" frameHeight="498"/>
+	<SubTexture name="walk0012" x="2904" y="0" width="264" height="498" frameX="0" frameY="0" frameWidth="264" frameHeight="498"/>
+	<SubTexture name="walk0013" x="3168" y="0" width="264" height="498" frameX="0" frameY="0" frameWidth="264" frameHeight="498"/>
+	<SubTexture name="walk0014" x="3432" y="0" width="264" height="498" frameX="0" frameY="0" frameWidth="264" frameHeight="498"/>
+	<SubTexture name="walk0015" x="3696" y="0" width="264" height="498" frameX="0" frameY="0" frameWidth="264" frameHeight="498"/>
+	<SubTexture name="walk0016" x="3960" y="0" width="264" height="498" frameX="0" frameY="0" frameWidth="264" frameHeight="498"/>
+	<SubTexture name="walk0017" x="4224" y="0" width="264" height="498" frameX="0" frameY="0" frameWidth="264" frameHeight="498"/>
+	<SubTexture name="walk0018" x="4488" y="0" width="264" height="498" frameX="0" frameY="0" frameWidth="264" frameHeight="498"/>
+	<SubTexture name="walk0019" x="4752" y="0" width="264" height="498" frameX="0" frameY="0" frameWidth="264" frameHeight="498"/>
+	<SubTexture name="walk0020" x="5016" y="0" width="264" height="498" frameX="0" frameY="0" frameWidth="264" frameHeight="498"/>
+	<SubTexture name="walk0021" x="5280" y="0" width="264" height="498" frameX="0" frameY="0" frameWidth="264" frameHeight="498"/>
+	<SubTexture name="walk0022" x="5544" y="0" width="264" height="498" frameX="0" frameY="0" frameWidth="264" frameHeight="498"/>
+	<SubTexture name="walk0023" x="5808" y="0" width="264" height="498" frameX="0" frameY="0" frameWidth="264" frameHeight="498"/>
+	<SubTexture name="walk0024" x="6072" y="0" width="264" height="498" frameX="0" frameY="0" frameWidth="264" frameHeight="498"/>
+</TextureAtlas>

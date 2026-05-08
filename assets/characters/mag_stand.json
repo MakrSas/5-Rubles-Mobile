@@ -1,0 +1,25 @@
+{
+	"animations": [
+		{
+			"anim": "idle",
+			"name": "dude"
+		}
+	],
+	"image": "characters/hernya/mag_v2",
+	"position": [
+		-2,
+		-105
+	],
+	"healthicon": "magman-flipped",
+	"healthbar_colors": [
+		100,
+		220,
+		255
+	],
+	"camera_position": [
+		-368,
+		30
+	],
+	"sing_duration": 6.1,
+	"scale": 0.8
+}

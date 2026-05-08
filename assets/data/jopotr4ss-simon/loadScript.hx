@@ -1,0 +1,1 @@
+loadHScript("data/jopotr4ss_gameplay.hx");

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="arrow.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="socials_arrow0000" x="35" y="0" width="28" height="70" frameX="0" frameY="0" frameWidth="33" frameHeight="70"/>
+	<SubTexture name="socials_arrow0001" x="0" y="0" width="33" height="66" frameX="0" frameY="-2" frameWidth="33" frameHeight="70"/>
+</TextureAtlas>

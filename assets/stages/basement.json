@@ -1,0 +1,32 @@
+{
+	"camera_opponent": [
+		300,
+		50
+	],
+	"girlfriend": [
+		1300,
+		190
+	],
+	"camera_girlfriend": [
+		-200,
+		-50
+	],
+	"boyfriend": [
+		640,
+		250
+	],
+	"isPixelStage": false,
+	"opponent": [
+		0,
+		200
+	],
+	"hide_girlfriend": false,
+	"directory": "",
+	"camera_speed": 1,
+	"defaultZoom": 0.55,
+	"camera_boyfriend": [
+		0,
+		-50
+	],
+	"typeNotes": "fnf"
+}

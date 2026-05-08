@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="passers.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="рич0000" x="0" y="0" width="872" height="1109" frameX="-126" frameY="-131" frameWidth="1345" frameHeight="1387"/>
+	<SubTexture name="норка0000" x="874" y="0" width="757" height="1090" frameX="-83" frameY="-150" frameWidth="1345" frameHeight="1387"/>
+	<SubTexture name="симон0000" x="3844" y="0" width="1128" height="934" frameX="-62" frameY="-261" frameWidth="1345" frameHeight="1387"/>
+	<SubTexture name="яички0000" x="1633" y="0" width="653" height="1205" frameX="-84" frameY="0" frameWidth="1345" frameHeight="1387"/>
+	<SubTexture name="сектор0000" x="2288" y="0" width="626" height="1072" frameX="-110" frameY="-315" frameWidth="1345" frameHeight="1387"/>
+	<SubTexture name="быфенд0000" x="2916" y="0" width="926" height="1067" frameX="-76" frameY="-175" frameWidth="1345" frameHeight="1387"/>
+	<SubTexture name="альтушка0000" x="4974" y="0" width="1345" height="1132" frameX="0" frameY="-65" frameWidth="1345" frameHeight="1387"/>
+</TextureAtlas>

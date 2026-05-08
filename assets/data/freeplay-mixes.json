@@ -1,0 +1,118 @@
+{
+	"black2blue": {
+		"unMixIcon": "sway",
+		"icon": "boyfriend",
+		"color": "#E3CBFB",
+		"album": "b2b",
+		"newTrack": true,
+		"difficulty": 3,
+		"bgSpr": "b2b",
+		"selectName": "BOYFRIEND",
+		"mixes": [
+			{
+				"r_song": "Black2Blue-PicoMix",
+				"r_album": "b2bpico",
+				"r_icon": "pico",
+				"r_name": "PICO",
+				"r_difficulty": 4
+			}
+		]
+	},
+	"rubls": {
+		"unMixIcon": "lostel",
+		"icon": "boyfriend",
+		"album": "vol1",
+		"color": "#EC6B98",
+		"newTrack": true,
+		"difficulty": 5,
+		"bgSpr": "rubls",
+		"selectName": "BOYFRIEND",
+		"mixes": [
+			{
+				"r_song": "rubls-picomix",
+				"r_album": "vol2",
+				"r_icon": "pico",
+				"r_name": "PICO",
+				"r_difficulty": 4
+			}
+		]
+	},
+	"nokia": {
+		"icon": "zorka",
+		"album": "vol2",
+		"difficulty": 2,
+		"newTrack": true,
+		"color": "#FFB5FF",
+		"bgSpr": "nokia",
+		"selectName": "ZORKA",
+		"mixes": [
+			{
+				"r_song": "nokiaredarmix",
+				"r_album": "vol2",
+				"r_icon": "redar",
+				"r_name": "REDAR",
+				"r_difficulty": 3
+			}
+		]
+	},
+
+	"rofls": {
+		"icon": "rofos",
+		"album": "rofls",
+		"color": "#FF418E",
+		"difficulty": 3,
+		"bgSpr": "rofls",
+		"selectName": "ROFOS",
+		"mixes": [
+			{
+				"r_song": "roflspivomix",
+				"r_album": "rofls_p",
+				"r_icon": "pivozavrik",
+				"r_name": "PIVO",
+				"r_difficulty": 4
+			}
+		]
+	},
+
+	"bezdari": {
+		"icon": "matr4ss",
+		"album": "bzd",
+		"color": "#38AB64",
+		"difficulty": 3,
+		"selectName": "MATR4SS",
+		"bgSpr": "bezdari",
+		"mixes": [
+			{
+				"r_song": "bezdarinaisonjimix",
+				"r_album": "naimix",
+				"r_icon": "naisonji",
+				"r_name": "NAISONJI",
+				"r_difficulty": 2
+			},
+			{
+				"r_song": "bezdariamalgamatmix",
+				"r_album": "bzd",
+				"r_icon": "amalgamat",
+				"r_name": "AMALGAMAT",
+				"r_difficulty": 4
+			}
+		]
+	},
+	"hernya": {
+		"icon": "d4rkwinged",
+		"album": "hernya",
+		"color": "#e6c133",
+		"difficulty": 2,
+		"bgSpr": "hernya",
+		"selectName": "D4RKWINGED",
+		"mixes": [
+			{
+				"r_song": "hernyamorumix",
+				"r_album": "hernya_m",
+				"r_icon": "moru",
+				"r_name": "MORU",
+				"r_difficulty": 4
+			}
+		]
+	}
+}

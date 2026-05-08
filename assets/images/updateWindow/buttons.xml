@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="buttons.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BUTTON_YESORNO0000" x="131" y="0" width="125" height="39" frameX="-2" frameY="0" frameWidth="129" frameHeight="40"/>
+	<SubTexture name="BUTTON_YESORNO0001" x="0" y="0" width="129" height="38" frameX="0" frameY="-2" frameWidth="129" frameHeight="40"/>
+	<SubTexture name="BUTTON_YESORNO0002" x="131" y="41" width="125" height="39" frameX="-2" frameY="0" frameWidth="129" frameHeight="40"/>
+	<SubTexture name="BUTTON_YESORNO0003" x="0" y="40" width="129" height="38" frameX="0" frameY="-2" frameWidth="129" frameHeight="40"/>
+</TextureAtlas>

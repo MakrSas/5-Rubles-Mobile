@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="d4rkwinged.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="d4rkwinged0000" x="0" y="0" width="122" height="83" frameX="0" frameY="-6" frameWidth="144" frameHeight="94"/>
+	<SubTexture name="d4rkwinged0001" x="0" y="85" width="128" height="78" frameX="-5" frameY="-16" frameWidth="144" frameHeight="94"/>
+	<SubTexture name="d4rkwinged0002" x="0" y="85" width="128" height="78" frameX="-5" frameY="-16" frameWidth="144" frameHeight="94"/>
+	<SubTexture name="d4rkwinged0003" x="0" y="165" width="130" height="89" frameX="-14" frameY="0" frameWidth="144" frameHeight="94"/>
+	<SubTexture name="d4rkwinged0004" x="0" y="165" width="130" height="89" frameX="-14" frameY="0" frameWidth="144" frameHeight="94"/>
+	<SubTexture name="d4rkwinged0005" x="0" y="256" width="126" height="86" frameX="-13" frameY="-3" frameWidth="144" frameHeight="94"/>
+</TextureAtlas>

@@ -1,0 +1,62 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				17,
+				-47
+			],
+			"name": "down0",
+			"anim": "singDOWN"
+		},
+		{
+			"offsets": [
+				1,
+				-1
+			],
+			"name": "idle0",
+			"anim": "idle"
+		},
+		{
+			"offsets": [
+				24,
+				-14
+			],
+			"name": "left0",
+			"anim": "singLEFT"
+		},
+		{
+			"offsets": [
+				-74,
+				-17
+			],
+			"name": "right0",
+			"anim": "singRIGHT"
+		},
+		{
+			"offsets": [
+				-26,
+				132
+			],
+			"name": "up0",
+			"anim": "singUP"
+		}
+	],
+	"image": "characters/zayats",
+	"position": [
+		-16,
+		-50
+	],
+	"healthicon": "rublonji",
+	"flip_x": true,
+	"healthbar_colors": [
+		100,
+		135,
+		149
+	],
+	"camera_position": [
+		-69,
+		30
+	],
+	"sing_duration": 4.1,
+	"scale": 1
+}

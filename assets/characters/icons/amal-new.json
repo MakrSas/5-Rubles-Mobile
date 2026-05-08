@@ -1,0 +1,71 @@
+{
+	"animations": [
+		{
+			"anim": "lose",
+			"nameAnim": "проигр переход",
+			"fps": 24
+		},
+		{
+			"anim": "lose-loop",
+			"nameAnim": "идл проигр",
+			"fps": 24,
+			"loop": true
+		},
+		{
+			"anim": "idle",
+			"nameAnim": "идл0",
+			"fps": 24,
+			"flipX": true,
+			"loop": true
+		},
+		{
+			"anim": "win",
+			"nameAnim": "выигр переход",
+			"fps": 24
+		},
+		{
+			"anim": "win-loop",
+			"nameAnim": "идл выигр",
+			"fps": 24,
+			"loop": true
+		},
+		{
+			"anim": "lose->idle",
+			"nameAnim": "проигр переход",
+			"fps": 24,
+			"reversed": true
+		},
+		{
+			"anim": "win->idle",
+			"nameAnim": "выигр переход",
+			"fps": 24,
+			"reversed": true
+		}
+	],
+	"triggers": [
+		{
+			"name": "lose",
+			"indices": [0, 20]
+		},
+		{
+			"name": "idle",
+			"indices": [21, 79]
+		},
+		{
+			"name": "win",
+			"indices": [80, 100]
+		}
+	],
+	"image": "amal_new",
+	"hadXml": true,
+	"healthbar_colors": [
+		75,
+		147,
+		178
+	],
+	"offsets": [
+		0,
+		-13
+	],
+	"scale": 1
+}

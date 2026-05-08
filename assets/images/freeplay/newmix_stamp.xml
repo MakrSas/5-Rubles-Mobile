@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="newmix_stamp.png">
+	<!-- Created with Adobe Animate version 24.0.0.305 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="NEWMIX0000" x="1" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0001" x="1" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0002" x="128" y="1" width="126" height="34" frameX="0" frameY="0" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0003" x="128" y="1" width="126" height="34" frameX="0" frameY="0" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0004" x="255" y="1" width="126" height="35" frameX="0" frameY="0" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0005" x="255" y="1" width="126" height="35" frameX="0" frameY="0" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0006" x="382" y="1" width="126" height="35" frameX="0" frameY="0" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0007" x="382" y="1" width="126" height="35" frameX="0" frameY="0" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0008" x="509" y="1" width="126" height="35" frameX="0" frameY="0" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0009" x="509" y="1" width="126" height="35" frameX="0" frameY="0" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0010" x="636" y="1" width="126" height="34" frameX="0" frameY="0" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0011" x="636" y="1" width="126" height="34" frameX="0" frameY="0" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0012" x="763" y="1" width="128" height="35"/>
+	<SubTexture name="NEWMIX0013" x="763" y="1" width="128" height="35"/>
+	<SubTexture name="NEWMIX0014" x="892" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0015" x="892" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0016" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0017" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0018" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0019" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0020" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0021" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0022" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0023" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0024" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0025" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0026" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0027" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0028" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0029" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0030" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0031" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0032" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0033" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0034" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0035" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0036" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0037" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0038" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0039" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0040" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0041" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0042" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0043" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0044" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0045" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0046" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0047" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0048" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0049" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0050" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0051" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0052" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0053" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0054" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0055" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0056" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0057" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0058" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0059" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0060" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0061" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0062" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0063" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+	<SubTexture name="NEWMIX0064" x="1019" y="1" width="126" height="32" frameX="0" frameY="-2" frameWidth="128" frameHeight="35" rotated="false"/>
+</TextureAtlas>

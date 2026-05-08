@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="diff_stars.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="stars0000" x="255" y="393" width="253" height="55" frameX="0" frameY="0" frameWidth="274" frameHeight="79"/>
+	<SubTexture name="stars0001" x="276" y="0" width="253" height="79" frameX="0" frameY="0" frameWidth="274" frameHeight="79"/>
+	<SubTexture name="stars0002" x="276" y="0" width="253" height="79" frameX="0" frameY="0" frameWidth="274" frameHeight="79"/>
+	<SubTexture name="stars0003" x="276" y="81" width="253" height="76" frameX="0" frameY="0" frameWidth="274" frameHeight="79"/>
+	<SubTexture name="stars0004" x="0" y="159" width="253" height="79" frameX="0" frameY="0" frameWidth="274" frameHeight="79"/>
+	<SubTexture name="stars0005" x="0" y="159" width="253" height="79" frameX="0" frameY="0" frameWidth="274" frameHeight="79"/>
+	<SubTexture name="stars0006" x="255" y="159" width="253" height="76" frameX="0" frameY="0" frameWidth="274" frameHeight="79"/>
+	<SubTexture name="stars0007" x="0" y="240" width="253" height="79" frameX="0" frameY="0" frameWidth="274" frameHeight="79"/>
+	<SubTexture name="stars0008" x="0" y="240" width="253" height="79" frameX="0" frameY="0" frameWidth="274" frameHeight="79"/>
+	<SubTexture name="stars0009" x="255" y="237" width="253" height="76" frameX="0" frameY="0" frameWidth="274" frameHeight="79"/>
+	<SubTexture name="stars0010" x="0" y="321" width="253" height="79" frameX="0" frameY="0" frameWidth="274" frameHeight="79"/>
+	<SubTexture name="stars0011" x="0" y="321" width="253" height="79" frameX="0" frameY="0" frameWidth="274" frameHeight="79"/>
+	<SubTexture name="stars0012" x="255" y="315" width="253" height="76" frameX="0" frameY="0" frameWidth="274" frameHeight="79"/>
+	<SubTexture name="stars0013" x="0" y="0" width="274" height="79"/>
+	<SubTexture name="stars0014" x="0" y="0" width="274" height="79"/>
+	<SubTexture name="stars0015" x="0" y="81" width="274" height="76" frameX="0" frameY="0" frameWidth="274" frameHeight="79"/>
+</TextureAtlas>

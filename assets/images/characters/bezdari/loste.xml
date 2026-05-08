@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 DEV https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="loste.png" width="1947" height="1101" spritePadding="2" borderPadding="0">
+	<SubTexture name="walk0000" x="0" y="0" width="279" height="531" frameX="-5" frameY="-13" frameWidth="280" frameHeight="555"/>
+	<SubTexture name="walk0001" x="789" y="0" width="245" height="540" frameX="0" frameY="-11" frameWidth="280" frameHeight="555"/>
+	<SubTexture name="walk0002" x="1283" y="0" width="221" height="544" frameX="-15" frameY="-9" frameWidth="280" frameHeight="555"/>
+	<SubTexture name="walk0003" x="585" y="546" width="175" height="553" frameX="-39" frameY="-6" frameWidth="280" frameHeight="555"/>
+	<SubTexture name="walk0004" x="1389" y="546" width="141" height="543" frameX="-64" frameY="-6" frameWidth="280" frameHeight="555"/>
+	<SubTexture name="walk0005" x="1241" y="546" width="146" height="536" frameX="-59" frameY="-7" frameWidth="280" frameHeight="555"/>
+	<SubTexture name="walk0006" x="762" y="546" width="162" height="541" frameX="-64" frameY="-9" frameWidth="280" frameHeight="555"/>
+	<SubTexture name="walk0007" x="205" y="546" width="191" height="535" frameX="-64" frameY="-10" frameWidth="280" frameHeight="555"/>
+	<SubTexture name="walk0008" x="1506" y="0" width="226" height="530" frameX="-50" frameY="-14" frameWidth="280" frameHeight="555"/>
+	<SubTexture name="walk0009" x="1036" y="0" width="245" height="526" frameX="-32" frameY="-17" frameWidth="280" frameHeight="555"/>
+	<SubTexture name="walk0010" x="281" y="0" width="256" height="534" frameX="-15" frameY="-17" frameWidth="280" frameHeight="555"/>
+	<SubTexture name="walk0011" x="1734" y="0" width="213" height="540" frameX="-27" frameY="-17" frameWidth="280" frameHeight="555"/>
+	<SubTexture name="walk0012" x="398" y="546" width="185" height="528" frameX="-29" frameY="-12" frameWidth="280" frameHeight="555"/>
+	<SubTexture name="walk0013" x="926" y="546" width="160" height="537" frameX="-38" frameY="-9" frameWidth="280" frameHeight="555"/>
+	<SubTexture name="walk0014" x="1532" y="546" width="141" height="541" frameX="-48" frameY="-4" frameWidth="280" frameHeight="555"/>
+	<SubTexture name="walk0015" x="1810" y="546" width="123" height="550" frameX="-72" frameY="0" frameWidth="280" frameHeight="555"/>
+	<SubTexture name="walk0016" x="1675" y="546" width="133" height="555" frameX="-72" frameY="-4" frameWidth="280" frameHeight="555"/>
+	<SubTexture name="walk0017" x="1088" y="546" width="151" height="545" frameX="-66" frameY="-4" frameWidth="280" frameHeight="555"/>
+	<SubTexture name="walk0018" x="0" y="546" width="203" height="534" frameX="-46" frameY="-11" frameWidth="280" frameHeight="555"/>
+	<SubTexture name="walk0019" x="539" y="0" width="248" height="537" frameX="-17" frameY="-15" frameWidth="280" frameHeight="555"/>
+</TextureAtlas>

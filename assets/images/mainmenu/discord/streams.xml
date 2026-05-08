@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 DEV https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="streams.png" width="7828" height="91" spritePadding="2" borderPadding="0">
+	<SubTexture name="streams0000" x="0" y="0" width="288" height="91" frameX="0" frameY="0" frameWidth="289" frameHeight="91"/>
+	<SubTexture name="streams0001" x="290" y="0" width="288" height="91" frameX="0" frameY="0" frameWidth="289" frameHeight="91"/>
+	<SubTexture name="streams0002" x="580" y="0" width="288" height="91" frameX="0" frameY="0" frameWidth="289" frameHeight="91"/>
+	<SubTexture name="streams0003" x="870" y="0" width="288" height="91" frameX="0" frameY="0" frameWidth="289" frameHeight="91"/>
+	<SubTexture name="streams0004" x="1160" y="0" width="288" height="91" frameX="0" frameY="0" frameWidth="289" frameHeight="91"/>
+	<SubTexture name="streams0005" x="1450" y="0" width="288" height="91" frameX="0" frameY="0" frameWidth="289" frameHeight="91"/>
+	<SubTexture name="streams0006" x="1740" y="0" width="288" height="91" frameX="0" frameY="0" frameWidth="289" frameHeight="91"/>
+	<SubTexture name="streams0007" x="2030" y="0" width="288" height="91" frameX="0" frameY="0" frameWidth="289" frameHeight="91"/>
+	<SubTexture name="streams0008" x="2320" y="0" width="288" height="91" frameX="0" frameY="0" frameWidth="289" frameHeight="91"/>
+	<SubTexture name="streams0009" x="2610" y="0" width="288" height="91" frameX="0" frameY="0" frameWidth="289" frameHeight="91"/>
+	<SubTexture name="streams0010" x="2900" y="0" width="288" height="91" frameX="0" frameY="0" frameWidth="289" frameHeight="91"/>
+	<SubTexture name="streams0011" x="3190" y="0" width="288" height="91" frameX="0" frameY="0" frameWidth="289" frameHeight="91"/>
+	<SubTexture name="streams0012" x="3480" y="0" width="288" height="91" frameX="0" frameY="0" frameWidth="289" frameHeight="91"/>
+	<SubTexture name="streams0013" x="3770" y="0" width="288" height="91" frameX="0" frameY="0" frameWidth="289" frameHeight="91"/>
+	<SubTexture name="streams0014" x="4060" y="0" width="288" height="91" frameX="0" frameY="0" frameWidth="289" frameHeight="91"/>
+	<SubTexture name="streams0015" x="4350" y="0" width="288" height="91" frameX="0" frameY="0" frameWidth="289" frameHeight="91"/>
+	<SubTexture name="streams0016" x="4640" y="0" width="288" height="91" frameX="0" frameY="0" frameWidth="289" frameHeight="91"/>
+	<SubTexture name="streams0017" x="4930" y="0" width="288" height="91" frameX="0" frameY="0" frameWidth="289" frameHeight="91"/>
+	<SubTexture name="streams0018" x="5220" y="0" width="288" height="91" frameX="0" frameY="0" frameWidth="289" frameHeight="91"/>
+	<SubTexture name="streams0019" x="5510" y="0" width="288" height="91" frameX="0" frameY="0" frameWidth="289" frameHeight="91"/>
+	<SubTexture name="streams0020" x="5800" y="0" width="288" height="91" frameX="0" frameY="0" frameWidth="289" frameHeight="91"/>
+	<SubTexture name="streams0021" x="6090" y="0" width="288" height="91" frameX="0" frameY="0" frameWidth="289" frameHeight="91"/>
+	<SubTexture name="streams0022" x="6380" y="0" width="288" height="91" frameX="0" frameY="0" frameWidth="289" frameHeight="91"/>
+	<SubTexture name="streams0023" x="6670" y="0" width="288" height="91" frameX="0" frameY="0" frameWidth="289" frameHeight="91"/>
+	<SubTexture name="streams0024" x="6960" y="0" width="288" height="91" frameX="0" frameY="0" frameWidth="289" frameHeight="91"/>
+	<SubTexture name="streams0025" x="7250" y="0" width="288" height="91" frameX="0" frameY="0" frameWidth="289" frameHeight="91"/>
+	<SubTexture name="streams0026" x="7540" y="0" width="288" height="91" frameX="0" frameY="0" frameWidth="289" frameHeight="91"/>
+</TextureAtlas>
