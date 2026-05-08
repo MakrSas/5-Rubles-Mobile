@@ -328,19 +328,6 @@ class SongsState extends MusicBeatState
 
 		return -1;
 	}
-	function runWithMobileButtonsExit(action:Void->Void):Void
-	{
-		#if TOUCH_CONTROLS
-		if (FlxG.onMobile)
-		{
-			if (mobileButtonsLeaving)
-				return;
-			tweenOutMobileButtons(action);
-			return;
-		}
-		#end
-		action();
-	}
 	function tweenOutMobileButtons(?onComplete:Void->Void):Void
 	{
 		#if TOUCH_CONTROLS
@@ -383,6 +370,20 @@ class SongsState extends MusicBeatState
 		#end
 	}
 	#end
+
+	function runWithMobileButtonsExit(action:Void->Void):Void
+	{
+		#if TOUCH_CONTROLS
+		if (FlxG.onMobile)
+		{
+			if (mobileButtonsLeaving)
+				return;
+			tweenOutMobileButtons(action);
+			return;
+		}
+		#end
+		action();
+	}
 
 	override function closeSubState()
 	{
