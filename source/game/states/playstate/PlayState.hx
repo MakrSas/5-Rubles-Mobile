@@ -3021,7 +3021,7 @@ class PlayState extends MusicBeatState {
 						{
 							// trace('removed script: ${script}');
 							script.call('onDestroy');
-							#if hscript
+							#if HSCRIPT_ALLOWED
 							script.hscript = null;
 							#end
 							script.stop();
