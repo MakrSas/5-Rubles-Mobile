@@ -239,6 +239,13 @@
 		</section>
 	</section>
 
+	<section if="VIDEOS_ALLOWED">
+		<section unless="hxvlc">
+			<log warn="'hxvlc' do not exist, disable the library definitions" if="PROJECT_LOGS_ALLOWED" />
+			<undefine name="VIDEOS_ALLOWED"/>
+		</section>
+	</section>
+
 	<haxedef name="hscriptPos"/>
 	<haxedef name="CPP_WINDOWS" if="cpp windows"/>
 	<haxedef name="CPP_LINUX" if="cpp linux"/>
