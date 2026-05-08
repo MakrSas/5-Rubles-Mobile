@@ -77,6 +77,7 @@
 	<define name="USE_SYS_ASSETS" unless="mobile || web"/> <!-- todo: Android support -->
 	<define name="EMBED_FILES" unless="web || android" if="RELEASE_BUILD" value="*.hx|*.lua" />
 	<define name="VIDEOS_ALLOWED" unless="hl" if="cpp" />
+	<undefine name="VIDEOS_ALLOWED" if="NO_VIDEOS_ALLOWED" />
 	<haxedef name="ZIPLIBS_ALLOWED" unless="mobile"/>
 	<define name="ALLOW_HAPTICS" if="mobile" />
 	<define name="ALLOW_EIGHTSINES" if="mobile" />
@@ -235,6 +236,13 @@
 		<section unless="hxdiscord_rpc">
 			<log warn="'hxdiscord_rpc' do not exist, disable the library definitions" if="PROJECT_LOGS_ALLOWED" />
 			<undefine name="DISCORD_RPC"/>
+		</section>
+	</section>
+
+	<section if="VIDEOS_ALLOWED">
+		<section unless="hxvlc">
+			<log warn="'hxvlc' do not exist, disable the library definitions" if="PROJECT_LOGS_ALLOWED" />
+			<undefine name="VIDEOS_ALLOWED"/>
 		</section>
 	</section>
 
