@@ -40,10 +40,12 @@ jobs:
 
           # Install additional libraries
           haxelib install format --skip-dependencies > /dev/null 2>&1 || true
+          haxelib install hxp --skip-dependencies > /dev/null 2>&1 || true
           haxelib install thx.semver --skip-dependencies > /dev/null 2>&1 || true
           haxelib install flixel-addons --skip-dependencies > /dev/null 2>&1 || true
           haxelib install flixel-ui --skip-dependencies > /dev/null 2>&1 || true
           haxelib install haxeui-openfl --skip-dependencies > /dev/null 2>&1 || true
+          haxelib install polymod --skip-dependencies > /dev/null 2>&1 || true
           haxelib git flxanimate https://github.com/Redar13/flxanimate dev --skip-dependencies > /dev/null 2>&1 || true
           haxelib git linc_luajit https://github.com/superpowers04/linc_luajit --skip-dependencies > /dev/null 2>&1 || true
           haxelib git hscript-improved https://github.com/Redar13/hscript-improved polymod-scripted-classes --skip-dependencies > /dev/null 2>&1 || true
