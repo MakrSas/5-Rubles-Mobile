@@ -3015,7 +3015,9 @@ class FunkinLua implements IScript
 			Lua.close(lua);
 			lua = null;
 		}
+		#if hscript
 		callbacks.clear();
+		#end
 		#if hscript
 		hscript?.dispose();
 		hscript = null;
