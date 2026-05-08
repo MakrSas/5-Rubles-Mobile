@@ -41,6 +41,8 @@ jobs:
 
           # Android extensions (required)
           haxelib install extension-androidtools --skip-dependencies > /dev/null 2>&1 || true
+          haxelib git extension-orientation https://github.com/openfl/extension-orientation --skip-dependencies > /dev/null 2>&1 || haxelib install extension-orientation --skip-dependencies > /dev/null 2>&1 || true
+          haxelib git extension-haptics https://github.com/openfl/extension-haptics --skip-dependencies > /dev/null 2>&1 || haxelib install extension-haptics --skip-dependencies > /dev/null 2>&1 || true
 
           # Other required libraries
           haxelib install format --skip-dependencies > /dev/null 2>&1 || true
