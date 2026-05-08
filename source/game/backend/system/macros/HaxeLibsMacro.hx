@@ -44,7 +44,7 @@ class HaxeLibsMacro {
 		#else
 		var libs:Array<HaxeLibData> = [];
 
-		var project = new Access(Xml.parse(File.getContent('./project.xml')).firstElement());
+		var project = new Access(Xml.parse(File.getContent(sys.FileSystem.exists('./Project.xml') ? './Project.xml' : './project.xml')).firstElement());
 
 		var lib:HaxeLibData;
 		var name;
