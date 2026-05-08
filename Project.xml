@@ -76,7 +76,7 @@
 	<!-- <define name="THREE_D_ALLOWED" /> -->
 	<define name="USE_SYS_ASSETS" unless="mobile || web"/> <!-- todo: Android support -->
 	<define name="EMBED_FILES" unless="web || android" if="RELEASE_BUILD" value="*.hx|*.lua" />
-	<define name="VIDEOS_ALLOWED" unless="hl" if="cpp" />
+	<define name="VIDEOS_ALLOWED" unless="hl || NO_VIDEOS_ALLOWED" if="cpp" />
 	<haxedef name="ZIPLIBS_ALLOWED" unless="mobile"/>
 	<define name="ALLOW_HAPTICS" if="mobile" />
 	<define name="ALLOW_EIGHTSINES" if="mobile" />

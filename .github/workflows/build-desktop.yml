@@ -46,7 +46,7 @@ jobs:
 
       - name: Build Windows Executable (Debug)
         run: |
-          lime build windows -debug
+          lime build windows -debug -D NO_VIDEOS_ALLOWED
 
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
