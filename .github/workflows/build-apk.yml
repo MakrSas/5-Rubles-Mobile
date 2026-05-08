@@ -70,17 +70,11 @@ jobs:
       - name: Setup Lime for Android
         run: |
           mkdir -p ~/.lime
-          cat > ~/.lime/config.xml << EOF
-          <?xml version="1.0" encoding="utf-8"?>
-          <config>
-            <section id="env">
-              <set name="ANDROID_SDK" value="$ANDROID_SDK_ROOT" />
-              <set name="ANDROID_NDK_ROOT" value="$ANDROID_NDK_ROOT" />
-              <set name="JAVA_HOME" value="$JAVA_HOME" />
-            </section>
-          </config>
-          EOF
-          echo "Lime config written:"
+          echo '<?xml version="1.0" encoding="utf-8"?>' > ~/.lime/config.xml
+          echo '<data>' >> ~/.lime/config.xml
+          echo "  <android sdk-path=\"$ANDROID_SDK_ROOT\" ndk-path=\"$ANDROID_NDK_ROOT\" />" >> ~/.lime/config.xml
+          echo '</data>' >> ~/.lime/config.xml
+          echo "Lime config:"
           cat ~/.lime/config.xml
 
       - name: Create Version Tag
