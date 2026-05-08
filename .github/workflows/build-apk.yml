@@ -39,10 +39,8 @@ jobs:
           haxelib install flixel-addons 3.2.3 --skip-dependencies > /dev/null 2>&1 || true
           haxelib install flixel-ui 2.6.1 --skip-dependencies > /dev/null 2>&1 || true
 
-          # Android extensions
+          # Android extensions (required)
           haxelib install extension-androidtools --skip-dependencies > /dev/null 2>&1 || true
-          haxelib install extension-haptics --skip-dependencies > /dev/null 2>&1 || true
-          haxelib install extension-orientation --skip-dependencies > /dev/null 2>&1 || true
 
           # Other required libraries
           haxelib install format --skip-dependencies > /dev/null 2>&1 || true
