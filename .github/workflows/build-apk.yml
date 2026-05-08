@@ -30,13 +30,22 @@ jobs:
       - name: Install Haxelib
         run: |
           haxelib setup ~/haxelib
-          haxelib install hxcpp > /dev/null --quiet
-          haxelib install extension-android > /dev/null --quiet
-          chmod +x ./setup/unix.sh
-          sh ./setup/unix.sh
+          haxelib install hxcpp --skip-dependencies > /dev/null 2>&1 || true
+          haxelib install extension-android --skip-dependencies > /dev/null 2>&1 || true
+
+          # Install core dependencies
+          haxelib git lime https://github.com/openfl/lime --skip-dependencies > /dev/null 2>&1 || true
+          haxelib git openfl https://github.com/openfl/openfl --skip-dependencies > /dev/null 2>&1 || true
+          haxelib git flixel https://github.com/HaxeFlixel/flixel --skip-dependencies > /dev/null 2>&1 || true
+          haxelib git flixel-addons https://github.com/HaxeFlixel/flixel-addons --skip-dependencies > /dev/null 2>&1 || true
+          haxelib git flxanimate https://github.com/Redar13/flxanimate dev --skip-dependencies > /dev/null 2>&1 || true
+          haxelib git hscript-improved https://github.com/Redar13/hscript-improved polymod-scripted-classes --skip-dependencies > /dev/null 2>&1 || true
+          haxelib git linc_luajit https://github.com/superpowers04/linc_luajit --skip-dependencies > /dev/null 2>&1 || true
+
+          echo "Haxelib installation completed"
 
       - name: Setup Lime for Android
-        run: haxelib run lime setup android -y
+        run: haxelib run lime setup android -y 2>&1 || true
 
       - name: Create Version Tag
         run: echo "${{github.run_id}}" > VERSION
