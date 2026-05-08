@@ -10,7 +10,7 @@ import haxe.Int64;
 import haxe.io.Bytes;
 import haxe.io.Path;
 
-import hxvlc.externs.Types;
+//import hxvlc.externs.Types;
 import hxvlc.openfl.Video;
 import hxvlc.util.Location;
 #if (hxvlc >= version("2.1.0"))
