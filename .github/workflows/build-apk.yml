@@ -92,12 +92,23 @@ jobs:
           haxelib run lime config JAVA_HOME $JAVA_HOME
           haxelib run lime setup android -y
 
+      - name: Create gradle.properties
+        run: |
+          mkdir -p ~/.gradle
+          cat > ~/.gradle/gradle.properties << EOF
+          org.gradle.jvmargs=-Xmx4g -XX:+UseG1GC
+          org.gradle.parallel=true
+          org.gradle.workers.max=4
+          EOF
+
       - name: Create Version Tag
         run: echo "${{github.run_id}}" > VERSION
 
       - name: Compile
         env:
           ANDROID_SDK: ${{ env.ANDROID_SDK_ROOT }}
+          _JAVA_OPTIONS: "-Xmx4g -XX:+UseG1GC"
+          GRADLE_OPTS: "-Xmx4g -XX:+UseG1GC -Dorg.gradle.jvmargs=-Xmx4g"
         run: haxelib run lime build android -release
 
       - name: Find APK
