@@ -1277,13 +1277,16 @@ class OptionsSubState extends MusicBeatSubstate
 		if (!FlxG.onMobile)
 			return;
 
-		final graphic = Paths.image("mobileUI/back");
-		if (graphic == null)
+		final atlas = Paths.getSparrowAtlas("mobileUI/back");
+		if (atlas == null)
 			return;
 
 		mobileBackButton = new FlxSprite();
 		mobileBackLeaving = false;
-		mobileBackButton.loadGraphic(graphic);
+		mobileBackButton.frames = atlas;
+		mobileBackButton.animation.addByPrefix("idle", "BACK", 24, false);
+		mobileBackButton.animation.play("idle");
+		mobileBackButton.animation.pause();
 		mobileBackButton.antialiasing = ClientPrefs.globalAntialiasing;
 		mobileBackButton.scrollFactor.set();
 		mobileBackButton.cameras = [camOptions];
@@ -1295,7 +1298,7 @@ class OptionsSubState extends MusicBeatSubstate
 		mobileBackButton.updateHitbox();
 
 		final margin:Float = Math.max(12, targetSize * 0.2);
-		mobileBackButton.setPosition(margin, margin);
+		mobileBackButton.setPosition(margin, FlxG.height - mobileBackButton.height - margin);
 		add(mobileBackButton);
 	}
 
@@ -1310,7 +1313,10 @@ class OptionsSubState extends MusicBeatSubstate
 				continue;
 
 			if (mobileBackButton.overlapsPoint(touch.getWorldPosition(camOptions, mobileBackTouchPoint), true, camOptions))
+			{
+				mobileBackButton.animation.play("idle", true);
 				return true;
+			}
 		}
 
 		return false;

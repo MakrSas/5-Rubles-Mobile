@@ -158,8 +158,26 @@ class MobileFreeplayState extends MusicBeatState
 
 	function createMobileButtons()
 	{
-		// Enter button (left)
-		enterButton = new FlxSprite(20, FlxG.height - 90);
+		// Action button (back) - right side
+		actionButton = new FlxSprite();
+		try {
+			actionButton.frames = Paths.getSparrowAtlas('mobileUI/back');
+			actionButton.animation.addByPrefix("idle", "BACK", 24, false);
+			actionButton.animation.play("idle");
+			actionButton.animation.pause();
+		} catch (e:Dynamic) {
+			actionButton.makeGraphic(80, 80, 0xFFAA0000);
+		}
+		actionButton.alpha = 0.75;
+		actionButton.scale.set(0.7, 0.7);
+		actionButton.updateHitbox();
+		actionButton.setPosition(FlxG.width - actionButton.width - 20, FlxG.height - actionButton.height - 20);
+		actionButton.scrollFactor.set();
+		actionButton.camera = camHUD;
+		add(actionButton);
+
+		// Enter button - left of back button
+		enterButton = new FlxSprite();
 		try {
 			enterButton.loadGraphic(Paths.image('mobileUI/enter'));
 		} catch (e:Dynamic) {
@@ -168,29 +186,10 @@ class MobileFreeplayState extends MusicBeatState
 		enterButton.alpha = 0.75;
 		enterButton.scale.set(0.7, 0.7);
 		enterButton.updateHitbox();
+		enterButton.setPosition(actionButton.x - enterButton.width - 10, FlxG.height - enterButton.height - 20);
 		enterButton.scrollFactor.set();
 		enterButton.camera = camHUD;
 		add(enterButton);
-
-		// Action button (right) - pulsing animation
-		actionButton = new FlxSprite(FlxG.width - 100, FlxG.height - 90);
-		try {
-			actionButton.loadGraphic(Paths.image('mobileUI/back'));
-		} catch (e:Dynamic) {
-			actionButton.makeGraphic(80, 80, 0xFFAA0000);
-		}
-		actionButton.alpha = 0.75;
-		actionButton.scale.set(0.7, 0.7);
-		actionButton.updateHitbox();
-		actionButton.scrollFactor.set();
-		actionButton.camera = camHUD;
-		add(actionButton);
-
-		// Animated pulsing on action button
-		FlxTween.tween(actionButton.scale, {x: 0.85, y: 0.85}, 0.6, {
-			ease: FlxEase.sineInOut,
-			type: PINGPONG
-		});
 	}
 
 	override function update(elapsed:Float)
@@ -241,6 +240,7 @@ class MobileFreeplayState extends MusicBeatState
 			}
 			else if (TouchUtil.overlaps(actionButton, camHUD))
 			{
+				actionButton.animation.play("idle", true);
 				FlxG.sound.play(Paths.sound('cancelMenu'));
 				MusicBeatState.switchState(new MainMenuState());
 			}
