@@ -91,11 +91,6 @@ class FreeplayState extends MusicBeatState
 	var grpAlphabetDispl:FlxTypedGroup<Alphabet>;
 	var grpIconsDispl:FlxTypedGroup<HealthIcon>;
 
-	#if TOUCH_CONTROLS
-	var enterButton:FlxSprite;
-	var actionButton:FlxSprite;
-	#end
-
 	override function destroy()
 	{
 		grpAlphabetDispl.clear();
@@ -131,10 +126,6 @@ class FreeplayState extends MusicBeatState
 
 		// Thread.create(createSongs);
 		generateSongsList();
-
-		#if TOUCH_CONTROLS
-		createMobileButtons();
-		#end
 
 		super.create();
 		persistentUpdate = true;
@@ -480,27 +471,4 @@ class FreeplayState extends MusicBeatState
 		FlxG.sound.playMusic(songToPlay = inst);
 		#end
 	}
-
-	#if TOUCH_CONTROLS
-	function createMobileButtons()
-	{
-		// Enter button (left side)
-		enterButton = new FlxSprite(20, FlxG.height - 100);
-		enterButton.loadGraphic(Paths.image('mobileUI/enter', 'shared'));
-		enterButton.alpha = 0.75;
-		enterButton.scale.set(0.8, 0.8);
-		enterButton.updateHitbox();
-		enterButton.camera = camHUD;
-		add(enterButton);
-
-		// Action button (right side) - animated
-		actionButton = new FlxSprite(FlxG.width - 120, FlxG.height - 100);
-		actionButton.loadGraphic(Paths.image('mobileUI/back', 'shared'));
-		actionButton.alpha = 0.75;
-		actionButton.scale.set(0.8, 0.8);
-		actionButton.updateHitbox();
-		actionButton.camera = camHUD;
-		add(actionButton);
-	}
-	#end
 }

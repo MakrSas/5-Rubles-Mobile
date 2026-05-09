@@ -21,7 +21,7 @@ class MainMenuState extends MusicBeatState {
 
 	static final optionShit:Array<Array<EitherType<String, Void -> Class<MusicBeatState>>>> = [
 		['story_mode',  () -> return null],
-		['freeplay',    () -> return game.states.FreeplayState],
+		['freeplay',    () -> return #if mobile game.states.MobileFreeplayState #else game.states.FreeplayState #end],
 		[
 			'options',
 			() ->

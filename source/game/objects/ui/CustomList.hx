@@ -486,8 +486,61 @@ class CustomList extends FlxCamera
 
 	var pMidd:Bool;
 	var pLeft:Bool;
+
+	#if TOUCH_CONTROLS
+	var lastTouchY:Float = 0;
+	var touchVelocity:Float = 0;
+	var momentumActive:Bool = false;
+	var momentumVelocity:Float = 0;
+	var pTouch:Bool = false;
+	#end
+
 	function mouseFunc()
 	{
+		#if TOUCH_CONTROLS
+		var touch = game.mobile.utils.TouchUtil.touch;
+		if (touch != null)
+		{
+			if (game.mobile.utils.TouchUtil.justPressed)
+			{
+				lastTouchY = touch.screenY;
+				touchVelocity = 0;
+				momentumActive = false;
+				pTouch = true;
+				crack = true;
+			}
+			else if (pTouch && game.mobile.utils.TouchUtil.pressed)
+			{
+				var deltaY = lastTouchY - touch.screenY;
+				scrollFloat -= deltaY;
+				touchVelocity = deltaY / Math.max(FlxG.elapsed, 0.001);
+				lastTouchY = touch.screenY;
+				crack = true;
+			}
+			else if (pTouch)
+			{
+				pTouch = false;
+				crack = false;
+				if (Math.abs(touchVelocity) > 50)
+				{
+					momentumActive = true;
+					momentumVelocity = touchVelocity * 0.05;
+				}
+			}
+		}
+
+		if (momentumActive)
+		{
+			scrollFloat -= momentumVelocity;
+			momentumVelocity *= 0.92;
+			if (Math.abs(momentumVelocity) < 0.5)
+			{
+				momentumActive = false;
+				momentumVelocity = 0;
+			}
+		}
+		#end
+
 		if (pMidd || FlxG.mouse.justPressedMiddle)
 		{
 			if (!pMidd)
@@ -508,7 +561,9 @@ class CustomList extends FlxCamera
 		{
 			pLeft = false;
 			pMidd = false;
+			#if !TOUCH_CONTROLS
 			crack = false;
+			#end
 			scrollFloat -= FlxG.mouse.wheel * 28;
 			CursorManager.instance.cursor = null;
 		}
