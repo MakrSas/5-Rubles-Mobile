@@ -86,9 +86,14 @@ jobs:
           ANDROID_SDK: ${{ env.ANDROID_SDK_ROOT }}
         run: haxelib run lime build android -debug
 
+      - name: Find APK
+        run: find export -name "*.apk" -type f
+
       - name: Publish Artifact
         uses: actions/upload-artifact@v4
         with:
           name: 5Rubles_${{github.run_id}}_Android
-          path: export/debug/android/bin/*.apk
+          path: |
+            export/**/bin/*.apk
+            export/**/*.apk
           retention-days: 30
