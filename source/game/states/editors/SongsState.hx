@@ -271,12 +271,15 @@ class SongsState extends MusicBeatState
 		if (!FlxG.onMobile)
 			return;
 
-		final graphic = Paths.image("mobileUI/back");
-		if (graphic == null)
+		final atlas = Paths.getSparrowAtlas("mobileUI/back");
+		if (atlas == null)
 			return;
 
 		mobileBackButton = new FlxSprite();
-		mobileBackButton.loadGraphic(graphic);
+		mobileBackButton.frames = atlas;
+		mobileBackButton.animation.addByPrefix("idle", "BACK", 24, false);
+		mobileBackButton.animation.play("idle");
+		mobileBackButton.animation.pause();
 		mobileBackButton.antialiasing = ClientPrefs.globalAntialiasing;
 		mobileBackButton.scrollFactor.set();
 		mobileBackButton.alpha = 0.85;
@@ -287,7 +290,7 @@ class SongsState extends MusicBeatState
 		mobileBackButton.updateHitbox();
 
 		final margin:Float = Math.max(12, targetSize * 0.2);
-		mobileBackButton.setPosition(margin, margin);
+		mobileBackButton.setPosition(margin, FlxG.height - mobileBackButton.height - margin);
 		add(mobileBackButton);
 	}
 
@@ -301,7 +304,10 @@ class SongsState extends MusicBeatState
 			if (!touch.justPressed)
 				continue;
 			if (mobileBackButton.overlapsPoint(touch.getWorldPosition(FlxG.camera, mobileTouchPoint), true, FlxG.camera))
+			{
+				mobileBackButton.animation.play("idle", true);
 				return true;
+			}
 		}
 
 		return false;
