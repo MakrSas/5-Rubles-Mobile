@@ -208,7 +208,7 @@ class ScriptPack implements IFlxDestroyable
 	public function callOnHScript(funcToCall:String, ?args:Array<Dynamic>, ?ignoreStops:Bool, exclusions:Array<String>):Dynamic
 	{
 		var returnVal:Dynamic = Function_Continue;
-		#if hscript
+		#if HSCRIPT_ALLOWED
 		if (hscriptArray.length == 0)
 			return returnVal;
 
@@ -310,7 +310,7 @@ class ScriptPack implements IFlxDestroyable
 			hx.call('onDestroy');
 			hx.destroy();
 		}
-		// for (i in [variables #if hscript , hscriptGlobalVariables #end]){
+		// for (i in [variables #if HSCRIPT_ALLOWED , hscriptGlobalVariables #end]){
 		// 	for (obj in i)
 		// 		if (Std.isOfType(obj, IFlxDestroyable)){
 		// 			if (Std.isOfType(obj, FlxTween))
@@ -318,7 +318,7 @@ class ScriptPack implements IFlxDestroyable
 		// 			obj.destroy();
 		// 		}
 		// }
-		for (i in [variables #if hscript, hscriptGlobalVariables #end])
+		for (i in [variables #if HSCRIPT_ALLOWED, hscriptGlobalVariables #end])
 		{
 			i.clear();
 		}
@@ -326,7 +326,7 @@ class ScriptPack implements IFlxDestroyable
 
 	public function setOnHScript(variable:String, arg:Dynamic)
 	{
-		#if hscript
+		#if HSCRIPT_ALLOWED
 		var len = hscriptArray.length;
 		while (len > 0)
 		{

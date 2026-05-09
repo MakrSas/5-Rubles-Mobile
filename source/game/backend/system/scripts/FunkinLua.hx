@@ -52,7 +52,7 @@ import sys.FileSystem;
 import sys.io.File;
 #end
 
-#if hscript
+#if HSCRIPT_ALLOWED
 import hscript.Parser;
 import hscript.Interp;
 #end
@@ -145,7 +145,7 @@ class FunkinLua implements IScript
 	public static var mainState(get, never):flixel.FlxState;
 	public static dynamic function get_mainState():flixel.FlxState return PlayState.instance;
 
-	#if hscript
+	#if HSCRIPT_ALLOWED
 	public var hscript:HScriptLua = null;
 	public var callbacks:Map<String, Dynamic> = new Map<String, Dynamic>();
 	public static var customFunctions:Map<String, Dynamic> = new Map<String, Dynamic>();
@@ -755,7 +755,7 @@ class FunkinLua implements IScript
 		{
 			var retVal:Dynamic = null;
 
-			#if hscript
+			#if HSCRIPT_ALLOWED
 			initHaxeModule();
 			try {
 				retVal = hscript.execute(codeToRun);
@@ -773,7 +773,7 @@ class FunkinLua implements IScript
 		});
 
 		addCallback("addHaxeLibrary", function(libName:String, ?libPackage:String = '') {
-			#if hscript
+			#if HSCRIPT_ALLOWED
 			initHaxeModule();
 			try {
 				var str:String = '';
@@ -2532,7 +2532,7 @@ class FunkinLua implements IScript
 		return false;
 	}
 
-	#if hscript
+	#if HSCRIPT_ALLOWED
 	public function initHaxeModule()
 	{
 		hscript ??= new HScriptLua();
@@ -3015,8 +3015,10 @@ class FunkinLua implements IScript
 			Lua.close(lua);
 			lua = null;
 		}
+		#if HSCRIPT_ALLOWED
 		callbacks.clear();
-		#if hscript
+		#end
+		#if HSCRIPT_ALLOWED
 		hscript?.dispose();
 		hscript = null;
 		#end
@@ -3067,7 +3069,7 @@ class FunkinLua implements IScript
 	}
 }
 
-#if hscript
+#if HSCRIPT_ALLOWED
 class HScriptLua
 {
 	public var parser:Parser;
