@@ -112,11 +112,17 @@ jobs:
         run: haxelib run lime build android -release
 
       - name: Find APK
-        run: find export -name "*.apk" -type f
+        run: |
+          echo "=== Searching for APK files ==="
+          find export -name "*.apk" -type f -ls
+          echo ""
+          echo "=== Export directory structure ==="
+          find export -type d | head -20
 
       - name: Publish Artifact
+        if: success()
         uses: actions/upload-artifact@v4
         with:
           name: 5Rubles_${{github.run_id}}_Android
-          path: export/release/android/bin/app/build/outputs/apk/release/*.apk
+          path: export/**/*.apk
           retention-days: 30
