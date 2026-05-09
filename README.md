@@ -5,7 +5,7 @@
 ## Версия
 от 1 марта, но будет обновляться
 
-##Создатели Twist Engine
+## Создатели Twist Engine
 
 * [Redar13](https://x.com/Redar13176784) — Главный программист и руководитель Twist Engine.
 * [ItzRanbins](https://x.com/itz_ranbins) — Со-главный директор, концептер и звуковой директор.
