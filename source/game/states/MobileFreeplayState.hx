@@ -10,6 +10,7 @@ import game.backend.data.jsons.WeekData;
 import game.backend.utils.Highscore;
 import game.objects.FlxStaticText;
 import game.objects.ui.CustomList;
+import game.states.FreeplayState.SongMeta;
 import game.states.playstate.PlayState;
 #if TOUCH_CONTROLS
 import game.mobile.utils.TouchUtil;
