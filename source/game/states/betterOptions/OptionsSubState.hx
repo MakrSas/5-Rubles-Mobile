@@ -1029,9 +1029,13 @@ class OptionsSubState extends MusicBeatSubstate
 
 	#if TOUCH_CONTROLS
 	var mobileBackButton:FlxSprite;
-	var mobileBackBaseScale:Float = 1;
-	var mobileBackTouchPoint:FlxPoint = FlxPoint.get();
-	var mobileBackLeaving:Bool = false;
+	var mobileEnterButton:FlxSprite;
+	var mobileBackBaseScaleX:Float = 1;
+	var mobileBackBaseScaleY:Float = 1;
+	var mobileEnterBaseScaleX:Float = 1;
+	var mobileEnterBaseScaleY:Float = 1;
+	var mobileButtonTouchPoint:FlxPoint = FlxPoint.get();
+	var mobileButtonsLeaving:Bool = false;
 	#end
 
 	var optionTweens:FlxTweenManager;
@@ -1191,7 +1195,7 @@ class OptionsSubState extends MusicBeatSubstate
 		onChangeCategory(null, true);
 
 		#if TOUCH_CONTROLS
-		createMobileBackButton();
+		createMobileButtons();
 		#end
 
 		call("createPost");
@@ -1235,14 +1239,14 @@ class OptionsSubState extends MusicBeatSubstate
 		});
 	}
 
-	function runWithMobileBackExit(action:Void->Void):Void
+	function runWithMobileButtonsExit(action:Void->Void):Void
 	{
 		#if TOUCH_CONTROLS
-		if (FlxG.onMobile && mobileBackButton != null && mobileBackButton.visible)
+		if (FlxG.onMobile && ((mobileBackButton != null && mobileBackButton.visible) || (mobileEnterButton != null && mobileEnterButton.visible)))
 		{
-			if (mobileBackLeaving)
+			if (mobileButtonsLeaving)
 				return;
-			tweenOutMobileBackButton(action);
+			tweenOutMobileButtons(action);
 			return;
 		}
 		#end
@@ -1250,79 +1254,125 @@ class OptionsSubState extends MusicBeatSubstate
 	}
 
 	#if TOUCH_CONTROLS
-	function tweenOutMobileBackButton(?onComplete:Void->Void):Void
+	function tweenOutMobileButtons(?onComplete:Void->Void):Void
 	{
-		mobileBackLeaving = true;
-		if (mobileBackButton == null || !mobileBackButton.visible)
+		mobileButtonsLeaving = true;
+		var pending:Int = 0;
+
+		inline function done():Void
 		{
-			if (onComplete != null)
-				onComplete();
-			return;
+			pending--;
+			if (pending <= 0 && onComplete != null)
+			{
+				var cb = onComplete;
+				onComplete = null;
+				cb();
+			}
 		}
 
-		FlxTween.tween(mobileBackButton, {x: -mobileBackButton.width - 24, alpha: 0}, 0.14, {
-			onComplete: _ ->
-			{
-				if (onComplete != null)
-				{
-					var cb = onComplete;
-					onComplete = null;
-					cb();
-				}
-			}
-		});
+		function tweenButton(button:FlxSprite):Void
+		{
+			if (button == null || !button.visible)
+				return;
+
+			pending++;
+			FlxTween.tween(button, {alpha: 0}, 0.26, {ease: FlxEase.quadOut, onComplete: _ -> done()});
+		}
+
+		tweenButton(mobileBackButton);
+		tweenButton(mobileEnterButton);
+
+		if (pending <= 0 && onComplete != null)
+		{
+			var cb = onComplete;
+			onComplete = null;
+			cb();
+		}
 	}
 
-	function createMobileBackButton()
+	function createMobileButtons()
 	{
 		if (!FlxG.onMobile)
 			return;
 
 		final atlas = Paths.getSparrowAtlas("mobileUI/back");
-		if (atlas == null)
-			return;
+		mobileButtonsLeaving = false;
 
-		mobileBackButton = new FlxSprite();
-		mobileBackLeaving = false;
-		mobileBackButton.frames = atlas;
-		mobileBackButton.animation.addByPrefix("idle", "BACK", 24, false);
-		mobileBackButton.animation.play("idle");
-		mobileBackButton.animation.pause();
-		mobileBackButton.antialiasing = ClientPrefs.globalAntialiasing;
-		mobileBackButton.scrollFactor.set();
-		mobileBackButton.cameras = [camOptions];
-		mobileBackButton.alpha = 0.85;
+		final targetHeight:Int = Std.int(Math.min(FlxG.width, FlxG.height) * 0.14);
+		final margin:Float = Math.max(12, targetHeight * 0.18);
+		final gap:Float = Math.max(12, targetHeight * 0.14);
 
-		final targetSize:Int = Std.int(Math.min(FlxG.width, FlxG.height) * 0.115);
-		if (targetSize > 0)
-			mobileBackButton.setGraphicSize(targetSize, targetSize);
-		mobileBackButton.updateHitbox();
-		mobileBackBaseScale = mobileBackButton.scale.x;
+		if (atlas != null)
+		{
+			mobileBackButton = new FlxSprite();
+			mobileBackButton.frames = atlas;
+			mobileBackButton.animation.addByPrefix("idle", "BACK", 24, false);
+			mobileBackButton.animation.play("idle");
+			mobileBackButton.animation.pause();
+			mobileBackButton.antialiasing = ClientPrefs.globalAntialiasing;
+			mobileBackButton.scrollFactor.set();
+			mobileBackButton.cameras = [camOptions];
+			mobileBackButton.alpha = 0.82;
+			mobileBackButton.setGraphicSize(0, targetHeight);
+			mobileBackButton.scale.x *= 1.08;
+			mobileBackButton.updateHitbox();
+			mobileBackBaseScaleX = mobileBackButton.scale.x;
+			mobileBackBaseScaleY = mobileBackButton.scale.y;
+			add(mobileBackButton);
+		}
 
-		final margin:Float = Math.max(12, targetSize * 0.2);
-		mobileBackButton.setPosition(margin, FlxG.height - mobileBackButton.height - margin);
-		add(mobileBackButton);
+		if (Paths.image('mobileUI/enter') != null)
+		{
+			mobileEnterButton = new FlxSprite();
+			mobileEnterButton.loadGraphic(Paths.image('mobileUI/enter'));
+			mobileEnterButton.antialiasing = ClientPrefs.globalAntialiasing;
+			mobileEnterButton.scrollFactor.set();
+			mobileEnterButton.cameras = [camOptions];
+			mobileEnterButton.alpha = 0.78;
+
+			final enterTargetHeight:Float = targetHeight * 1.04;
+			final enterScale:Float = mobileEnterButton.frameHeight > 0 ? enterTargetHeight / mobileEnterButton.frameHeight : 1;
+			mobileEnterButton.scale.set(enterScale, enterScale);
+			mobileEnterButton.updateHitbox();
+			mobileEnterBaseScaleX = mobileEnterButton.scale.x;
+			mobileEnterBaseScaleY = mobileEnterButton.scale.y;
+			add(mobileEnterButton);
+		}
+
+		if (mobileBackButton != null)
+		{
+			mobileBackButton.setPosition(FlxG.width - mobileBackButton.width - margin, FlxG.height - mobileBackButton.height - margin);
+			if (mobileEnterButton != null)
+				mobileEnterButton.setPosition(mobileBackButton.x - mobileEnterButton.width - gap,
+					mobileBackButton.y + (mobileBackButton.height - mobileEnterButton.height) / 2);
+		}
+		else if (mobileEnterButton != null)
+		{
+			mobileEnterButton.setPosition(FlxG.width - mobileEnterButton.width - margin, FlxG.height - mobileEnterButton.height - margin);
+		}
 	}
 
-	function pulseMobileBackButton():Void
+	function pulseMobileButton(button:FlxSprite, baseScaleX:Float, baseScaleY:Float, baseAlpha:Float, restartAnimation:Bool = false):Void
 	{
-		if (mobileBackButton == null)
+		if (button == null)
 			return;
 
-		if (mobileBackButton.animation != null)
-			mobileBackButton.animation.play("idle", true);
+		if (restartAnimation && button.animation != null)
+			button.animation.play("idle", true);
 
-		mobileBackButton.alpha = 1;
-		FlxTween.cancelTweensOf(mobileBackButton.scale);
-		FlxTween.tween(mobileBackButton.scale, {x: mobileBackBaseScale * 0.9, y: mobileBackBaseScale * 0.9}, 0.05, {
+		button.alpha = 1;
+		FlxTween.cancelTweensOf(button);
+		FlxTween.cancelTweensOf(button.scale);
+		FlxTween.tween(button.scale, {x: baseScaleX * 0.93, y: baseScaleY * 0.93}, 0.06, {
 			ease: FlxEase.quadOut,
-			onComplete: _ -> FlxTween.tween(mobileBackButton.scale, {x: mobileBackBaseScale, y: mobileBackBaseScale}, 0.08, {ease: FlxEase.quadOut})
+			onComplete: _ -> FlxTween.tween(button.scale, {x: baseScaleX, y: baseScaleY}, 0.14, {ease: FlxEase.quadOut})
 		});
+		FlxTween.tween(button, {alpha: baseAlpha}, 0.22, {ease: FlxEase.quadOut, startDelay: 0.03});
 	}
 
-	function mobileBackPressed():Bool
+	function mobileButtonPressed(button:FlxSprite, baseScaleX:Float, baseScaleY:Float, baseAlpha:Float, restartAnimation:Bool = false):Bool
 	{
-		if (!FlxG.onMobile || mobileBackButton == null || !mobileBackButton.visible)
+		if (!FlxG.onMobile || button == null || !button.visible)
 			return false;
 
 		for (touch in FlxG.touches.list)
@@ -1330,9 +1380,9 @@ class OptionsSubState extends MusicBeatSubstate
 			if (!touch.justPressed)
 				continue;
 
-			if (mobileBackButton.overlapsPoint(touch.getWorldPosition(camOptions, mobileBackTouchPoint), true, camOptions))
+			if (button.overlapsPoint(touch.getWorldPosition(camOptions, mobileButtonTouchPoint), true, camOptions))
 			{
-				pulseMobileBackButton();
+				pulseMobileButton(button, baseScaleX, baseScaleY, baseAlpha, restartAnimation);
 				return true;
 			}
 		}
@@ -1849,11 +1899,13 @@ class OptionsSubState extends MusicBeatSubstate
 					}
 				}
 				#if TOUCH_CONTROLS
-				if (mobileBackPressed())
-					runWithMobileBackExit(goBack);
+				if (mobileButtonPressed(mobileEnterButton, mobileEnterBaseScaleX, mobileEnterBaseScaleY, 0.78))
+					onAccept(false);
+				if (mobileButtonPressed(mobileBackButton, mobileBackBaseScaleX, mobileBackBaseScaleY, 0.82, true))
+					runWithMobileButtonsExit(goBack);
 				#end
 				if (optionsControls.BACK)
-					runWithMobileBackExit(goBack);
+					runWithMobileButtonsExit(goBack);
 				if (curOption?.data.typeVar == INPUT && FlxG.mouse.justPressed)
 					curOption.controlText.selectedText = null;
 
@@ -2071,8 +2123,9 @@ class OptionsSubState extends MusicBeatSubstate
 
 		#if TOUCH_CONTROLS
 		mobileBackButton = null;
-		mobileBackTouchPoint.put();
-		mobileBackTouchPoint = null;
+		mobileEnterButton = null;
+		mobileButtonTouchPoint.put();
+		mobileButtonTouchPoint = null;
 		#end
 
 		if (optChFlxSound != null)

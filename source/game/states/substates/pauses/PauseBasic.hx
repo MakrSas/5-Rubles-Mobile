@@ -203,6 +203,16 @@ class PauseBasic extends PauseSubState
 		mobileButtonUp = makeButton("up", dpadX + targetSize * 0.5, dpadY);
 		mobileButtonDown = makeButton("down", dpadX + targetSize * 0.5, dpadY + targetSize);
 		mobileButtonEnter = makeButton("enter", FlxG.width - margin - targetSize * 1.25, FlxG.height - margin - targetSize * 1.25);
+		if (mobileButtonEnter != null)
+		{
+			final actionTargetHeight:Float = Math.min(FlxG.width, FlxG.height) * 0.14 * 1.04;
+			final enterScale:Float = mobileButtonEnter.frameHeight > 0 ? actionTargetHeight / mobileButtonEnter.frameHeight : 1;
+			mobileButtonEnter.scale.set(enterScale, enterScale);
+			mobileButtonEnter.alpha = 0.78;
+			mobileButtonEnter.updateHitbox();
+			mobileButtonEnter.x = FlxG.width - margin - mobileButtonEnter.width;
+			mobileButtonEnter.y = FlxG.height - margin - mobileButtonEnter.height;
+		}
 	}
 
 

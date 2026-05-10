@@ -2,7 +2,6 @@ package game.states.substates;
 
 import flixel.FlxCamera;
 import flixel.FlxSprite;
-import flixel.addons.display.FlxRuntimeShader;
 import flixel.group.FlxSpriteGroup;
 import flixel.math.FlxMath;
 import flixel.text.FlxText.FlxTextAlign;
@@ -20,14 +19,14 @@ import game.backend.utils.Difficulty;
 import game.backend.utils.Highscore;
 import game.objects.FlxStaticText;
 import game.objects.game.Character;
-import game.objects.game.HealthIcon;
 import game.objects.ui.CustomList;
 import game.states.LoadingState;
 import game.states.playstate.PlayState;
+import haxe.DynamicAccess;
+import haxe.Json;
 import haxe.io.Path;
 import openfl.filters.BitmapFilterQuality;
 import openfl.filters.GlowFilter;
-import openfl.filters.ShaderFilter;
 import openfl.utils.Assets;
 #if TOUCH_CONTROLS
 import game.mobile.utils.TouchUtil;
@@ -57,10 +56,6 @@ class MenuFreeplaySubstate extends MusicBeatSubstate
 	var helpText:FlxStaticText;
 	var emptyText:FlxStaticText;
 
-	var selectedIcon:HealthIcon;
-	var selectedIconBaseScale:Float = 1;
-	var lastSelectedIconAnim:String;
-
 	var backButton:FlxSprite;
 	var enterButton:FlxSprite;
 	var backButtonBaseScaleX:Float = 1;
@@ -80,6 +75,7 @@ class MenuFreeplaySubstate extends MusicBeatSubstate
 	var isClosing:Bool = false;
 	var goingToSong:Bool = false;
 	var buttonsLeaving:Bool = false;
+	var pendingCloseAction:Void -> Void;
 
 	#if TOUCH_CONTROLS
 	var backButtonArmed:Bool = false;
@@ -105,6 +101,12 @@ class MenuFreeplaySubstate extends MusicBeatSubstate
 				onClose();
 			if (!_parentState.destroySubStates)
 				destroy();
+			if (pendingCloseAction != null)
+			{
+				var action = pendingCloseAction;
+				pendingCloseAction = null;
+				action();
+			}
 		}
 	}
 
@@ -213,9 +215,6 @@ class MenuFreeplaySubstate extends MusicBeatSubstate
 		songList = new CustomList(listX, listY, listW, listH, null, true);
 		songList.parentCamera = camFreeplay;
 		songList.bgColor = FlxColor.TRANSPARENT;
-		var gradientSource = Assets.getText(Paths.shaderFragment('engine/gradientOption'));
-		if (gradientSource != null)
-			songList.filters = [new ShaderFilter(new FlxRuntimeShader(gradientSource))];
 		songList.alpha = 0;
 		songList.x -= 32;
 		FlxTween.tween(songList, {x: listX, alpha: 1}, 0.28, {ease: FlxEase.cubeOut, startDelay: 0.1});
@@ -250,27 +249,12 @@ class MenuFreeplaySubstate extends MusicBeatSubstate
 		add(infoHeaderText);
 		FlxTween.tween(infoHeaderText, {x: infoX + 24, alpha: 1}, 0.26, {ease: FlxEase.cubeOut, startDelay: 0.16});
 
-		selectedIcon = new HealthIcon("face");
-		selectedIcon.scrollFactor.set();
-		selectedIcon.cameras = cameras;
-		selectedIcon.alpha = 0;
-		selectedIcon.visible = false;
-		selectedIcon.animation.callback = (name, frameNumber, frameIndex) -> {
-			if (frameNumber != 0 || lastSelectedIconAnim == name)
-				return;
-			lastSelectedIconAnim = name;
-			positionSelectedIcon();
-			selectedIcon.updateOffsets();
-		}
-		add(selectedIcon);
-		FlxTween.tween(selectedIcon, {alpha: 1}, 0.22, {ease: FlxEase.cubeOut, startDelay: 0.18});
-
-		infoText = new FlxStaticText(infoX + 24, listY + 182, infoW - 48, "");
+		infoText = new FlxStaticText(infoX + 24, listY + 112, infoW - 48, "");
 		infoText.setFormat(Paths.font('PhantomMuff Full Letters 1-1-5.ttf'), 22, FlxColor.WHITE, FlxTextAlign.LEFT);
 		infoText.borderStyle = FlxTextBorderStyle.OUTLINE;
 		infoText.borderColor = FlxColor.BLACK;
 		infoText.borderSize = 1;
-		infoText.fieldHeight = listH - 220;
+		infoText.fieldHeight = listH - 150;
 		infoText.alpha = 0;
 		infoText.x += 24;
 		infoText.cameras = cameras;
@@ -314,7 +298,7 @@ class MenuFreeplaySubstate extends MusicBeatSubstate
 		backButton.cameras = cameras;
 		backButton.alpha = backButtonBaseAlpha;
 		backButton.setGraphicSize(0, targetHeight);
-		backButton.scale.x *= 1.38;
+		backButton.scale.x *= 1.08;
 		backButton.updateHitbox();
 		backButtonBaseScaleX = backButton.scale.x;
 		backButtonBaseScaleY = backButton.scale.y;
@@ -393,10 +377,7 @@ class MenuFreeplaySubstate extends MusicBeatSubstate
 			return;
 
 		FlxG.sound.play(Paths.sound('cancelMenu'));
-		beginExit(() -> {
-			restoreInitialModFolder();
-			close();
-		});
+		beginExit(() -> close());
 	}
 
 	function beginExit(action:Void -> Void):Void
@@ -422,8 +403,6 @@ class MenuFreeplaySubstate extends MusicBeatSubstate
 		FlxTween.tween(infoAccent, {alpha: 0}, 0.2, {ease: FlxEase.cubeIn});
 		FlxTween.tween(infoHeaderText, {x: infoHeaderText.x + 20, alpha: 0}, 0.22, {ease: FlxEase.cubeIn});
 		FlxTween.tween(infoText, {x: infoText.x + 20, alpha: 0}, 0.22, {ease: FlxEase.cubeIn});
-		if (selectedIcon != null)
-			FlxTween.tween(selectedIcon, {alpha: 0}, 0.22, {ease: FlxEase.cubeIn});
 		FlxTween.tween(helpText, {alpha: 0}, 0.18, {ease: FlxEase.cubeIn});
 		FlxTween.tween(emptyText, {alpha: 0}, 0.18, {ease: FlxEase.cubeIn});
 
@@ -490,7 +469,6 @@ class MenuFreeplaySubstate extends MusicBeatSubstate
 		infoAccent.color = selectedSong.freeplayColor;
 		scrollToItem(curSelected);
 		updateInfoText();
-		updateSelectedIcon(snap);
 
 		if (change != 0)
 			FlxG.sound.play(Paths.sound('scrollMenu'));
@@ -513,60 +491,10 @@ class MenuFreeplaySubstate extends MusicBeatSubstate
 
 		var scoreData = Highscore.getSongData(selectedSong.songName, selectedSong.difficulty);
 		var score = scoreData == null ? 0 : scoreData.score;
-		var category = selectedSong.modPack;
-		if (category == null || category.length == 0)
-			category = "base";
-
 		songCountText.text = 'TRACK ${curSelected + 1} / ${songs.length}';
 		songCountText.x = FlxG.width - songCountText.width - 22;
 
-		infoText.text = '${selectedSong.displayName}\n\nCHART\n${selectedSong.chartName}.json\n\nDIFFICULTY\n${selectedSong.difficulty}\n\nPACK\n$category\n\nHIGHSCORE\n$score';
-	}
-
-	function updateSelectedIcon(snap:Bool):Void
-	{
-		if (selectedIcon == null || selectedSong == null)
-			return;
-
-		lastSelectedIconAnim = null;
-		selectedIcon.visible = true;
-		selectedIcon.alpha = 1;
-		selectedIcon.changeIcon(selectedSong.healthIcon);
-		selectedIconBaseScale = selectedIcon.baseScale * (selectedIcon.data?.scale ?? 1);
-		FlxTween.cancelTweensOf(selectedIcon.scale);
-		FlxTween.cancelTweensOf(selectedIcon);
-
-		if (snap)
-		{
-			selectedIcon.setScale(selectedIconBaseScale * 1.24);
-			selectedIcon.updateHealth(80);
-			positionSelectedIcon();
-			selectedIcon.updateOffsets();
-			return;
-		}
-
-		selectedIcon.setScale(selectedIconBaseScale * 0.96);
-		selectedIcon.updateHealth(50);
-		positionSelectedIcon();
-		selectedIcon.updateOffsets();
-		FlxTween.tween(selectedIcon.scale, {x: selectedIconBaseScale * 1.24, y: selectedIconBaseScale * 1.24}, 0.18, {
-			ease: FlxEase.cubeOut,
-			onUpdate: _ -> positionSelectedIcon(),
-			onComplete: _ -> {
-				selectedIcon.updateHealth(80);
-				positionSelectedIcon();
-				selectedIcon.updateOffsets();
-			}
-		});
-	}
-
-	function positionSelectedIcon():Void
-	{
-		if (selectedIcon == null)
-			return;
-
-		selectedIcon.x = infoPanelX + infoPanelWidth - selectedIcon.width - 28;
-		selectedIcon.y = infoPanelY + 34;
+		infoText.text = '${selectedSong.displayName}\n\nBPM\n${formatBpm(selectedSong.bpm)}\n\nLENGTH\n${getSongLengthText(selectedSong)}\n\nHIGHSCORE\n$score';
 	}
 
 	function goToPlayState():Void
@@ -576,30 +504,56 @@ class MenuFreeplaySubstate extends MusicBeatSubstate
 
 		try
 		{
-			var rawJson = Assets.getText(selectedSong.chartPath + ".json");
-			if (rawJson == null)
+			ModsFolder.switchMod(selectedSong.modPack, false);
+			var song = Song.loadFromJson(selectedSong.chartName, selectedSong.folderName);
+			if (song == null)
 			{
-				Log('Chart "${selectedSong.chartPath}.json" failed to load', RED);
+				Log('Chart "${selectedSong.folderName}/${selectedSong.chartName}.json" failed to load', RED);
 				return;
 			}
 
-			var song = new Song(Song.parseJSONshit(rawJson));
 			song.difficulty = selectedSong.difficulty;
 			Difficulty.list = [selectedSong.difficulty];
-			ModsFolder.switchMod(selectedSong.modPack, false);
 			PlayState.setSong(song);
 			PlayState.isStoryMode = false;
 			goingToSong = true;
 
 			beginExit(() -> {
-				LoadingState.loadAndSwitchState(new PlayState());
-				FlxG.sound.music?.stop();
+				pendingCloseAction = () -> {
+					FlxG.sound.music?.stop();
+					LoadingState.loadAndSwitchState(new PlayState());
+				};
+				close();
 			});
 		}
 		catch (e)
 		{
 			Log(e, RED);
 		}
+	}
+
+	function formatBpm(bpm:Float):String
+	{
+		if (Math.isNaN(bpm) || bpm <= 0)
+			return "--";
+		return bpm % 1 == 0 ? Std.string(Std.int(bpm)) : Std.string(FlxMath.roundDecimal(bpm, 2));
+	}
+
+	function getSongLengthText(song:MenuFreeplayEntry):String
+	{
+		if (song.lengthMs < 0)
+		{
+			var inst = Paths.inst(song.songName, song.postfix);
+			song.lengthMs = inst != null ? inst.length : 0;
+		}
+
+		if (song.lengthMs <= 0)
+			return "--:--";
+
+		var totalSeconds = Std.int(Math.round(song.lengthMs / 1000));
+		var minutes = Std.int(totalSeconds / 60);
+		var seconds = totalSeconds % 60;
+		return '$minutes:${seconds < 10 ? "0" : ""}$seconds';
 	}
 
 	function pulseButton(button:FlxSprite, baseScaleX:Float, baseScaleY:Float, baseAlpha:Float, restartAnimation:Bool = false):Void
@@ -681,7 +635,8 @@ class MenuFreeplaySubstate extends MusicBeatSubstate
 	function loadSongs():Void
 	{
 		final lastMod = ModsFolder.currentModFolderPath;
-		final metaMap = buildSongMetaMap();
+		final songMetaMap = buildSongMetaMap();
+		final chartMetaMap = buildChartMetaMap();
 
 		for (songFolder in AssetsPaths.getFolderDirectories(Constants.SONG_CHART_FILES_FOLDER, true))
 		{
@@ -699,36 +654,42 @@ class MenuFreeplaySubstate extends MusicBeatSubstate
 					continue;
 
 				var chart = new Song(Song.parseJSONshit(rawJson));
+				var chartName = Path.withoutExtension(file.substring(file.lastIndexOf('/') + 1));
+				var chartKey = Paths.formatToSongPath(chartName);
 				var difficulty = Difficulty.getDifficultyFromFullPath(fileLower) ?? chart.difficulty ?? Difficulty.defaultDifficulty;
 				var songKey = Paths.formatToSongPath(chart.song);
-				var meta = metaMap.get(songKey);
+				var chartMeta = chartMetaMap.get(chartKey);
+				var songMeta = songMetaMap.get(songKey);
 				var charData = Character.resolveCharacterData(chart.player2, false, true);
 
-				var healthIcon = meta?.healthIcon;
+				var healthIcon = chartMeta?.healthIcon ?? songMeta?.healthIcon;
 				if (healthIcon == null || healthIcon.trim().length == 0)
 					healthIcon = charData?.healthicon ?? chart.player2;
 
-				var freeplayColor:Int = meta != null ? meta.freeplayColor : 0xFFABCACA;
-				if (meta == null && charData != null && charData.healthbar_colors != null)
+				var freeplayColor:Int = chartMeta?.freeplayColor ?? songMeta?.freeplayColor ?? 0xFFABCACA;
+				if (chartMeta?.freeplayColor == null && songMeta?.freeplayColor == null && charData != null && charData.healthbar_colors != null)
 					freeplayColor = charData.healthbar_colors.getColorFromDynamic() ?? freeplayColor;
 
-				var displayName = meta?.displayName;
+				var displayName = chart.display ?? chartMeta?.displayName ?? songMeta?.displayName;
 				if (displayName == null || displayName.trim().length == 0)
-					displayName = chart.display ?? chart.song;
+					displayName = chart.song;
 
-				var modPack = meta?.modPack;
+				var modPack = chartMeta?.modPack ?? songMeta?.modPack;
 				if (modPack == null)
 					modPack = initialModFolder;
 
 				songs.push(new MenuFreeplayEntry(
 					chart.song,
 					displayName,
-					Path.withoutExtension(file.substring(file.lastIndexOf('/') + 1)),
+					chartName,
+					folderName,
 					file.substr(0, file.length - 5),
 					difficulty,
 					healthIcon,
 					freeplayColor,
-					modPack
+					modPack,
+					chart.bpm,
+					chart.postfix
 				));
 			}
 		}
@@ -774,6 +735,52 @@ class MenuFreeplaySubstate extends MusicBeatSubstate
 		return map;
 	}
 
+	function buildChartMetaMap():Map<String, MenuFreeplayMeta>
+	{
+		final map:Map<String, MenuFreeplayMeta> = new Map();
+		final path = AssetsPaths.getPath("data/freeplay-mixes.json");
+		if (!Assets.exists(path))
+			return map;
+
+		var rawJson = Assets.getText(path);
+		if (rawJson == null || rawJson.trim().length == 0)
+			return map;
+
+		var parsed:DynamicAccess<Dynamic> = cast Json.parse(rawJson);
+		for (songKey in parsed.keys())
+		{
+			var songData = parsed.get(songKey);
+			if (songData == null)
+				continue;
+
+			var color:Null<Int> = Reflect.field(songData, "color")?.getColorFromDynamic();
+			var baseIcon:String = Reflect.field(songData, "unMixIcon");
+			if (baseIcon == null || baseIcon.trim().length == 0)
+				baseIcon = Reflect.field(songData, "icon");
+			if (baseIcon != null && baseIcon.trim().length > 0)
+				map[Paths.formatToSongPath(songKey)] = new MenuFreeplayMeta(null, baseIcon, color, null);
+
+			var mixes:Array<Dynamic> = cast Reflect.field(songData, "mixes");
+			if (mixes == null)
+				continue;
+
+			for (mix in mixes)
+			{
+				if (mix == null)
+					continue;
+
+				var mixSong:String = Reflect.field(mix, "r_song");
+				var mixIcon:String = Reflect.field(mix, "r_icon");
+				if (mixSong == null || mixSong.trim().length == 0 || mixIcon == null || mixIcon.trim().length == 0)
+					continue;
+
+				map[Paths.formatToSongPath(mixSong)] = new MenuFreeplayMeta(null, mixIcon, color, null);
+			}
+		}
+
+		return map;
+	}
+
 	function restoreInitialModFolder():Void
 	{
 		ModsFolder.switchMod(initialModFolder, false);
@@ -785,7 +792,6 @@ class MenuFreeplaySubstate extends MusicBeatSubstate
 			restoreInitialModFolder();
 
 		songList = FlxDestroyUtil.destroy(songList);
-		selectedIcon = FlxDestroyUtil.destroy(selectedIcon);
 		listItems = null;
 
 		if (camFreeplay != null)
@@ -804,10 +810,10 @@ class MenuFreeplayMeta
 {
 	public var displayName:String;
 	public var healthIcon:String;
-	public var freeplayColor:Int;
+	public var freeplayColor:Null<Int>;
 	public var modPack:String;
 
-	public function new(displayName:String, healthIcon:String, freeplayColor:Int, modPack:String)
+	public function new(displayName:String, healthIcon:String, freeplayColor:Null<Int>, modPack:String)
 	{
 		this.displayName = displayName;
 		this.healthIcon = healthIcon;
@@ -821,23 +827,30 @@ class MenuFreeplayEntry
 	public var songName:String;
 	public var displayName:String;
 	public var chartName:String;
+	public var folderName:String;
 	public var chartPath:String;
 	public var difficulty:String;
 	public var healthIcon:String;
 	public var freeplayColor:Int;
 	public var modPack:String;
+	public var bpm:Float;
+	public var postfix:String;
+	public var lengthMs:Float = -1;
 
-	public function new(songName:String, displayName:String, chartName:String, chartPath:String, difficulty:String, healthIcon:String, freeplayColor:Int,
-			modPack:String)
+	public function new(songName:String, displayName:String, chartName:String, folderName:String, chartPath:String, difficulty:String, healthIcon:String,
+			freeplayColor:Int, modPack:String, bpm:Float, postfix:String)
 	{
 		this.songName = songName;
 		this.displayName = displayName;
 		this.chartName = chartName;
+		this.folderName = folderName;
 		this.chartPath = chartPath;
 		this.difficulty = difficulty ?? Difficulty.defaultDifficulty;
 		this.healthIcon = healthIcon;
 		this.freeplayColor = freeplayColor;
 		this.modPack = modPack;
+		this.bpm = bpm;
+		this.postfix = postfix ?? '';
 	}
 }
 
@@ -845,11 +858,11 @@ class MenuFreeplaySongItem extends FlxSpriteGroup
 {
 	public static inline var ITEM_HEIGHT:Float = 82;
 	public static inline var ITEM_PADDING:Float = 12;
+	public static inline var TITLE_Y:Float = 24;
 
 	public var bg:FlxSprite;
 	public var accent:FlxSprite;
 	public var titleText:FlxStaticText;
-	public var categoryText:FlxStaticText;
 	public var songMeta:MenuFreeplayEntry;
 	public var itemHeight:Float = ITEM_HEIGHT;
 
@@ -868,19 +881,14 @@ class MenuFreeplaySongItem extends FlxSpriteGroup
 		accent.alpha = 0.16;
 		add(accent);
 
-		titleText = new FlxStaticText(24, 12, width - 48, song.chartName + ".json");
-		titleText.setFormat(Paths.font('PhantomMuff Full Letters 1-1-5.ttf'), 20, FlxColor.WHITE, FlxTextAlign.LEFT);
+		titleText = new FlxStaticText(24, TITLE_Y, width - 48, normalizeTitle(song.displayName));
+		titleText.setFormat(Paths.font('PhantomMuff Full Letters 1-1-5.ttf'), 22, FlxColor.WHITE, FlxTextAlign.LEFT);
 		titleText.borderStyle = FlxTextBorderStyle.OUTLINE;
 		titleText.borderColor = FlxColor.BLACK;
 		titleText.borderSize = 1;
+		titleText.fieldHeight = ITEM_HEIGHT - TITLE_Y - 8;
 		add(titleText);
-
-		categoryText = new FlxStaticText(24, 46, width - 48, song.displayName);
-		categoryText.setFormat(Paths.font('PhantomMuff Full Letters 1-1-5.ttf'), 14, 0xFFD6D6D6, FlxTextAlign.LEFT);
-		categoryText.borderStyle = FlxTextBorderStyle.OUTLINE;
-		categoryText.borderColor = FlxColor.BLACK;
-		categoryText.borderSize = 1;
-		add(categoryText);
+		setSelected(false);
 	}
 
 	public function setSelected(selected:Bool, ?accentColor:Int = 0xFFFFFFFF):Void
@@ -889,8 +897,15 @@ class MenuFreeplaySongItem extends FlxSpriteGroup
 		bg.color = selected ? 0xFF2A2A2A : 0xFF111111;
 		accent.alpha = selected ? 1 : 0.16;
 		accent.color = accentColor;
-		titleText.scale.set(selected ? 1.03 : 1.0, selected ? 1.03 : 1.0);
+		titleText.alpha = selected ? 1 : 0.92;
 		titleText.color = selected ? FlxColor.WHITE : 0xFFE7E7E7;
-		categoryText.alpha = selected ? 1 : 0.82;
+	}
+
+	static function normalizeTitle(value:String):String
+	{
+		var text = value ?? '';
+		text = ~/[\r\n\t]+/g.replace(text, ' ');
+		text = ~/\s+/g.replace(text, ' ').trim();
+		return text.length > 0 ? text : 'UNKNOWN SONG';
 	}
 }
