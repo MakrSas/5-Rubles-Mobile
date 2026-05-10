@@ -14,6 +14,7 @@ static final ZOOM_SPEED = 1.5;
 var endingImage:FlxSprite;
 
 var dynomite:FlxAnimate;
+var explosion:FlxSprite;
 var lyricNai:Character;
 
 var colorShader:FlxRuntimeShader;
@@ -45,6 +46,7 @@ function onCreate()
 		}
 	});
 	dynomite.anim.play("idle");
+	getVar("bgs")[0].insert(4, dynomite);
 
 	explosion = new FlxSprite(-1000, -600);
 	explosion.frames = Paths.getSparrowAtlas("under_construction/phase1/explode");
@@ -53,6 +55,7 @@ function onCreate()
 	explosion.alpha = 0.000001;
 	explosion.scale.set(2.5, 2.5);
 	explosion.updateHitbox();
+	getVar("fgs")[0].add(explosion); // insert(0, explosion);
 
 	if (ClientPrefs.shaders)
 	{
@@ -91,8 +94,7 @@ function onEvent(name:String, value1:String, value2:String, value3:String)
 	switch (name)
 	{
 		case "Play Video":
-			var normalizedVideoName = value1 == null ? "" : StringTools.replace(StringTools.replace(value1.toLowerCase(), " ", "_"), ".mp4", "");
-			if (normalizedVideoName == "liriki_final")
+			if (value1 == "LIRIKI_FINAL")
 				addVideoShit = true;
 
 		case "Switch BG":
@@ -244,11 +246,6 @@ function onUpdatePost(elapsed:Float)
 			FlxTween.num(strum.x, strum.x - strumOffset * (middleScrollMode && i > 1 ? -1 : 1), time, {ease: FlxEase.cubeIn}, strum.set_x);
 
 		var video = getVar("play_video");
-		if (video == null || video.bitmap == null)
-		{
-			addVideoShit = true;
-			return;
-		}
 		video.bitmap.onTimeChanged.add(onTimeChanged);
 		video.bitmap.onEndReached.add(() ->
 		{
@@ -283,6 +280,13 @@ function onGameOverStart()
 		dad.visible = boyfriend.visible = true;
 	}
 }
+
+function goodNoteHit(note:Note)
+{
+	if (lyricNai.alive && !note.noAnimation && !note.noSingAnimation)
+		lyricNai.sing(singAnimations[note.noteData] + note.animSuffix, !note.isSustainNote, note.nextNote != null);
+}
+
 class DustParticle extends FlxSprite
 {
 	static function getTimer():Float

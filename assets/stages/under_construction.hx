@@ -11,6 +11,7 @@ import game.objects.ParallaxSprite;
 import game.objects.game.BGSprite;
 import game.objects.improvedFlixel.FlxBGSprite;
 import game.shaders.RuntimePostEffectShader;
+import game.shaders.RuntimeRainShader;
 
 importHScriptClasses("scripts/classes/LoopingGroup.hx");
 
@@ -46,6 +47,9 @@ var bgs:Array<FlxGroup> = [];
 var fgs:Array<FlxGroup> = [];
 
 var bgSpaceShader:RuntimePostEffectShader;
+
+var rainShader:RuntimePostEffectShader;
+var rainFilter:ShaderFilter;
 
 var mColorShader:FlxRuntimeShader;
 // var nColorShader:FlxRuntimeShader;
@@ -96,6 +100,11 @@ function onCreate()
 			heatwaveShader.setFloat("waves", 60);
 			heatwaveShader.setFloat("amplitude", 0.0007);
 			heatwaveFilter = new ShaderFilter(heatwaveShader);
+
+			rainShader = new RuntimeRainShader();
+			// rainShader.scale = FlxG.height / 200; // adjust this value so that the rain looks nice
+			rainShader.intensity = 0.005;
+			rainFilter = new ShaderFilter(rainShader);
 
 			// phaseTwoShader1 = makeAdjustColorShader(-15, -12, -42, 0);
 			// phaseTwoShader2 = makeAdjustColorShader(-8, -12, -30, 0);
@@ -174,6 +183,9 @@ function switchPhase(id:Int, ?flag:String)
 
 				if (flag == "дождь")
 				{
+					FlxG.camera.filters.push(rainFilter);
+					FlxTween.num(rainShader.intensity, 0.15, Conductor.crochet / 1000 * 4 * 25, {ease: FlxEase.quadIn}, rainShader.set_intensity);
+
 					var func = setShit.bind(_, phaseTwoShader, 0.62);
 					bgs[1].forEach(func);
 					fgs[1].forEach(func);
@@ -265,6 +277,10 @@ function onUpdatePost(elapsed:Float)
 	{
 		switch (curPhase)
 		{
+			case 2:
+				rainShader.updateViewInfo(FlxG.camera, FlxG.camera.width, FlxG.camera.height);
+				rainShader.update(elapsed);
+
 			case 4:
 				bgSpaceShader.updateViewInfo(FlxG.camera, FlxG.camera.width, FlxG.camera.height);
 				bgSpaceShader.data.iTime.value[0] += elapsed;

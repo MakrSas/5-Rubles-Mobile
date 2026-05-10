@@ -91,6 +91,7 @@ class TwistSprite extends game.objects.FlxAnimate
 	{
 		toggleAtlas = true;
 		loadAtlas(path);
+
 		if (!atlasIsValid)
 		{
 			toggleAtlas = false;
