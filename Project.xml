@@ -51,6 +51,7 @@
 
 	<!-- Mobile-specific -->
 	<window if="mobile" orientation="landscape" fullscreen="true" width="0" height="0" resizable="false" />
+	<architecture name="arm64" exclude="armv7" if="android" />
 
 	<!-- ______________________ TWIST ENGINE CUSTOMIZATION ______________________ -->
 

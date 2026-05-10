@@ -1029,6 +1029,7 @@ class OptionsSubState extends MusicBeatSubstate
 
 	#if TOUCH_CONTROLS
 	var mobileBackButton:FlxSprite;
+	var mobileBackBaseScale:Float = 1;
 	var mobileBackTouchPoint:FlxPoint = FlxPoint.get();
 	var mobileBackLeaving:Bool = false;
 	#end
@@ -1296,10 +1297,27 @@ class OptionsSubState extends MusicBeatSubstate
 		if (targetSize > 0)
 			mobileBackButton.setGraphicSize(targetSize, targetSize);
 		mobileBackButton.updateHitbox();
+		mobileBackBaseScale = mobileBackButton.scale.x;
 
 		final margin:Float = Math.max(12, targetSize * 0.2);
 		mobileBackButton.setPosition(margin, FlxG.height - mobileBackButton.height - margin);
 		add(mobileBackButton);
+	}
+
+	function pulseMobileBackButton():Void
+	{
+		if (mobileBackButton == null)
+			return;
+
+		if (mobileBackButton.animation != null)
+			mobileBackButton.animation.play("idle", true);
+
+		mobileBackButton.alpha = 1;
+		FlxTween.cancelTweensOf(mobileBackButton.scale);
+		FlxTween.tween(mobileBackButton.scale, {x: mobileBackBaseScale * 0.9, y: mobileBackBaseScale * 0.9}, 0.05, {
+			ease: FlxEase.quadOut,
+			onComplete: _ -> FlxTween.tween(mobileBackButton.scale, {x: mobileBackBaseScale, y: mobileBackBaseScale}, 0.08, {ease: FlxEase.quadOut})
+		});
 	}
 
 	function mobileBackPressed():Bool
@@ -1314,7 +1332,7 @@ class OptionsSubState extends MusicBeatSubstate
 
 			if (mobileBackButton.overlapsPoint(touch.getWorldPosition(camOptions, mobileBackTouchPoint), true, camOptions))
 			{
-				mobileBackButton.animation.play("idle", true);
+				pulseMobileBackButton();
 				return true;
 			}
 		}

@@ -4,6 +4,7 @@ import flixel.effects.FlxFlicker;
 import flixel.group.FlxGroup.FlxTypedGroup;
 import flixel.group.FlxSpriteGroup;
 import flixel.math.FlxPoint;
+import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
 import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
@@ -44,6 +45,7 @@ class SongsState extends MusicBeatState
 
 	#if TOUCH_CONTROLS
 	var mobileBackButton:FlxSprite;
+	var mobileBackBaseScale:Float = 1;
 	var mobileTouchPoint:FlxPoint = FlxPoint.get();
 	var mobileButtons:FlxSpriteGroup;
 	var mobileButtonUp:FlxSprite;
@@ -245,8 +247,8 @@ class SongsState extends MusicBeatState
 			return button;
 		}
 
-		mobileButtonUp = makeButton("up", dpadX + targetSize * 0.5, dpadY, "up (2)");
-		mobileButtonDown = makeButton("down", dpadX + targetSize * 0.5, dpadY + targetSize, "down (2)");
+		mobileButtonUp = makeButton("up", dpadX + targetSize * 0.5, dpadY);
+		mobileButtonDown = makeButton("down", dpadX + targetSize * 0.5, dpadY + targetSize);
 		mobileButtonEnter = makeButton("enter", FlxG.width - margin - targetSize * 1.25, FlxG.height - margin - targetSize * 1.25);
 	}
 
@@ -288,10 +290,27 @@ class SongsState extends MusicBeatState
 		if (targetSize > 0)
 			mobileBackButton.setGraphicSize(targetSize, targetSize);
 		mobileBackButton.updateHitbox();
+		mobileBackBaseScale = mobileBackButton.scale.x;
 
 		final margin:Float = Math.max(12, targetSize * 0.2);
 		mobileBackButton.setPosition(margin, FlxG.height - mobileBackButton.height - margin);
 		add(mobileBackButton);
+	}
+
+	function pulseMobileBackButton()
+	{
+		if (mobileBackButton == null)
+			return;
+
+		if (mobileBackButton.animation != null)
+			mobileBackButton.animation.play("idle", true);
+
+		mobileBackButton.alpha = 1;
+		FlxTween.cancelTweensOf(mobileBackButton.scale);
+		FlxTween.tween(mobileBackButton.scale, {x: mobileBackBaseScale * 0.9, y: mobileBackBaseScale * 0.9}, 0.05, {
+			ease: FlxEase.quadOut,
+			onComplete: _ -> FlxTween.tween(mobileBackButton.scale, {x: mobileBackBaseScale, y: mobileBackBaseScale}, 0.08, {ease: FlxEase.quadOut})
+		});
 	}
 
 	function mobileBackPressed():Bool
@@ -305,7 +324,7 @@ class SongsState extends MusicBeatState
 				continue;
 			if (mobileBackButton.overlapsPoint(touch.getWorldPosition(FlxG.camera, mobileTouchPoint), true, FlxG.camera))
 			{
-				mobileBackButton.animation.play("idle", true);
+				pulseMobileBackButton();
 				return true;
 			}
 		}

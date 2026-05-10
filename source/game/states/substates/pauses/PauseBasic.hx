@@ -200,8 +200,8 @@ class PauseBasic extends PauseSubState
 			return button;
 		}
 
-		mobileButtonUp = makeButton("up", dpadX + targetSize * 0.5, dpadY, "up (2)");
-		mobileButtonDown = makeButton("down", dpadX + targetSize * 0.5, dpadY + targetSize, "down (2)");
+		mobileButtonUp = makeButton("up", dpadX + targetSize * 0.5, dpadY);
+		mobileButtonDown = makeButton("down", dpadX + targetSize * 0.5, dpadY + targetSize);
 		mobileButtonEnter = makeButton("enter", FlxG.width - margin - targetSize * 1.25, FlxG.height - margin - targetSize * 1.25);
 	}
 

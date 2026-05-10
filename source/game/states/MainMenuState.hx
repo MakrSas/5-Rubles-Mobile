@@ -1,6 +1,7 @@
 package game.states;
 
 import game.states.betterOptions.OptionsSubState;
+import game.states.substates.MenuFreeplaySubstate;
 import haxe.extern.EitherType;
 import game.backend.data.jsons.WeekData;
 import game.backend.data.EngineData;
@@ -21,7 +22,14 @@ class MainMenuState extends MusicBeatState {
 
 	static final optionShit:Array<Array<EitherType<String, Void -> Class<MusicBeatState>>>> = [
 		['story_mode',  () -> return null],
-		['freeplay',    () -> return game.states.MobileFreeplayState],
+		[
+			'freeplay',
+			() ->
+			{
+				FlxG.state.openSubState(new MenuFreeplaySubstate());
+				return null;
+			}
+		],
 		[
 			'options',
 			() ->

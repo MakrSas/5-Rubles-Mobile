@@ -21,6 +21,7 @@ import game.objects.VideoSprite;
 import game.states.FreeplayState;
 import game.states.LoadingState;
 import game.states.substates.GameplayChangersSubstate;
+import game.states.substates.MenuFreeplaySubstate;
 
 importHScriptClasses("scripts/classes/ExplosionSprite.hx");
 using StringTools;
@@ -89,15 +90,7 @@ final optionShit:Array<Array<Dynamic>> = [
 		},
 		{
 			name: "freeplay",
-			switchFunc: () ->
-			{
-				selectedSomethin = true;
-				FlxG.sound.play(Paths.sound('confirmMenu'), 0.6);
-				new FlxTimer().start(1, _ -> MusicBeatState.switchState(new SongsState()));
-				var selected = menuItems[curRow][curSelected];
-				if (ClientPrefs.flashing)
-					FlxFlicker.flicker(selected, 1, 0.075, false, true);
-			},
+			switchFunc: () -> FlxG.state.openSubState(new MenuFreeplaySubstate()),
 			position: FlxPoint.get(832, 247),
 			// selectedPosition: FlxPoint.get(773, 178),
 			canBreak: true,
