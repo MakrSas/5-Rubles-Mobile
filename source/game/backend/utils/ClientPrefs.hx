@@ -32,7 +32,14 @@ class ClientPrefs
 {
 	@:noCompletion var saveFields:Array<String>;
 
-	public var downScroll:Bool = false;
+	public var downScroll(default, set):Bool = false;
+	@:noCompletion var _applyingVSliceDownScroll:Bool = false;
+	function set_downScroll(i:Bool):Bool
+	{
+		if (vSliceControls && !_applyingVSliceDownScroll)
+			i = true;
+		return downScroll = i;
+	}
 	public var middleScroll:Bool = false;
 	public var opponentStrums:Bool = true;
 
@@ -180,7 +187,33 @@ class ClientPrefs
 	public var scoreZoom:Bool = true;
 	public var noReset:Bool = false;
 	public var mobileMenuButtons:Bool = false;
-	public var vSliceControls:Bool = false;
+	public var vSliceControls(default, set):Bool = false;
+	public var vSliceRestoreDownScroll:Bool = false;
+	public var vSliceForcedDownScroll:Bool = false;
+	function set_vSliceControls(i:Bool):Bool
+	{
+		if (vSliceControls == i)
+			return i;
+
+		if (i)
+		{
+			if (!vSliceForcedDownScroll)
+				vSliceRestoreDownScroll = downScroll;
+			vSliceForcedDownScroll = true;
+			_applyingVSliceDownScroll = true;
+			downScroll = true;
+			_applyingVSliceDownScroll = false;
+		}
+		else if (vSliceForcedDownScroll)
+		{
+			_applyingVSliceDownScroll = true;
+			downScroll = vSliceRestoreDownScroll;
+			_applyingVSliceDownScroll = false;
+			vSliceForcedDownScroll = false;
+		}
+
+		return vSliceControls = i;
+	}
 	public var mobileGameplayVibration:Percent = 0;
 	public var mobileMissVibration:Percent = 0;
 	public var mobileButtonVibration:Percent = 0;

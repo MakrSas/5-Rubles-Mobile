@@ -230,7 +230,7 @@ function onGameOverStart()
 		FlxG.camera.shake(0.05, boom.animation.curAnim.frameDuration * boom.animation.curAnim.numFrames);
 		FlxG.sound.play(Paths.sound("explosion"));
 
-		#if DEV_BUILD
+		#if false
 		if (ClientPrefs.displErrs && !ClientPrefs.displErrsWindow)
 			throw "ВЗОРВИСЬ!!!";
 		#end

@@ -7,6 +7,7 @@ importHScriptClasses("scripts/classes/LoopingGroup.hx");
 
 var psychHudScript = scriptPack.getHScript("data/psychHUD");
 var twistHudScript = scriptPack.getHScript("scripts/hud");
+var playVideoScript = scriptPack.getHScript("custom_events/Play Video");
 // сосал?
 PauseSubState.songName = "pauseSosal";
 
@@ -19,6 +20,29 @@ var lyricNai:Character;
 
 var colorShader:FlxRuntimeShader;
 var colorFilter:ShaderFilter;
+var phaseBgs = null;
+var phaseFgs = null;
+var phaseIndex = 0;
+
+function cachePhaseGroups()
+{
+	if (phaseBgs == null)
+		phaseBgs = getVar("bgs");
+	if (phaseFgs == null)
+		phaseFgs = getVar("fgs");
+}
+
+function setPhaseVisible(exists:Bool)
+{
+	cachePhaseGroups();
+	if (phaseBgs == null || phaseFgs == null)
+		return;
+	if (phaseIndex < 0 || phaseIndex >= phaseBgs.length || phaseIndex >= phaseFgs.length)
+		return;
+
+	phaseBgs[phaseIndex].exists = exists;
+	phaseFgs[phaseIndex].exists = exists;
+}
 
 function onCreate()
 {
@@ -46,7 +70,9 @@ function onCreate()
 		}
 	});
 	dynomite.anim.play("idle");
-	getVar("bgs")[0].insert(4, dynomite);
+	cachePhaseGroups();
+	if (phaseBgs != null && phaseBgs.length > 0)
+		phaseBgs[0].insert(4, dynomite);
 
 	explosion = new FlxSprite(-1000, -600);
 	explosion.frames = Paths.getSparrowAtlas("under_construction/phase1/explode");
@@ -55,7 +81,8 @@ function onCreate()
 	explosion.alpha = 0.000001;
 	explosion.scale.set(2.5, 2.5);
 	explosion.updateHitbox();
-	getVar("fgs")[0].add(explosion); // insert(0, explosion);
+	if (phaseFgs != null && phaseFgs.length > 0)
+		phaseFgs[0].add(explosion); // insert(0, explosion);
 
 	if (ClientPrefs.shaders)
 	{
@@ -99,6 +126,8 @@ function onEvent(name:String, value1:String, value2:String, value3:String)
 
 		case "Switch BG":
 			var id = Std.parseInt(value1);
+			if (id > 0)
+				phaseIndex = id - 1;
 			switch id
 			{
 				case 1:
@@ -111,14 +140,17 @@ function onEvent(name:String, value1:String, value2:String, value3:String)
 			{
 				// нуя - richTrash21
 				case "ХАХА НАЕБАЛ!!!":
-					var updateTimeTextPsych = psychHudScript.getVar("updateTimeTextPsych");
-					var updateTimeTextTwist = twistHudScript.getVar("updateTimeTextTwist");
+					var updateTimeTextPsych = psychHudScript == null ? null : psychHudScript.getVar("updateTimeTextPsych");
+					var updateTimeTextTwist = twistHudScript == null ? null : twistHudScript.getVar("updateTimeTextTwist");
 					FlxTween.num(songLength, inst.length, Conductor.crochet / 1000 * 18, {ease: FlxEase.sineInOut}, t ->
 					{
 						songLength = t;
 						if (healthbarStyle == "psych")
-							updateTimeTextPsych();
-						else
+						{
+							if (updateTimeTextPsych != null)
+								updateTimeTextPsych();
+						}
+						else if (updateTimeTextTwist != null)
 							updateTimeTextTwist();
 					});
 
@@ -227,9 +259,7 @@ function onUpdatePost(elapsed:Float)
 
 		FlxG.camera.stopFX();
 		dad.visible = boyfriend.visible = false;
-		var curPhase = getVar("curPhase") - 1;
-		getVar("bgs")[curPhase].exists = false;
-		getVar("fgs")[curPhase].exists = false;
+		setPhaseVisible(false);
 
 		lyricNai.scale.x = lyricNai.scale.y = 1.9;
 		lyricNai.offset.x -= FlxG.width / 2.5;
@@ -245,7 +275,14 @@ function onUpdatePost(elapsed:Float)
 		for (i => strum in opponentStrums.members)
 			FlxTween.num(strum.x, strum.x - strumOffset * (middleScrollMode && i > 1 ? -1 : 1), time, {ease: FlxEase.cubeIn}, strum.set_x);
 
-		var video = getVar("play_video");
+		var video = playVideoScript == null ? null : playVideoScript.getVar("curVideo");
+		if (video == null || video.bitmap == null)
+		{
+			dad.visible = boyfriend.visible = true;
+			lyricNai.kill();
+			setPhaseVisible(true);
+			return;
+		}
 		video.bitmap.onTimeChanged.add(onTimeChanged);
 		video.bitmap.onEndReached.add(() ->
 		{
@@ -274,9 +311,7 @@ function onGameOverStart()
 	if (lyricNai.alive)
 	{
 		lyricNai.kill();
-		var curPhase = getVar("curPhase") - 1;
-		getVar("bgs")[curPhase].exists = true;
-		getVar("fgs")[curPhase].exists = true;
+		setPhaseVisible(true);
 		dad.visible = boyfriend.visible = true;
 	}
 }

@@ -2198,12 +2198,29 @@ class PlayState extends MusicBeatState {
 			return;
 
 		final minSize:Float = Math.min(FlxG.width, FlxG.height);
-		var laneSize:Float = Math.max(64, minSize * 0.15);
-		var spacing:Float = Math.max(24, laneSize * 0.85);
+		final targetScale:Float = 1.08;
+		if (strums.scaleNoteFactor != targetScale)
+			strums.scaleNoteFactor = targetScale;
+
+		if (count == 4)
+		{
+			final centers:Array<Float> = [0.263, 0.392, 0.586, 0.716];
+			for (i => strum in strums.members)
+			{
+				if (strum == null)
+					continue;
+
+				final targetX:Float = FlxG.width * centers[i] - strum.width * 0.5;
+				strum.x = strum.defPos.x = targetX;
+			}
+			return;
+		}
+
+		var laneSize:Float = Math.max(78, minSize * 0.18);
+		var spacing:Float = Math.max(24, laneSize * 0.62);
 		final maxSpacing:Float = (FlxG.width - laneSize * count) / (count - 1);
 		if (maxSpacing < spacing)
 			spacing = Math.max(8, maxSpacing);
-
 		final totalWidth:Float = laneSize * count + spacing * (count - 1);
 		final startX:Float = (FlxG.width - totalWidth) * 0.5;
 
@@ -3744,6 +3761,9 @@ class PlayState extends MusicBeatState {
 					var pressedGapPair:Bool = false;
 					for (lane in 0...keysArray.length - 1)
 					{
+						if (keysArray.length == 4 && lane == 1)
+							continue;
+
 						final leftStrum:StrumNote = playerStrums.members[lane];
 						final rightStrum:StrumNote = playerStrums.members[lane + 1];
 						if (leftStrum == null || rightStrum == null || !leftStrum.visible || !rightStrum.visible || leftStrum.alpha <= 0.01 || rightStrum.alpha <= 0.01)
@@ -3760,10 +3780,12 @@ class PlayState extends MusicBeatState {
 
 						final midpoint:Float = (centerLeft + centerRight) * 0.5;
 						final gapWidth:Float = centerRight - centerLeft;
-						final halfWindow:Float = Math.max(6, gapWidth * 0.18);
-						final extraGapY:Float = Math.max(10, Math.min(leftStrum.height, rightStrum.height) * 0.22);
-						final top:Float = Math.min(leftStrum.y, rightStrum.y) - extraGapY;
-						final bottom:Float = Math.max(leftStrum.y + leftStrum.height, rightStrum.y + rightStrum.height) + extraGapY;
+						final laneHeight:Float = Math.min(leftStrum.height, rightStrum.height);
+						final halfWindow:Float = Math.max(10, gapWidth * 0.22);
+						final extraGapTop:Float = Math.max(150, Math.max(laneHeight * 2.0, FlxG.height * 0.22));
+						final extraGapBottom:Float = Math.max(18, laneHeight * 0.3);
+						final top:Float = Math.min(leftStrum.y, rightStrum.y) - extraGapTop;
+						final bottom:Float = Math.max(leftStrum.y + leftStrum.height, rightStrum.y + rightStrum.height) + extraGapBottom;
 						if (touchPos.x > centerLeft && touchPos.x < centerRight
 							&& touchPos.x >= midpoint - halfWindow && touchPos.x <= midpoint + halfWindow
 							&& touchPos.y >= top && touchPos.y <= bottom)
@@ -3786,12 +3808,13 @@ class PlayState extends MusicBeatState {
 						if (strum == null || !strum.visible || strum.alpha <= 0.01)
 							continue;
 
-						final extraHitX:Float = Math.max(16, strum.width * 0.45);
-						final extraHitY:Float = Math.max(10, strum.height * 0.22);
+						final extraHitX:Float = Math.max(26, strum.width * 0.62);
+						final extraHitTop:Float = Math.max(150, Math.max(strum.height * 2.0, FlxG.height * 0.22));
+						final extraHitBottom:Float = Math.max(18, strum.height * 0.3);
 						final left:Float = strum.x - extraHitX;
 						final right:Float = strum.x + strum.width + extraHitX;
-						final top:Float = strum.y - extraHitY;
-						final bottom:Float = strum.y + strum.height + extraHitY;
+						final top:Float = strum.y - extraHitTop;
+						final bottom:Float = strum.y + strum.height + extraHitBottom;
 						if (touchPos.x >= left && touchPos.x <= right && touchPos.y >= top && touchPos.y <= bottom)
 						{
 							final laneCenterX:Float = strum.x + strum.width * 0.5;
