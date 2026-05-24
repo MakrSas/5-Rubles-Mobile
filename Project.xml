@@ -3,8 +3,8 @@
 	<!-- _________________________ Application Settings _________________________ -->
 
 	<app
-		title="Friday Night Funkin' Twist Engine"
-		file="TwistEngine"
+		title="Friday Night Funkin' 5 Rubles"
+		file="5Rubles"
 		main="game.Main"
 		version="0.1.0"
 		packageName="com.redar13.twist.main"
