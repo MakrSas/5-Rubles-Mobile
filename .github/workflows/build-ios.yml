@@ -52,6 +52,8 @@ jobs:
           haxelib install funk.vis --skip-dependencies --quiet || true
           haxelib install grig.audio --skip-dependencies --quiet || true
 
+          haxelib run lime rebuild tools -clean
+
       - name: Create Version Tag
         run: echo "${{ github.run_id }}" > VERSION
 
