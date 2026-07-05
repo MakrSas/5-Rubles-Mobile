@@ -61,15 +61,24 @@ jobs:
           echo "Lime path: $LIME_PATH"
           find "$LIME_PATH" -name 'lime.ndll' -print
           find "$LIME_PATH" -name 'lime.ndll' -exec file {} \;
+          select_lime_ndll() {
+            if [ "$(uname -m)" = "arm64" ]; then
+              find "$LIME_PATH" -name 'lime.ndll' -exec sh -c 'file "$1" | grep -q "arm64" && printf "%s\n" "$1"' sh {} \; | head -n 1
+            else
+              find "$LIME_PATH" -name 'lime.ndll' -exec sh -c 'file "$1" | grep -q "x86_64" && printf "%s\n" "$1"' sh {} \; | head -n 1
+            fi
+          }
+
+          LIME_NDLL="$(select_lime_ndll)"
           if [ "$(uname -m)" = "arm64" ]; then
-            LIME_NDLL="$(find "$LIME_PATH" -name 'lime.ndll' -exec sh -c 'file "$1" | grep -q "arm64" && printf "%s\n" "$1"' sh {} \; | head -n 1)"
-          else
-            LIME_NDLL="$(find "$LIME_PATH" -name 'lime.ndll' -exec sh -c 'file "$1" | grep -q "x86_64" && printf "%s\n" "$1"' sh {} \; | head -n 1)"
+            if [ -z "$LIME_NDLL" ]; then
+              echo "No arm64 lime.ndll found after rebuilding tools; rebuilding Lime C++ ndll for host"
+              haxelib run lime rebuild cpp -clean
+              find "$LIME_PATH" -name 'lime.ndll' -exec file {} \;
+              LIME_NDLL="$(select_lime_ndll)"
+            fi
           fi
-          if [ -z "$LIME_NDLL" ]; then
-            LIME_NDLL="$(find "$LIME_PATH" -name 'lime.ndll' | head -n 1)"
-          fi
-          test -n "$LIME_NDLL" || (echo "lime.ndll was not found after installing/rebuilding Lime" && exit 1)
+          test -n "$LIME_NDLL" || (echo "lime.ndll for runner architecture $(uname -m) was not found after rebuilding Lime" && exit 1)
           echo "Selected Lime ndll: $LIME_NDLL"
           cp "$LIME_NDLL" "$NEKOPATH/lime.ndll"
           file "$NEKOPATH/lime.ndll"
