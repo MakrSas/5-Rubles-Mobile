@@ -5,6 +5,7 @@ on:
     branches: [ main, develop, 'codex/**' ]
     paths:
       - 'source/**'
+      - 'sourceShaders/**'
       - 'assets/**'
       - 'embedAssets/**'
       - 'mobileAssets/**'
@@ -66,6 +67,16 @@ jobs:
 
       - name: Generate Xcode project
         run: haxelib run lime update ios -release -DRELEASE_BUILD -Dsource-header=haxe
+
+      - name: Prepare generated Haxe build inputs
+        run: |
+          HAXE_DIR="$(find export -path '*/5Rubles/haxe' -type d | head -n 1)"
+          if [ -z "$HAXE_DIR" ]; then
+            echo "No generated Haxe build directory found"
+            exit 1
+          fi
+
+          cp -R sourceShaders "$HAXE_DIR/sourceShaders"
 
       - name: Build unsigned iOS app
         run: |
