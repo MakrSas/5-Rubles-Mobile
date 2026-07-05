@@ -29,6 +29,7 @@ import game.objects.transitions.TransitionsGroup;
 import haxe.io.Path;
 
 import lime.app.Application;
+import lime.system.System;
 import lime.utils.Assets as LimeAssets;
 import lime.utils.AssetType;
 
@@ -39,7 +40,6 @@ import openfl.display.Sprite;
 import openfl.display.StageScaleMode;
 import openfl.errors.Error;
 import openfl.events.UncaughtErrorEvent;
-import openfl.system.System;
 import openfl.utils.*;
 
 #if (cpp && windows)
