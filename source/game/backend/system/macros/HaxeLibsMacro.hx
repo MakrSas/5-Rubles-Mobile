@@ -44,7 +44,7 @@ class HaxeLibsMacro {
 		#else
 		var libs:Array<HaxeLibData> = [];
 
-		var project = new Access(Xml.parse(File.getContent(sys.FileSystem.exists('./Project.xml') ? './Project.xml' : './project.xml')).firstElement());
+		var project = new Access(Xml.parse(File.getContent(findProjectFile())).firstElement());
 
 		var lib:HaxeLibData;
 		var name;
@@ -78,6 +78,27 @@ class HaxeLibsMacro {
 		#end
 	}
 	#if macro
+	static function findProjectFile():String
+	{
+		var directory = Sys.getCwd();
+		while (directory != null && directory.length > 0)
+		{
+			for (file in ["Project.xml", "project.xml"])
+			{
+				var path = Path.join([directory, file]);
+				if (sys.FileSystem.exists(path))
+					return path;
+			}
+
+			var parent = Path.directory(Path.removeTrailingSlashes(directory));
+			if (parent == directory)
+				break;
+			directory = parent;
+		}
+
+		return Context.resolvePath("Project.xml");
+	}
+
 	static function getHaxelib(name:String, ?version:String):HaxeLibData
 	{
 		try
