@@ -338,7 +338,7 @@
 		<icon path="artStuff/iconTWAOG.png" />
 	</section>
 
-	<section if="mobile">
+	<section if="android">
 		<icon path="artStuff/icon_mobile.png" />
 	</section>
 
