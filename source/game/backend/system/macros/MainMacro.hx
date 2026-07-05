@@ -12,14 +12,14 @@ class MainMacro
 		#if !display
 		if (Context.defined("display")) return;
 
-		var missing:Bool = false;
-		while(!sys.FileSystem.exists("./assets/images/dog.png"))
+		try
 		{
-			missing = true;
-			Sys.print("WHERE IS MY DOG.PNG?!");
+			Context.resolvePath("assets/images/dog.png");
 		}
-		if (missing)
-			Sys.println("\n\n\nDon't\ndo\nthis\nagain.\n\n");
+		catch (e:Dynamic)
+		{
+			Context.warning("Missing assets/images/dog.png", Context.currentPos());
+		}
 		#end
 	}
 	public static function checkUpdaterFeature()
