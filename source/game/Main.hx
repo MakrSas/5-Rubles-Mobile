@@ -39,6 +39,7 @@ import openfl.display.Sprite;
 import openfl.display.StageScaleMode;
 import openfl.errors.Error;
 import openfl.events.UncaughtErrorEvent;
+import openfl.system.System;
 import openfl.utils.*;
 
 #if (cpp && windows)
