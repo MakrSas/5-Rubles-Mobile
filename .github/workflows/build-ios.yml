@@ -60,9 +60,19 @@ jobs:
           LIME_PATH="$(haxelib libpath lime)"
           echo "Lime path: $LIME_PATH"
           find "$LIME_PATH" -name 'lime.ndll' -print
-          LIME_NDLL="$(find "$LIME_PATH" -name 'lime.ndll' | head -n 1)"
+          find "$LIME_PATH" -name 'lime.ndll' -exec file {} \;
+          if [ "$(uname -m)" = "arm64" ]; then
+            LIME_NDLL="$(find "$LIME_PATH" -name 'lime.ndll' -exec sh -c 'file "$1" | grep -q "arm64" && printf "%s\n" "$1"' sh {} \; | head -n 1)"
+          else
+            LIME_NDLL="$(find "$LIME_PATH" -name 'lime.ndll' -exec sh -c 'file "$1" | grep -q "x86_64" && printf "%s\n" "$1"' sh {} \; | head -n 1)"
+          fi
+          if [ -z "$LIME_NDLL" ]; then
+            LIME_NDLL="$(find "$LIME_PATH" -name 'lime.ndll' | head -n 1)"
+          fi
           test -n "$LIME_NDLL" || (echo "lime.ndll was not found after installing/rebuilding Lime" && exit 1)
+          echo "Selected Lime ndll: $LIME_NDLL"
           cp "$LIME_NDLL" "$NEKOPATH/lime.ndll"
+          file "$NEKOPATH/lime.ndll"
           ls -la "$NEKOPATH/lime.ndll"
 
       - name: Create Version Tag
