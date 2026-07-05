@@ -1,3 +1,4 @@
+#if UPDATE_FEATURE
 import flixel.addons.transition.FlxTransitionableState;
 import flixel.effects.FlxFlicker;
 import flixel.graphics.FlxGraphic;
@@ -140,3 +141,4 @@ function destroy() {
 	FlxG.cameras.remove(camera, true);
 	FlxG.camera.setFilters([]);
 }
+#end

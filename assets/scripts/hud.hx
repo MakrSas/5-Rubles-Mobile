@@ -8,7 +8,9 @@ import flixel.util.FlxDirectionFlags;
 import flixel.util.FlxSort;
 import flixel.group.FlxTypedSpriteGroup;
 
+#if windows
 import game.backend.utils.native.Windows;
+#end
 import game.objects.Bar;
 import game.objects.FlxExtendedSprite;
 import game.objects.improvedFlixel.FlxFixedText;

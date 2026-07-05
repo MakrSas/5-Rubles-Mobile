@@ -7,7 +7,9 @@ import flixel.input.mouse.FlxMouseEvent;
 import flixel.system.FlxBGSprite;
 import flixel.graphics.FlxGraphic;
 import haxe._Int64.Int64_Impl_ as Int64; // haxe.Int64
+#if VIDEOS_ALLOWED
 import hxvlc.flixel.FlxVideoSprite;
+#end
 import flxanimate.FlxAnimate;
 #if EDITORS_ALLOWED
 import game.states.editors.ChartingState;
@@ -17,7 +19,9 @@ import game.backend.system.song.Song;
 import game.backend.system.states.MusicBeatState;
 import game.backend.utils.Highscore;
 import game.backend.utils.PathUtil;
+#if VIDEOS_ALLOWED
 import game.objects.VideoSprite;
+#end
 import game.states.FreeplayState;
 import game.states.LoadingState;
 import game.states.substates.GameplayChangersSubstate;
@@ -336,7 +340,7 @@ var bgPosX = 491;
 var crowd:FlxGroup;
 var bgDoorLoadSpr:FlxSprite;
 var bgDoorVoidSpr:FlxSprite;
-var bgDoorSpr:FlxVideoSprite;
+var bgDoorSpr:FlxSprite;
 var bgDoorVolume = 0.85;
 var bgDoorRandomChanceDefault = 25;
 var bgDoorRandomChance = bgDoorRandomChanceDefault;
@@ -529,9 +533,11 @@ function create()
 		}
 		if (FlxG.save.data.rubles5UnlockedSong.contains("under-construction"))
 		{
+			#if VIDEOS_ALLOWED
 			randPicters.push("videos/WE_ARE_5RUBLES.mp4");
 			randPicters.push("videos/better_than_mario_madness.mp4");
 			randPicters.push("videos/uc concept.mp4");
+			#end
 		}
 	}
 	// trace(randPicters);
@@ -658,15 +664,23 @@ function create()
 	buttons.add(bgDoorVoidSpr = new FlxSprite().makeGraphic(1, 1, FlxColor.BLACK));
 	bgDoorVoidSpr.active = false;
 	bgDoorVoidSpr.scrollFactor.set();
+	#if VIDEOS_ALLOWED
 	buttons.add(bgDoorSpr = new FlxVideoSprite());
+	#else
+	buttons.add(bgDoorSpr = new FlxSprite());
+	#end
 	bgDoorSpr.scrollFactor.set();
+	#if VIDEOS_ALLOWED
 	bgDoorSpr.bitmap.volumeAdjust = bgDoorVolume;
+	#end
 	bgDoorSpr.clipRect ??= FlxRect.get();
+	#if VIDEOS_ALLOWED
 	bgDoorSpr.bitmap.onFormatSetup.add(() ->
 	{
 		setupBgDoorSpr();
 		bgDoorLoadSpr.exists = false;
 	}, false, -1);
+	#end
 	// bgDoorSpr.bitmap.onEndReached.add(() -> {
 	// 	// stopDoorVideo();
 	// 	changeItemByIndex(0, curRow, true);
@@ -1193,12 +1207,16 @@ function updateMusicVolumeState()
 		musicVolume = 0;
 		videoVolume = 0;
 	}
+	#if VIDEOS_ALLOWED
 	else if (!selectedSomethin && bgDoorSpr.exists && bgDoorSpr?.bitmap.isPlaying)
 		musicVolume = 1 - videoVolume;
+	#end
 	else
 		musicVolume = 1;
+	#if VIDEOS_ALLOWED
 	if (bgDoorSpr?.bitmap != null)
 		bgDoorSpr.bitmap.volumeAdjust = videoVolume;
+	#end
 	FlxG.sound.music.volume = musicVolume;
 }
 
@@ -1233,7 +1251,11 @@ function doorCallback(anim)
 				{
 					// if (FlxG.save.data.rubles5UnlockedSong.contains("under-construction") && !FlxG.save.data.rubles5UnlockedSong.contains("beatbox"))
 					// {
+						#if VIDEOS_ALLOWED
 						randomThing = FlxG.random.bool(cactusChance) ? cactusPath : randPicters[FlxG.random.int(0, randPicters.length - 1)];
+						#else
+						randomThing = randPicters[FlxG.random.int(0, randPicters.length - 1)];
+						#end
 						cactusChance = randomThing == cactusPath ? cactusChanceDefault : cactusChance + 2;
 					// }
 					// else
@@ -1248,6 +1270,7 @@ function doorCallback(anim)
 					// trace(randomThing, AssetsPaths.VIDEO_REGEX.match(randomThing));
 					if (AssetsPaths.VIDEO_REGEX.match(randomThing)) // try to find video
 					{
+						#if VIDEOS_ALLOWED
 						bgDoorSpr.makeGraphic(1, 1, FlxColor.TRANSPARENT);
 						// trace(bgDoorSpr.bitmap.length);
 						// if (Int64.gteInt(bgDoorSpr.bitmap.length, Math.floor(10 * 1000)))
@@ -1257,6 +1280,10 @@ function doorCallback(anim)
 						bgDoorLoadSpr.angle = FlxG.random.int(0, 360);
 						bgDoorLoadSpr.exists = true;
 						break;
+						#else
+						bgDoorSpr.exists = false;
+						continue;
+						#end
 					}
 
 					if (randomThing.startsWith("images/"))
@@ -1329,8 +1356,10 @@ function stopDoorVideo()
 {
 	bgDoorSpr.exists = false;
 	bgDoorLoadSpr.exists = false;
+	#if VIDEOS_ALLOWED
 	bgDoorSpr.parseStop();
 	bgDoorSpr.stop();
+	#end
 	updateMusicVolumeState();
 
 	// bgDoorVoidSpr.kill();
@@ -1369,7 +1398,16 @@ function onExists()
 		music.setEffectVar('DECAY_TIME', (1 - i) * 6.5, 0);
 		FlxG.sound.volume = initVolume * i;
 	});
-	camera.fade(FlxColor.BLACK, 3.5, false, () -> new FlxTimer().start(1.2, i -> Sys.exit()));
+	camera.fade(FlxColor.BLACK, 3.5, false, () -> new FlxTimer().start(1.2, i ->
+	{
+		#if ios
+		selectedSomethin = false;
+		FlxG.sound.keysAllowed = true;
+		FlxG.camera.fade(FlxColor.BLACK, 0.5, true);
+		#else
+		Sys.exit();
+		#end
+	}));
 }
 
 var forMouseClick = false;
