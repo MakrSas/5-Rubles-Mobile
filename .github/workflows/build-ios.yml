@@ -1,0 +1,111 @@
+name: Build iOS IPA
+
+on:
+  push:
+    branches: [ main, develop, 'codex/**' ]
+    paths:
+      - 'source/**'
+      - 'assets/**'
+      - 'embedAssets/**'
+      - 'mobileAssets/**'
+      - 'rewritedLibs/**'
+      - 'Project.xml'
+      - '.github/workflows/build-ios.yml'
+  pull_request:
+    branches: [ main, develop ]
+  workflow_dispatch:
+
+jobs:
+  buildIOSIPA:
+    name: Build unsigned iOS IPA
+    runs-on: macos-15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: krdlab/setup-haxe@master
+        with:
+          haxe-version: 4.3.6
+
+      - name: Show toolchain
+        run: |
+          haxe --version
+          xcodebuild -version
+
+      - name: Install Haxelib dependencies
+        run: |
+          haxelib setup ~/haxelib
+
+          haxelib install hxcpp --skip-dependencies --quiet || haxelib git hxcpp https://github.com/HaxeFoundation/hxcpp --skip-dependencies
+          haxelib install lime 8.1.3 --skip-dependencies --quiet
+          haxelib install openfl 9.3.4 --skip-dependencies --quiet
+          haxelib install flixel 5.6.2 --skip-dependencies --quiet
+          haxelib install flixel-addons 3.2.3 --skip-dependencies --quiet
+          haxelib install flixel-ui 2.6.1 --skip-dependencies --quiet
+
+          haxelib install format --skip-dependencies --quiet || true
+          haxelib install hxp --skip-dependencies --quiet || true
+          haxelib install thx.semver --skip-dependencies --quiet
+          haxelib install polymod --skip-dependencies --quiet || true
+          haxelib git flxanimate https://github.com/Redar13/flxanimate dev --skip-dependencies
+          haxelib git hscript-improved https://github.com/Redar13/hscript-improved polymod-scripted-classes --skip-dependencies
+          haxelib install funk.vis --skip-dependencies --quiet || true
+          haxelib install grig.audio --skip-dependencies --quiet || true
+
+      - name: Create Version Tag
+        run: echo "${{ github.run_id }}" > VERSION
+
+      - name: Generate Xcode project
+        run: haxelib run lime update ios -release -DRELEASE_BUILD -Dsource-header=haxe
+
+      - name: Build unsigned iOS app
+        run: |
+          XCODE_PROJECT="$(find export -name '*.xcodeproj' -type d | head -n 1)"
+          if [ -z "$XCODE_PROJECT" ]; then
+            echo "No Xcode project found in export"
+            exit 1
+          fi
+
+          xcodebuild \
+            -project "$XCODE_PROJECT" \
+            -scheme 5Rubles \
+            -configuration Release \
+            -sdk iphoneos \
+            -destination 'generic/platform=iOS' \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY="" \
+            DEVELOPMENT_TEAM="" \
+            build
+
+      - name: Package unsigned IPA
+        run: |
+          APP_PATH="$(find export -name '*.app' -type d | head -n 1)"
+          if [ -z "$APP_PATH" ]; then
+            echo "No .app bundle found in export"
+            exit 1
+          fi
+
+          mkdir -p artifacts/Payload
+          cp -R "$APP_PATH" artifacts/Payload/
+          (cd artifacts && zip -qry "5Rubles_${{ github.run_id }}_unsigned.ipa" Payload)
+
+      - name: List iOS export
+        if: always()
+        run: |
+          if [ -d export ]; then
+            find export -maxdepth 8 \( -type f -o -type d \) | sort
+          else
+            echo "export directory was not created"
+          fi
+          if [ -d artifacts ]; then
+            find artifacts -maxdepth 4 \( -type f -o -type d \) | sort
+          fi
+
+      - name: Publish IPA
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: 5Rubles_${{ github.run_id }}_iOS_unsigned_IPA
+          path: artifacts/*.ipa
+          retention-days: 30
