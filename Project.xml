@@ -76,7 +76,7 @@
 	<!-- <define name="UPDATE_FEATURE" unless="hl" if="desktop"/> --> <!-- todo: Android support -->
 	<!-- <define name="THREE_D_ALLOWED" /> -->
 	<define name="USE_SYS_ASSETS" unless="mobile || web"/> <!-- todo: Android support -->
-	<define name="EMBED_FILES" unless="web || android" if="RELEASE_BUILD" value="*.hx|*.lua" />
+	<define name="EMBED_FILES" unless="web || android || ios" if="RELEASE_BUILD" value="*.hx|*.lua" />
 	<define name="VIDEOS_ALLOWED" unless="hl || ios" if="cpp" />
 	<haxedef name="ZIPLIBS_ALLOWED" unless="mobile"/>
 	<define name="ALLOW_HAPTICS" if="android" />
