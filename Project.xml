@@ -169,7 +169,10 @@
 
 	<!-- _______________________________ Libraries ______________________________ -->
 
-	<haxelib name="lime" version="8.1.3"/>
+	<!-- Apple Silicon (arm64) has no native lime.ndll for 8.1.3, so mac builds use a newer
+		 8.x lime (has arm64 support) instead of relying on Rosetta 2. -->
+	<haxelib name="lime" version="8.1.3" unless="mac"/>
+	<haxelib name="lime" version="8.3.2" if="mac"/>
 	<haxelib name="openfl" version="9.3.4"/>
 	<haxelib name="flixel" version="5.6.2"/>
 	<!-- <haxelib name="nape-haxe4" optional="true" /> -->
